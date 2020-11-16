@@ -1,4 +1,4 @@
-let student = "euMesmo";
+let student = "Myself";
 let studentSkills = 10;
-
-console.log("Sucesso!");
+//I am Tryber and...
+console.log("Sucess!");
