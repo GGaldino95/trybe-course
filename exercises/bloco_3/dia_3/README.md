@@ -15,4 +15,8 @@ _**Exercício 3.3 - Parte II**_
  - Faça essa div flutuar para a direita do texto, de forma que a foto fique do lado esquerdo do texto, e a div amarela fique do lado direito do texto;
  - Adicione margens apropriadas à foto e à barra lateral.
 
- _Exercícios fornecidos pela Khan Academy, você pode acessá-los [AQUI](https://pt.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-grouping-elements)._
+  _**Exercício 3.3 - Parte IV**_
+  - Adicione uma regra que atinge somente os elementos que têm a classe 'emperor' (imperador) e que estão na tabela. A regra deve alterar a cor de fundo dessas células da tabela;
+  - Adicione outra regra que atinja apenas os elementos que têm o nome de classe "reign" na tabela. Como na primeira etapa, a regra deve alterar a cor de fundo dessas células da tabela. Escolha uma cor diferente da que você escolheu para a outra regra!
+
+ _Exercícios fornecidos pela Khan Academy, você pode acessá-los aqui: [PARTE 1](https://pt.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-grouping-elements) e [PARTE 2](https://pt.khanacademy.org/computing/computer-programming/html-css/more-css-selectors/pt/using-multiple-css-classes)._
