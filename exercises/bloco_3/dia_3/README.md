@@ -9,3 +9,8 @@ _**Exercício 3.3 - Parte II**_
  - Use posicionamento absoluto para colocar a criatura em algum lugar em cima do planeta;
  - Posicione a saudação em cima do planeta;
  - Use uma propriedade z-index para garantir que a saudação sempre apareça em cima da criatura, e não atrás.
+
+ _**Exercício 3.3 - Parte III**_
+ - Faça a foto flutuar à esquerda do texto, de forma que o texto fique em torno dela;
+ - Faça essa div flutuar para a direita do texto, de forma que a foto fique do lado esquerdo do texto, e a div amarela fique do lado direito do texto;
+ - Adicione margens apropriadas à foto e à barra lateral.
