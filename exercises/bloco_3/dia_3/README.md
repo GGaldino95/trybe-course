@@ -14,3 +14,5 @@ _**Exercício 3.3 - Parte II**_
  - Faça a foto flutuar à esquerda do texto, de forma que o texto fique em torno dela;
  - Faça essa div flutuar para a direita do texto, de forma que a foto fique do lado esquerdo do texto, e a div amarela fique do lado direito do texto;
  - Adicione margens apropriadas à foto e à barra lateral.
+
+ _Exercícios fornecidos pela Khan Academy, você pode acessá-los [AQUI](https://pt.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-grouping-elements).
