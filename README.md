@@ -2,11 +2,11 @@
 
 ### Welcome!
 Here you will see all of my development during the course, with exercises and projects.
-<br><br>
+<br>
 
 > _[Trybe][trybe] is a school for people who want to build a successful career in the technology area. The program has more than 1.500 hours of in-person and online classes and deals with software development introduction, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills._
+<br> 
 
-<br><br>
 ### This is my progress so far:
 
 | Block 01     | Unix, Bash & Shell Script                     | Completed        |
@@ -24,8 +24,8 @@ Here you will see all of my development during the course, with exercises and pr
 | 3.1          | [HTML & CSS - Page structures][3.1]           |:heavy_check_mark:|
 | 3.2          | [HTML & CSS - Getting Started with CSS][3.2]  |:heavy_check_mark:|
 | 3.3          | [HTML & CSS - Selectors and positioning][3.3] |:heavy_check_mark:|
-| 3.4          | Semantic HTML                                 |:o:               |
-| 3.5          | :notebook: **PROJECT** - _Lessons Learned_    |                  |
+| 3.4          | [Semantic HTML][3.4]                          |:heavy_check_mark:|
+| 3.5          | :notebook: **PROJECT** - _Lessons Learned_    |:o:               |
 
 **... and more to come!**
 <br><br>
@@ -34,6 +34,7 @@ Here you will see all of my development during the course, with exercises and pr
 
 
 [trybe]: https://www.betrybe.com/
-[3.1]: https://github.com/GGaldino95/trybe-course/tree/master/exercises/bloco_3/dia_1
-[3.2]: https://github.com/GGaldino95/trybe-course/tree/master/exercises/bloco_3/dia_2
-[3.3]: https://github.com/GGaldino95/trybe-course/tree/master/exercises/bloco_3/dia_3
+[3.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_1
+[3.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_2
+[3.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_3
+[3.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_4
