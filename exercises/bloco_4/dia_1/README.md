@@ -39,3 +39,6 @@ _**Exercício 4.1 - Parte VII**_
 
 _**Exercício 4.1 - Parte VIII**_
  - Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false _(Bonus: use somente um if)_.
+
+_**Exercício 4.1 - Parte IX**_
+ - Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false _(Bonus: use somente um if)_.
