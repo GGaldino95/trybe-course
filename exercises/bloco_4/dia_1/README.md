@@ -14,4 +14,6 @@ _**Exercício 4.1 - Parte II**_
 
 _**Exercício 4.1 - Parte III**_
  - Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
-    
+
+_**Exercício 4.1 - Parte IV**_
+ - Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
