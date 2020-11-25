@@ -25,7 +25,7 @@ _**Exercício 4.1 - Parte VI**_
  - Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz;
  - Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais;
  - Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case);
- - Se a peça passada for inválida, o programa deve retornar uma mensagem de erro (Exemplo: bishop -> diagonals).
+ - Se a peça passada for inválida, o programa deve retornar uma mensagem de erro _(Exemplo: bishop -> diagonals)_.
 
 _**Exercício 4.1 - Parte VII**_
  - Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
@@ -36,3 +36,6 @@ _**Exercício 4.1 - Parte VII**_
     - Porcentagem >= 50 -> E;
     - Porcentagem <  50 -> F.
  - O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+
+_**Exercício 4.1 - Parte VIII**_
+ - Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false _(Bonus: use somente um if)_.
