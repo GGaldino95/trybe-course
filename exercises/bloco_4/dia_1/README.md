@@ -19,5 +19,11 @@ _**Exercício 4.1 - Parte IV**_
  - Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
 
  _**Exercício 4.1 - Parte V**_
- - Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário.
-    - Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.
+ - Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário;
+ - Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.
+
+_**Exercício 4.1 - Parte VI**_
+ - Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz;
+ - Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais;
+ - Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case);
+ - Se a peça passada for inválida, o programa deve retornar uma mensagem de erro (Exemplo: bishop -> diagonals).
