@@ -11,4 +11,7 @@ _**Exercício 4.1 - Parte I**_
 
 _**Exercício 4.1 - Parte II**_
  - Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
+
+_**Exercício 4.1 - Parte III**_
+ - Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
     
