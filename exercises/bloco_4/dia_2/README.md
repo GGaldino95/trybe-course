@@ -24,3 +24,7 @@ _**Exercício 4.2 - Parte VII**_
 
 _**Exercício 4.2 - Parte VIII**_
  - Utilizando _for_, crie um _array_ que vá de 1 até 25 e imprima o resultado.
+
+_**Exercício 4.2 - Parte IX**_
+ - Utilizando o _array_ criado no exercício anterior, imprima o resultado da divisão de cada um dos elementos por 2.
+
