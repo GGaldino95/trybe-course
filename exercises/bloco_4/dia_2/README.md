@@ -12,3 +12,6 @@ _**Exercício 4.2 - Parte III**_
 
 _**Exercício 4.2 - Parte IV**_
  - Caso valor final seja maior que 20, imprima a mensagem: _"valor maior que 20"_. Caso não seja, imprima a mensagem: _"valor menor ou igual a 20"_.
+
+_**Exercício 4.2 - Parte V**_
+ - Utilizando _for_, descubra qual o maior valor contido no array e imprima-o.
