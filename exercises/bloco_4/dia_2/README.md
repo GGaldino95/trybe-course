@@ -28,3 +28,8 @@ _**Exercício 4.2 - Parte VIII**_
 _**Exercício 4.2 - Parte IX**_
  - Utilizando o _array_ criado no exercício anterior, imprima o resultado da divisão de cada um dos elementos por 2.
 
+_**Exercício 4.2 - Parte BÔNUS**_
+ - Ordene o array numbers em ordem crescente e imprima seus valores;
+ - Ordene o array numbers em ordem decrescente e imprima seus valores;
+ - Agora você irá criar um novo _array_ a partir do array _numbers_, sem perdê-lo. Cada valor do novo _array_ deverá ser igual ao valor correspondente no array _numbers_ multiplicado pelo seguinte;
+ - Por exemplo: o primeiro valor do novo _array_ deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo _array_ deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o _for_ e o método _push_.
