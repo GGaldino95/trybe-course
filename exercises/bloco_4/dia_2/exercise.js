@@ -1,11 +1,8 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]
-let lowerValue = 999999;
+let array = []
 
-for (let i = 0; i < numbers.length; i++) {
-    if (lowerValue > numbers[i]) {
-        lowerValue = numbers[i];
-    }
+for (i = 1; i <= 25; i++) {
+    array.push(i);
 }
 
-console.log(lowerValue);
+console.log(array)
 
