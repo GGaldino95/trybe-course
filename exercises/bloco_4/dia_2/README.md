@@ -18,3 +18,6 @@ _**Exercício 4.2 - Parte V**_
 
 _**Exercício 4.2 - Parte VI**_
  - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: _"nenhum valor ímpar encontrado"_.
+
+_**Exercício 4.2 - Parte VII**_
+ - Utilizando _for_, descubra qual o menor valor contido no array e imprima-o.
