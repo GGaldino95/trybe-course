@@ -15,3 +15,6 @@ _**Exercício 4.2 - Parte IV**_
 
 _**Exercício 4.2 - Parte V**_
  - Utilizando _for_, descubra qual o maior valor contido no array e imprima-o.
+
+_**Exercício 4.2 - Parte VI**_
+ - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: _"nenhum valor ímpar encontrado"_.
