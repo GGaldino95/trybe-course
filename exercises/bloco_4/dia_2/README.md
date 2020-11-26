@@ -5,3 +5,7 @@ _**Exercício 4.2 - Parte I**_
 
 _**Exercício 4.2 - Parte II**_
  - Some todos os valores contidos no array e imprima o resultado;
+
+_**Exercício 4.2 - Parte III**_
+ - Calcule e imprima a média aritmética dos valores contidos no array;
+    - A média aritmética é _o resultado da soma de todos os elementos divido pelo número total de elementos_.
