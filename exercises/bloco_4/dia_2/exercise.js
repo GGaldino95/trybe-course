@@ -6,4 +6,9 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 let avg = sum / numbers.length;
-console.log(avg);
+
+if (avg > 20) {
+    console.log("Value greater than 20")
+} else {
+    console.log("Value less than or equal to 20")
+}
