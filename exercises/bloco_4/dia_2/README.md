@@ -21,3 +21,6 @@ _**Exercício 4.2 - Parte VI**_
 
 _**Exercício 4.2 - Parte VII**_
  - Utilizando _for_, descubra qual o menor valor contido no array e imprima-o.
+
+_**Exercício 4.2 - Parte VIII**_
+ - Utilizando _for_, crie um _array_ que vá de 1 até 25 e imprima o resultado.
