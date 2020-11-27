@@ -12,3 +12,16 @@ _**Exercício 4.3 - Parte I**_
  *****
  *****
  ```
+
+_**Exercício 4.3 - Parte II**_
+ - Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
+ - Exemplo:
+ ```javascript
+ n = 5
+
+ *
+ **
+ ***
+ ****
+ *****
+ ```
