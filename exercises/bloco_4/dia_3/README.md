@@ -25,3 +25,16 @@ _**Exercício 4.3 - Parte II**_
  ****
  *****
  ```
+
+_**Exercício 4.3 - Parte II(**_
+ - Agora inverta o lado do triângulo.
+ - Exemplo:
+ ```javascript
+ n = 5
+
+     *
+    **
+   ***
+  ****
+ *****
+ ```
