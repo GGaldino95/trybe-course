@@ -26,7 +26,7 @@ _**Exercício 4.3 - Parte II**_
  *****
  ```
 
-_**Exercício 4.3 - Parte II(**_
+_**Exercício 4.3 - Parte III**_
  - Agora inverta o lado do triângulo.
  - Exemplo:
  ```javascript
@@ -36,5 +36,16 @@ _**Exercício 4.3 - Parte II(**_
     **
    ***
   ****
+ *****
+ ```
+
+_**Exercício 4.3 - Parte IV**_
+ - Faça uma pirâmide com _n_ asteriscos de base.
+ - Exemplo:
+ ```javascript
+ n = 5
+
+   *
+  ***
  *****
  ```
