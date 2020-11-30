@@ -29,8 +29,8 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 04** | **Introduction to JavaScript and Programming Logic** | **Completed**    |
 | 4.1          | [JavaScript - Introduction & First Steps][4.1]       |:heavy_check_mark:|
 | 4.2          | [JavaScript - _Array_ and _loop For_][4.2]           |:heavy_check_mark:|
-| 4.3          | JavaScript - Programming Logic and Algorithms        |:o:               |
-| 4.4          | JavaScript - Objects and Functions                   |                  |
+| 4.3          | [JavaScript - Programming Logic and Algorithms][4.3] |:heavy_check_mark:|
+| 4.4          | JavaScript - Objects and Functions                   |:o:               |
 | 4.5          | :notebook: **PROJECT** - _Playground Functions_      |                  |
 
 **... and more to come!**
@@ -47,3 +47,4 @@ Here you will see all of my development during the course, with exercises and pr
 [3.5]: https://ggaldino95.github.io/projects/lessons-learned/
 [4.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_1
 [4.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_2
+[4.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
