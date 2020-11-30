@@ -1,19 +1,21 @@
 let n = 5;
+let spacing = ' ';
+let symbol = '*';
 
-if (n < 1) {
-    console.log("Invalid input! Try again.");
-} else {
+for (let i = 0; i < n; i += 2) {
     let line = '';
-    let spacing = '';
+    let symbolQuantity = 1 + i;
+    let leftSpacing = (n - symbolQuantity) / 2;
+    let rightSpacing = (n - symbolQuantity) / 2;
 
-    for (let i = 0; i < n; i++) {
-        spacing += ' ';
+    for (let j = 0; j < n; j += 1) {
+        if (j < leftSpacing) {
+            line += spacing;
+        } else if (j >= leftSpacing && j < n - rightSpacing) {
+            line += symbol;
+        } else {
+            line += spacing;
+        }
     }
-
-    for (let i = 0; i < n; i++) {
-
-        line += '**';
-        spacing = spacing.slice(0, -1);
-        console.log(spacing + line);
-    }
+    console.log(line);
 }
