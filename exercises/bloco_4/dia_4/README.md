@@ -99,13 +99,12 @@ _**Exercício 4.4 - Parte BÔNUS**_
 
  - Faça um programa que receba uma string em algarismos romanos e retorne o número que a string representa.
 
- | I   | IV  | V   | IX  | X   | XL  | L   | XC  | C   | CD  | D   | CM  | M   |
- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
- | 1   | 4   | 5   | 9   | 10  | 40  | 50  | 90  | 100 | 400 | 500 | 900 | 1000|
-     
+      | I   | IV  | V   | IX  | X   | XL  | L   | XC  | C   | CD  | D   | CM  | M   |
+      |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+      | 1   | 4   | 5   | 9   | 10  | 40  | 50  | 90  | 100 | 400 | 500 | 900 | 1000|
 
-     - Que tal criar um objeto que associe cada letra a um numeral para fácil consulta?
-     - _Atenção! Quando você tem um número pequeno à direita de um número grande, eles devem ser somados. Exemplo: XI = 10 + 1 = 11. No entanto, se o número pequeno está à esquerda de um número maior que ele, ele deve ser subtraído. Exemplo: IX = 10 - 1 = 9._
+      - Que tal criar um objeto que associe cada letra a um numeral para fácil consulta?
+      - _Atenção! Quando você tem um número pequeno à direita de um número grande, eles devem ser somados. Exemplo: XI = 10 + 1 = 11. No entanto, se o número pequeno está à esquerda de um número maior que ele, ele deve ser subtraído. Exemplo: IX = 10 - 1 = 9._
 
  - Para o próximo exercício você irá precisar ter uma conta no CodeWars. Acesse o desafio proposto e então clique em **TRAIN**, você então será redirecionado para a página onde o desafio deve ser feito. Quando tiver finalizado o exercício clique em **TEST** para verificar, com testes simples, se sua solução satisfaz o que foi pedido. Passando nesses testes clique em **ATTEMPT**, ao fazer isso seu código passará por todos os testes existentes para validação da solução. Caso sua solução esteja correta o botão **SUBMIT** ficará disponível, clique nele para submeter sua resposta, caso contrário volte ao seu código e veja o que ainda não está satisfazendo o que se é pedido, repita esse processo até que sua solução esteja correta.
  
