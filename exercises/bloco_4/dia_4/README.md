@@ -99,20 +99,10 @@ _**Exercício 4.4 - Parte BÔNUS**_
 
  - Faça um programa que receba uma string em algarismos romanos e retorne o número que a string representa.
 
-     | I   | 1    |
-     | --- | ---- |
-     | IV  | 4    |
-     | V   | 5    |
-     | IX  | 9    |
-     | X   | 10   |
-     | XL  | 40   |
-     | L   | 50   |
-     | XC  | 90   |
-     | C   | 100  |
-     | CD  | 400  |
-     | D   | 500  |
-     | CM  | 900  |
-     | M   | 1000 |
+ | I   | IV  | V   | IX  | X   | XL  | L   | XC  | C   | CD  | D   | CM  | M   |
+ |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+ | 1   | 4   | 5   | 9   | 10  | 40  | 50  | 90  | 100 | 400 | 500 | 900 | 1000|
+     
 
      - Que tal criar um objeto que associe cada letra a um numeral para fácil consulta?
      - _Atenção! Quando você tem um número pequeno à direita de um número grande, eles devem ser somados. Exemplo: XI = 10 + 1 = 11. No entanto, se o número pequeno está à esquerda de um número maior que ele, ele deve ser subtraído. Exemplo: IX = 10 - 1 = 9._
