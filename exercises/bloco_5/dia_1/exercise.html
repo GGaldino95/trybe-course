@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Exercício 5.1</title>
 
     <style>
-      div {
-        border-color: black;
-        border-style: solid;
-      }
-      .title {
-        text-align: center;
-      }
+        div {
+            border-color: black;
+            border-style: solid;
+        }
 
-      .main-content {
-        background-color: yellow;
-      }
+        .title {
+            text-align: center;
+        }
 
-      .main-content .center-content {
-        background-color: red;
-        width: 50%;
-        margin: 0 auto;
-      }
+        .main-content {
+            background-color: yellow;
+        }
 
-      .main-content .center-content p {
-        font-style: italic;
-      }
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
     <div class="main-content">
-      <div class="center-content">
-        <p>Texto padrão do nosso site</p>
-        <p>-----</p>
-        <p>Trybe</p>
-      </div>
+        <div class="center-content">
+            <p>Texto padrão do nosso site</p>
+            <p>-----</p>
+            <p>Trybe</p>
+        </div>
     </div>
     <script>
+        function changeTextDescription() { // Task 1
+            let paragraph = document.getElementsByTagName('p')[0];
+            paragraph.innerText = 'Eu me vejo daqui a 2 anos como lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin sapien maximus ligula bibendum efficitur. Aenean a dui eu tortor rhoncus efficitur. Aliquam scelerisque, nisl eu consectetur rhoncus, diam libero finibus ante, et mattis lectus sapien sed enim. Mauris eu ante ut velit cursus sagittis. Nunc mollis eu enim ac sollicitudin.'
+        }
+        changeTextDescription();
+
 
     </script>
-  </body>
+</body>
+
 </html>
