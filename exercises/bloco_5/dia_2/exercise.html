@@ -92,6 +92,16 @@
       image.src = 'https://picsum.photos/200 ';
       image.className = 'small-image';
       document.querySelector('.left-content').appendChild(image);
+
+      // Task 1.8
+      let list = document.createElement('ul');
+      let values = ['Um' , 'Dois' , 'Três' , 'Quatro' , 'Cinco' , 'Seis' , 'Sete' , 'Oito' , 'Nove' , 'Dez'];
+      document.querySelector('.right-content').appendChild(list);
+      for (let i = 0; i < values.length; i += 1) {
+          let listItem = document.createElement('li');
+          listItem.innerHTML = values[i];
+          list.appendChild(listItem);
+      }
     </script>
   </body>
 </html>
