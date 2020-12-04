@@ -10,4 +10,9 @@ _**Exercício 5.3 - Parte I**_
  const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
  ```
 
+_**Exercício 5.3 - Parte II**_
+
+ - Implemente uma função que receba como parâmetro a _String_ **"Feriados"** e crie dinamicamente um botão com o nome **"Feriados"**.
+    - Adicione a este botão a ID `"btn-holiday"`.
+    - Adicione este botão como filho/filha da tag `<div>` com classe `"buttons-container"`.
  
