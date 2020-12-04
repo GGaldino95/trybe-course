@@ -126,6 +126,12 @@
 
       // Task 2.5
       centerContent.parentNode.style.backgroundColor = 'green';
+
+      // Task 2.6
+      let listItem = document.querySelectorAll('li');
+      for (let i = listItem.length; i > listItem.length - 2; i -= 1) {
+        list.removeChild(listItem[i - 1]);
+      }
     </script>
   </body>
 </html>
