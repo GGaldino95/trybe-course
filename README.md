@@ -35,8 +35,8 @@ Here you will see all of my development during the course, with exercises and pr
 | 4.5          | :notebook: **PROJECT** - _Playground Functions_                                                                          |:o:               |
 | **Block 05** | **JavaScript: DOM, Events and Web Storage**                                                                              | **Completed**    |
 | 5.1          | [JavaScript - DOM and Selectors][5.1]                                                                                    |:heavy_check_mark:|
-| 5.2          | JavaScript - Working with Elements                                                                                       |:o:               |
-| 5.3          | JavaScript - Events                                                                                                      |                  |
+| 5.2          | [JavaScript - Working with Elements][5.2]                                                                                |:heavy_check_mark:|
+| 5.3          | JavaScript - Events                                                                                                      |:o:               |
 | 5.4          | JavaScript - Web Storage                                                                                                 |                  |
 | 5.5          | Fundamentals - JavaScript - Projects <br> :notebook: **PROJECT** - _Art with Pixels_                                     |                  |
 | 5.6          | :notebook: **PROJECT** - _Task List_                                                                                     |                  |
@@ -62,3 +62,4 @@ Here you will see all of my development during the course, with exercises and pr
 [4.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
 [4.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_4
 [5.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_1
+[5.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
