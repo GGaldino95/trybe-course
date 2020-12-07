@@ -28,6 +28,8 @@ window.onload = function () {
     let days = document.getElementById('days');
     days.addEventListener("mouseover", zoomIn);
     days.addEventListener("mouseout", zoomOut);
+
+    addTask('cozinhar');
 }
 
 //Task 1
@@ -106,3 +108,10 @@ function zoomOut(day) {
     day.target.style.fontSize = '20px';
 }
 
+// Task 7
+function addTask(string) {
+    taskList = document.querySelector('.my-tasks');
+    let task = document.createElement('span');
+    task.innerText = string;
+    taskList.appendChild(task);
+}
