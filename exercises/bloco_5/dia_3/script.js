@@ -30,6 +30,7 @@ window.onload = function () {
     days.addEventListener("mouseout", zoomOut);
 
     addTask('cozinhar');
+    addTaskDesc('red');
 }
 
 //Task 1
@@ -101,7 +102,7 @@ function showFridays() {
 
 // Task 6
 function zoomIn(day) {
-    day.target.style.fontSize = '30px';
+    day.target.style.fontSize = '25px';
 }
 
 function zoomOut(day) {
@@ -114,4 +115,12 @@ function addTask(string) {
     let task = document.createElement('span');
     task.innerText = string;
     taskList.appendChild(task);
+}
+
+// Task 8
+function addTaskDesc(string) {
+    taskList = document.querySelector('.my-tasks');
+    let taskDesc = document.createElement('div');
+    taskDesc.style.backgroundColor = string;
+    taskList.appendChild(taskDesc);
 }
