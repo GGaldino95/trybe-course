@@ -15,29 +15,30 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 window.onload = function () {
-    generateDays();
-    holidays('Feriados');
-    fridays('Sexta-feira');
+    generateDays(); // Cria exibicao de dias no calendario
+    holidays('Feriados'); // Cria botao de feriado
+    fridays('Sexta-feira'); // Cria botao de sexta-feira
 
     let holidayButton = document.getElementById('btn-holiday');
-    holidayButton.addEventListener("click", showHolidays);
+    holidayButton.addEventListener("click", showHolidays); // Faz o botao mudar a cor dos feriados
 
     let fridayButton = document.getElementById(`btn-friday`);
-    fridayButton.addEventListener("click", fridays);
+    fridayButton.addEventListener("click", showFridays); // Faz o botao mudar o texto das sextas-feiras
 }
 //Task 1
 function generateDays() {
-    const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
     let days = document.getElementById('days');
-
+    const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
     for (let i = 0; i < dezDaysList.length; i += 1) {
         let day = document.createElement('li');
         day.innerText = dezDaysList[i];
         day.className = 'day';
 
-        if (day.innerText === '24' || day.innerText === '25' || day.innerText === '31') {
+        if (day.innerText === '25') {
+            day.className = 'day holiday friday';
+        } else if (day.innerText === '24' || day.innerText === '31') {
             day.className = 'day holiday';
-        } else if (day.innerText === '4' || day.innerText === '11' || day.innerText === '18' || day.innerText === '25') {
+        } else if (day.innerText === '4' || day.innerText === '11' || day.innerText === '18') {
             day.className = 'day friday';
         }
 
@@ -74,5 +75,19 @@ function fridays(string) {
     fridaysButton.innerText = string;
     let container = document.querySelector('.buttons-container');
     container.appendChild(fridaysButton)
+}
 
+// Task 5
+function showFridays() {
+    let fridays = document.querySelectorAll('.friday');
+    let aux = [4, 11, 18, 25];
+
+
+    for (let i = 0; i < fridays.length; i += 1) {
+        if (fridays[i].innerText != 'SEXTOU!') {
+            fridays[i].innerText = 'SEXTOU!';
+        } else {
+            fridays[i].innerText = aux[i];
+        }
+    }
 }
