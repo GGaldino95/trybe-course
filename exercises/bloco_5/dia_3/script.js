@@ -17,8 +17,9 @@ createDaysOfTheWeek();
 window.onload = function () {
     generateDays();
     holidays('Feriados');
+    let button = document.getElementById('btn-holiday');
+    button.addEventListener("click", showHolidays);
 }
-
 //Task 1
 function generateDays() {
     const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
@@ -27,7 +28,7 @@ function generateDays() {
     for (let i = 0; i < dezDaysList.length; i += 1) {
         let day = document.createElement('li');
         day.innerText = dezDaysList[i];
-        day.className = 'day';      
+        day.className = 'day';
 
         if (day.innerText === '24' || day.innerText === '25' || day.innerText === '31') {
             day.className = 'day holiday';
@@ -46,4 +47,17 @@ function holidays(string) {
     holidaysButton.innerText = string;
     let container = document.querySelector('.buttons-container');
     container.appendChild(holidaysButton);
+}
+
+// Task 3
+function showHolidays() {
+    let holidays = document.querySelectorAll('.holiday');
+
+    for (let i = 0; i < holidays.length; i += 1) {
+        if (holidays[i].style.color != 'green') {
+            holidays[i].style.color = 'green';
+        } else {
+            holidays[i].style.color = '#777';
+        }
+    }
 }
