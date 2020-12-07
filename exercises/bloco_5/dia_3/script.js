@@ -17,8 +17,13 @@ createDaysOfTheWeek();
 window.onload = function () {
     generateDays();
     holidays('Feriados');
-    let button = document.getElementById('btn-holiday');
-    button.addEventListener("click", showHolidays);
+    fridays('Sexta-feira');
+
+    let holidayButton = document.getElementById('btn-holiday');
+    holidayButton.addEventListener("click", showHolidays);
+
+    let fridayButton = document.getElementById(`btn-friday`);
+    fridayButton.addEventListener("click", fridays);
 }
 //Task 1
 function generateDays() {
@@ -60,4 +65,14 @@ function showHolidays() {
             holidays[i].style.color = '#777';
         }
     }
+}
+
+// Task 4
+function fridays(string) {
+    let fridaysButton = document.createElement('button');
+    fridaysButton.id = 'btn-friday';
+    fridaysButton.innerText = string;
+    let container = document.querySelector('.buttons-container');
+    container.appendChild(fridaysButton)
+
 }
