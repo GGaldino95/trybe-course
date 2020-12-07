@@ -24,7 +24,12 @@ window.onload = function () {
 
     let fridayButton = document.getElementById(`btn-friday`);
     fridayButton.addEventListener("click", showFridays); // Faz o botao mudar o texto das sextas-feiras
+
+    let days = document.getElementById('days');
+    days.addEventListener("mouseover", zoomIn);
+    days.addEventListener("mouseout", zoomOut);
 }
+
 //Task 1
 function generateDays() {
     let days = document.getElementById('days');
@@ -75,13 +80,13 @@ function fridays(string) {
     fridaysButton.innerText = string;
     let container = document.querySelector('.buttons-container');
     container.appendChild(fridaysButton)
+    document.getElementsByClassName('')
 }
 
 // Task 5
 function showFridays() {
     let fridays = document.querySelectorAll('.friday');
     let aux = [4, 11, 18, 25];
-
 
     for (let i = 0; i < fridays.length; i += 1) {
         if (fridays[i].innerText != 'SEXTOU!') {
@@ -91,3 +96,13 @@ function showFridays() {
         }
     }
 }
+
+// Task 6
+function zoomIn(day) {
+    day.target.style.fontSize = '30px';
+}
+
+function zoomOut(day) {
+    day.target.style.fontSize = '20px';
+}
+
