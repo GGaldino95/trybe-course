@@ -31,6 +31,9 @@ window.onload = function () {
 
     addTask('cozinhar');
     addTaskDesc('red');
+
+    let taskList = document.querySelector('.my-tasks');
+    taskList.addEventListener("click", selectTask);
 }
 
 //Task 1
@@ -121,6 +124,17 @@ function addTask(string) {
 function addTaskDesc(string) {
     taskList = document.querySelector('.my-tasks');
     let taskDesc = document.createElement('div');
+    taskDesc.className = 'task';
     taskDesc.style.backgroundColor = string;
     taskList.appendChild(taskDesc);
+}
+
+// Task 9
+function selectTask() {
+    let selectedTask = document.querySelector('.task');
+    if (selectedTask.className != 'task selected') {
+        selectedTask.className = 'task selected';
+    } else {
+        selectedTask.className = 'task';
+    }
 }
