@@ -34,6 +34,8 @@ window.onload = function () {
 
     let taskList = document.querySelector('.my-tasks');
     taskList.addEventListener("click", selectTask);
+
+    markDay();
 }
 
 //Task 1
@@ -137,4 +139,8 @@ function selectTask() {
     } else {
         selectedTask.className = 'task';
     }
+}
+
+// Task 10
+function markDay() {
 }
