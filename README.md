@@ -47,6 +47,10 @@ Here you will see all of my development during the course, with exercises and pr
 
 **... and more to come!**
 <br><br>
+:o: : Currently active Lesson or Project. <br>
+:heavy_check_mark: : 100% Completed Lesson or Project. <br>
+:white_check_mark: : Incomplete Lesson or Project. <br>
+<br><br>
 :thought_balloon: Questions or suggestions? _Send me a message!_
 
 
