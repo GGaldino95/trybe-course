@@ -40,8 +40,9 @@ Here you will see all of my development during the course, with exercises and pr
 | 5.4          | JavaScript - Web Storage                                                                                                 |:o:               |
 | 5.5          | Fundamentals - JavaScript - Projects <br> [:notebook: **PROJECT** - _Art with Pixels_][5.5]                              |:heavy_check_mark:|
 | 5.6          | [:notebook: **PROJECT** - _Task List_][5.6]                                                                              |:heavy_check_mark:|
-| 5.7          | :notebook: **BONUS PROJECT** - _Meme Generator_                                                                          |                  |
-| 5.8          | :notebook: **BONUS PROJECT** - _Guess the Color_ <br> :notebook: **BONUS PROJECT** - _Mysterious Card_                   |                  |
+| 5.7          | [:notebook: **BONUS PROJECT** - _Meme Generator_][5.7]                                                                   |:heavy_check_mark:|
+| 5.8          | :notebook: **BONUS PROJECT** - _Guess the Color_                                                                         |:o:               |
+| 5.9          | :notebook: **BONUS PROJECT** - _Mysterious Card_                                                                         |:o:               |
 
 </center>
 
@@ -70,4 +71,5 @@ Here you will see all of my development during the course, with exercises and pr
 [5.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
 [5.3]: https://github.com/GGaldino95/trybe-course/pull/14
 [5.5]: https://ggaldino95.github.io/projects/pixels-art/
-[5.6]: https://ggaldino95.github.io/projects/todo-list/index.html
+[5.6]: https://ggaldino95.github.io/projects/todo-list/
+[5.7]: https://ggaldino95.github.io/projects/meme-generator/
