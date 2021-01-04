@@ -7,6 +7,40 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header-content">
+        <h1>Curriculum Form</h1>
+    </header>
+    <main>
+        <form method="GET">
+            <fieldset id="personal-info">
+                <legend>Personal Info:</legend>
+                <label for="name-input">Full name:</label>
+                <input type="text" id="name-input" name="full-name" maxlength="40" placeholder="Type your name here" required>
+                <br>
+                <label for="email-input">E-mail:</label>
+                <input type="email" id="email-input" name="email" maxlength="50" placeholder="Type your e-mail here" required>
+                <br>
+                <label for="cpf-input">CPF:</label>
+                <input type="text" id="cpf-input" name="cpf" maxlength="11" placeholder="Numbers only" required>
+                <br>
+                <label for="address-input">Address:</label>
+                <input type="text" id="address-input" name="address" maxlength="200" placeholder="Type your address here" required>
+                <br>
+                <label for="city-input">City:</label>
+                <input type="text" id="city-input" name="city" maxlength="28" placeholder="Type your city here" required>
+                <br>
+                <label for="state-input">State:</label>
+                <select id="state-input">
+                    <option style="display:none"></option>
+                </select>
+                <br>
+                <input type="radio" id="house-radio" name="building-type" value="house">
+                <label for="house-radio">House</label>
+                <input type="radio" id="appartement-radio" name="building-type" value="appartement">
+                <label for="appartement-radio">Appartement</label>
+            </fieldset>
+        </form>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
