@@ -9,6 +9,20 @@ function generateStateOptions(states) {
   }
 }
 
+function checkDate() {
+  const dateInput = document.getElementById('job-date-input');
+  dateInput.addEventListener('blur', function () {
+    let dateValue = dateInput.value;
+    if (dateValue.substring(0,2) < 0 || dateValue.substring(0,2) > 31) {
+      alert('Error! Enter a valid day between 0 and 31.');
+    } else if (dateValue.substring(3,5) < 0 || dateValue.substring(3,5) > 12) {
+      alert('Error! Enter a valid month between 0 and 12.');
+    } else if (dateValue.substring(6) < 0 || isNaN(dateValue.substring(6))) {
+      alert('Error! Enter a valid year greater than 0.');
+    }
+  })
+}
+
 window.onload = function () {
   const states = [
     {
@@ -121,4 +135,5 @@ window.onload = function () {
     }
   ];
   generateStateOptions(states);
+  checkDate();
 };
