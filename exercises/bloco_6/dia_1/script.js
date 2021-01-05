@@ -9,18 +9,43 @@ function generateStateOptions(states) {
   }
 }
 
-function checkDate() {
+function checkSubmit() {
+  const submit = document.getElementById('submit-button');
+  submit.addEventListener('click', checkDate);
+}
+
+function showSubmit() {
+  const submitButton = document.getElementById('submit-button');
+  submitButton.addEventListener('click', function (e) {
+    const submitContainer = document.getElementById('submit-info');
+    const submitInfo = document.querySelectorAll('input, select, textarea');
+    const infoDescription = ['Full name: ', 'E-mail: ', 'CPF: ', 'Address: ', 'City: ', 'State: ', 'Building type: ', '', 'Résumé info: ', 'Post: ', 'Job Description: ', 'Date started: '];
+
+    for (let i = 0; i < submitInfo.length; i += 1) {
+      if (submitInfo[i].type === 'radio' && !submitInfo[i].checked) {
+        continue;
+      }
+      const info = document.createElement('p');
+      info.innerText = infoDescription[i] + submitInfo[i].value
+      submitContainer.appendChild(info);
+    }
+    e.preventDefault();
+  });
+}
+
+function checkDate(event) {
   const dateInput = document.getElementById('job-date-input');
-  dateInput.addEventListener('blur', function () {
-    let dateValue = dateInput.value;
+  let dateValue = dateInput.value;
     if (dateValue.substring(0,2) < 0 || dateValue.substring(0,2) > 31) {
+      event.preventDefault();
       alert('Error! Enter a valid day between 0 and 31.');
     } else if (dateValue.substring(3,5) < 0 || dateValue.substring(3,5) > 12) {
+      event.preventDefault();
       alert('Error! Enter a valid month between 0 and 12.');
     } else if (dateValue.substring(6) < 0 || isNaN(dateValue.substring(6))) {
+      event.preventDefault();
       alert('Error! Enter a valid year greater than 0.');
     }
-  })
 }
 
 window.onload = function () {
@@ -135,5 +160,6 @@ window.onload = function () {
     }
   ];
   generateStateOptions(states);
-  checkDate();
+  checkSubmit();
+  showSubmit();
 };
