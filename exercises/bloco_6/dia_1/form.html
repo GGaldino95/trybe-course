@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header-content">
+    <h1>Curriculum Form</h1>
+  </header>
+  <main>
+    <form id="form-content" method="GET">
+      <fieldset id="personal-info">
+        <legend>Personal Info:</legend>
+        <label for="name-input">Full name:</label>
+        <input type="text" id="name-input" name="full-name" maxlength="40" placeholder="Type your name here" required>
+        <br>
+        <label for="email-input">E-mail:</label>
+        <input type="email" id="email-input" name="email" maxlength="50" placeholder="username@email.com" required>
+        <br>
+        <label for="cpf-input">CPF:</label>
+        <input type="text" id="cpf-input" name="cpf" maxlength="11" placeholder="Numbers only" required>
+        <br>
+        <label for="address-input">Address:</label>
+        <input type="text" id="address-input" name="address" maxlength="200" placeholder="Street, number - complement"
+          required>
+        <br>
+        <label for="city-input">City:</label>
+        <input type="text" id="city-input" name="city" maxlength="28" placeholder="Type your city here" required>
+        <br>
+        <label for="state-input">State:</label>
+        <select id="state-input" required>
+          <option style="display:none"></option>
+        </select>
+        <br>
+        <label for="house-radio">
+          <input type="radio" id="house-radio" name="building-type" value="house" required>
+          House
+        </label>
+        <label for="appartement-radio">
+          <input type="radio" id="appartement-radio" name="building-type" value="appartement" required>
+          Appartement
+        </label>
+      </fieldset>
+      <fieldset id="professional-info">
+        <legend>Professional Info:</legend>
+        <label for="resume-input">Résumé Info:</label>
+        <textarea id="resume-input" name="resume-info" maxlength="1000" placeholder="Maximum 1000 characters"
+          required></textarea>
+        <br>
+        <label for="post-input">Post:</label>
+        <input type="text" id="post-input" name="post" maxlength="40" placeholder="Job position" required>
+        <br>
+        <label for="job-description-input">Job description:</label>
+        <textarea id="job-description-input" name="job-description" maxlength="500" placeholder="Maximum 500 characters"
+          required></textarea>
+        <br>
+        <label for="job-date-input">Date started:</label>
+        <input type="text" id="job-date-input" name="job-date" placeholder="dd/mm/aaaa" required>
+      </fieldset>
+      <button type="submit" id="submit-button" name="Submit">Submit</button>
+      <input type="reset" id="reset-button">
+    </form>
+    <div id ="submit-info" class="submit-info-content"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
