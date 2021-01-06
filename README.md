@@ -45,9 +45,9 @@ Here you will see all of my development during the course, with exercises and pr
 | 5.9          | :notebook: **BONUS PROJECT** - _Mysterious Card_                                                                         |:o:               |
 | **Block 06** | **HTML and CSS: Forms, Flexbox and Responsive**                                                                          | **Completed**    |
 | 6.1          | [HTML & CSS - Forms][6.1]                                                                                                |:heavy_check_mark:|
-| 6.2          | JavaScript Libraries and CSS Frameworks                                                                                  |:o:               |
-| 6.3          | Introduction - CSS Flexbox <br> CSS Flexbox - Part 1                                                                     |                  |
-| 6.4          | CSS Flexbox - Part 2                                                                                                     |                  |
+| 6.2          | [JavaScript Libraries and CSS Frameworks][6.2]                                                                           |:heavy_check_mark:|
+| 6.3          | Introduction - CSS Flexbox <br> [CSS Flexbox - Part 1][6.3]                                                              |:heavy_check_mark:|
+| 6.4          | CSS Flexbox - Part 2                                                                                                     |:o:               |
 | 6.5          | Responsive CSS - Mobile First                                                                                            |                  |
 | 6.6          | :notebook: **PROJECT** - _Facebook Homepage_                                                                             |                  |
 
@@ -81,3 +81,5 @@ Here you will see all of my development during the course, with exercises and pr
 [5.6]: https://ggaldino95.github.io/projects/todo-list/
 [5.7]: https://ggaldino95.github.io/projects/meme-generator/
 [6.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_1
+[6.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_2
+[6.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_3
