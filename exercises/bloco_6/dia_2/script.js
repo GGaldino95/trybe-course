@@ -17,6 +17,7 @@ function generateStateOptions(states) {
   function showSubmit() {
     const submitButton = document.getElementById('submit-button');
     submitButton.addEventListener('click', function (e) {
+      justValidate();
       const submitContainer = document.getElementById('submit-info');
       submitContainer.className = 'mt-5 p-2 border border-info rounded';
 
@@ -32,7 +33,7 @@ function generateStateOptions(states) {
         info.innerText = infoDescription[i] + submitInfo[i].value
         submitContainer.appendChild(info);
       }
-      e.preventDefault();
+      //e.preventDefault();
     });
   }
   
@@ -59,6 +60,54 @@ function generateStateOptions(states) {
         }
     });
     field.parentNode.insertBefore(picker.el, field.nextSibling);
+  }
+
+  function justValidate() {
+    new window.JustValidate(document.getElementById('form-content'), {
+      Rules: {
+        email: {
+            required: true,
+            email: true
+        },
+        checkbox: {
+            required: true
+        },
+        name: {
+            required: true,
+            minLength: 3,
+            maxLength: 15
+        },
+        text: {
+            required: true,
+            maxLength: 300,
+            minLength: 5
+        },
+        password: {
+            required: true,
+            password: true,
+            minLength: 4,
+            maxLength: 8
+        },
+        zip: {
+            required: true,
+            zip: true
+        },
+        phone: {
+            phone: true
+        }
+    }
+  });
+
+  new window.JustValidate(document.getElementById('form-content'), {
+    Messages: {
+      required: 'The field is required',
+      email: 'Please, type a valid email',
+      maxLength: 'The field must contain a maximum of :value characters',
+      minLength: 'The field must contain a minimum of :value characters',
+      password: 'Password is not valid',
+      remote: 'Email already exists'
+    },
+  });
   }
 
   window.onload = function () {
