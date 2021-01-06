@@ -18,6 +18,8 @@ function generateStateOptions(states) {
     const submitButton = document.getElementById('submit-button');
     submitButton.addEventListener('click', function (e) {
       const submitContainer = document.getElementById('submit-info');
+      submitContainer.className = 'mt-5 p-2 border border-info rounded';
+
       const submitInfo = document.querySelectorAll('input, select, textarea');
       const infoDescription = ['Full name: ', 'E-mail: ', 'CPF: ', 'Address: ', 'City: ', 'State: ', 'Building type: ', '', 'Résumé info: ', 'Post: ', 'Job Description: ', 'Date started: '];
   
@@ -26,6 +28,7 @@ function generateStateOptions(states) {
           continue;
         }
         const info = document.createElement('p');
+        info.className = 'text-info';
         info.innerText = infoDescription[i] + submitInfo[i].value
         submitContainer.appendChild(info);
       }
