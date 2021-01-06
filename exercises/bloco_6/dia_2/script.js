@@ -51,6 +51,16 @@ function generateStateOptions(states) {
       }
   }
   
+  function pickaday() {
+    let field = document.getElementById('job-date-input');
+    let picker = new Pikaday({
+        onSelect: function(date) {
+            field.value = picker.toString();
+        }
+    });
+    field.parentNode.insertBefore(picker.el, field.nextSibling);
+  }
+
   window.onload = function () {
     const states = [
       {
@@ -163,6 +173,7 @@ function generateStateOptions(states) {
       }
     ];
     generateStateOptions(states);
-    checkSubmit();
+    //checkSubmit(); No longer needed since I'm using pikaday.
     showSubmit();
+    pickaday();
   };
