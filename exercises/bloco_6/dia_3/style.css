@@ -13,6 +13,13 @@
   justify-content: space-evenly;
 }
 
+.description-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
 .header-img {
   width: 70px;
 }
