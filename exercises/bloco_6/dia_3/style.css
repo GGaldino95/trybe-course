@@ -5,19 +5,44 @@
   font-family: 'Ubuntu';
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 .header-container {
   align-items: center;
-  background-color: rgba(22, 27, 34, 1);
+  background-color: rgb(50, 51, 51);
   color: honeydew;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .description-container {
   align-items: center;
   display: flex;
+  font-size: 1.3em;
   justify-content: center;
-  padding: 15px;
+  padding: 20px;
+}
+
+.technologies-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+.card {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray; 
+  display: flex;
+  flex-flow: column wrap;
+  margin: 15px;
+  padding: 10px
 }
 
 .header-img {
