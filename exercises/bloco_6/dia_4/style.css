@@ -49,6 +49,7 @@
   
   .movie-container {
     display: flex;
+    flex-basis: 700px;
     flex-direction: column;
   }
   
@@ -68,6 +69,7 @@
     background-color: #5C687C;
     border: black solid 1px;
     display: flex;
+    flex-basis: 16%;
     height: 150px;
     justify-content: center;
     margin: 10px;
