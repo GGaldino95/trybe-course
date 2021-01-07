@@ -74,9 +74,11 @@
   }
   
   .aside-container {
+    align-self: center;
     display: flex;
     flex-basis: 350px;
     flex-direction: column;
+    flex-grow: 1;
     margin: 20px;
   }
   
