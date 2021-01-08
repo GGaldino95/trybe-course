@@ -87,4 +87,50 @@ html {
     article {
       margin: 35px;
     }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  body {
+    font-size: 25px;
   }
+  
+  h1 {
+    text-align: center;
+  }
+
+  header p {
+    font-size: 35px;
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .container header {
+    align-items: center;
+    background: darkslategray;
+    color: whitesmoke;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  
+  .container header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .container header nav ul li {
+    margin-right: 40px;
+  }
+  
+  .container aside {
+    align-self: flex-start;
+    margin: 35px;
+  }
+  
+  article {
+    margin: 35px;
+  }
+}
