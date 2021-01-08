@@ -1,6 +1,47 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 17px;
   }
-  *, *:before, *:after {
-    box-sizing: inherit;
+
+  h1 {
+    text-align: center;
   }
+
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .container header {
+    align-items: center;
+    background: gray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .container header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 40px;
+    width: 100%;
+  }
+
+  .container aside {
+    align-self: flex-start;
+    margin: 35px;
+  }
+
+  article {
+    margin: 35px;
+  }
+}
