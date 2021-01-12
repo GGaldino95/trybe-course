@@ -45,6 +45,19 @@ const changeString = string => {
     return stringPhrase;
 };
 
-console.log(changeString('Gabriel'));
+let stringPhrase = changeString('Gabriel');
+console.log(stringPhrase);
 
 let mySkills = ['JavaScript', 'HTML', 'CSS', 'FlexBox', 'Soft-Skills'];
+const finalString = string => {
+    mySkills = mySkills.sort();
+    return `${string} Minhas cinco principais habilidades são:
+    ${mySkills[0]};
+    ${mySkills[1]};
+    ${mySkills[2]};
+    ${mySkills[3]};
+    ${mySkills[4]};
+    ... #goTrybe`
+};
+
+console.log(finalString(stringPhrase));
