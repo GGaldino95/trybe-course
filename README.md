@@ -48,8 +48,13 @@ Here you will see all of my development during the course, with exercises and pr
 | 6.2          | [JavaScript Libraries and CSS Frameworks][6.2]                                                                           |:heavy_check_mark:|
 | 6.3          | Introduction - CSS Flexbox <br> [CSS Flexbox - Part 1][6.3]                                                              |:heavy_check_mark:|
 | 6.4          | [CSS Flexbox - Part 2][6.4]                                                                                              |:heavy_check_mark:|
-| 6.5          | Responsive CSS - Mobile First                                                                                            |:o:               |
-| 6.6          | :notebook: **PROJECT** - _Facebook Homepage_                                                                             |                  |
+| 6.5          | [Responsive CSS - Mobile First][6.5]                                                                                     |:heavy_check_mark:|
+| 6.6          | :notebook: **PROJECT** - _Facebook Homepage_                                                                             |:white_check_mark:|
+| **Block 07** | **Introduction to JavaScript ES6 and Unit Tests**                                                                        | **Completed**    |
+| 7.1          | JavaScript ES6 - let, const, arrow functions and template literals                                                       |:o:               |
+| 7.2          | JavaScript ES6 - Objects                                                                                                 |                  |
+| 7.3          | JavaScript unit tests                                                                                                    |                  |
+| 7.4          | :notebook: **PROJECT** - _JavaScript Unit Tests_                                                                         |                  |
 
 </center>
 
@@ -84,3 +89,4 @@ Here you will see all of my development during the course, with exercises and pr
 [6.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_2
 [6.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_3
 [6.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_4
+[6.5]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_5
