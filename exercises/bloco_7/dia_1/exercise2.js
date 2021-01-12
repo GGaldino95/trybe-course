@@ -46,3 +46,5 @@ const changeString = string => {
 };
 
 console.log(changeString('Gabriel'));
+
+let mySkills = ['JavaScript', 'HTML', 'CSS', 'FlexBox', 'Soft-Skills'];
