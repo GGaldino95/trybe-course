@@ -21,3 +21,12 @@ const longestWord = string => {
 };
 
 console.log(longestWord('Antônio foi no banheiro e não sabemos o que aconteceu'));
+
+// Parte 3
+console.log(`\n=============\nParte 3\n=============`);
+window.onload = function () {
+    let clickCount = 0;
+    const count = document.getElementById('click-count');
+    const button = document.getElementById('click-button');
+    button.addEventListener('click', () => count.innerText = clickCount += 1);
+}
