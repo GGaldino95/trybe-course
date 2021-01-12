@@ -1,8 +1,9 @@
 function fatorial(n) {
-    for (let i = n-1; i > 0; i -= 1) {
-        n *= i;
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * fatorial(n-1);
     }
-    return n;
 }
 
-console.log(fatorial(4));
+console.log(fatorial(5));
