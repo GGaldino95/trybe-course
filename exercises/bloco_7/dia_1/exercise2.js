@@ -23,10 +23,26 @@ const longestWord = string => {
 console.log(longestWord('Antônio foi no banheiro e não sabemos o que aconteceu'));
 
 // Parte 3
-console.log(`\n=============\nParte 3\n=============`);
-window.onload = function () {
-    let clickCount = 0;
-    const count = document.getElementById('click-count');
-    const button = document.getElementById('click-button');
-    button.addEventListener('click', () => count.innerText = clickCount += 1);
-}
+// console.log(`\n=============\nParte 3\n=============`);
+// window.onload = function () {
+//     let clickCount = 0;
+//     const count = document.getElementById('click-count');
+//     const button = document.getElementById('click-button');
+//     button.addEventListener('click', () => count.innerText = clickCount += 1);
+// }
+
+// Parte 4 - stringPhrase.replace() function learned through: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+console.log(`\n=============\nParte 4\n=============`);
+const changeString = string => {
+    let stringPhrase = 'Tryber x aqui!';
+
+    for (let i = 0; i < stringPhrase.length; i += 1) {
+        if (stringPhrase[i] === 'x') {
+            return stringPhrase.replace(/x/i, string);
+        }
+    }
+
+    return stringPhrase;
+};
+
+console.log(changeString('Gabriel'));
