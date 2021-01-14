@@ -25,7 +25,7 @@ function sum(a, b) {
  - Teste se o retorno de `sum(0, 0)` é `0`;
  - Teste se a função `sum` lança um erro quando os parametros são `4` e `"5"` (string 5);
  - Teste se a mensagem de erro é `"parameters must be numbers"` quando realizar a chamada `sum(4, "5")`.
-
+<br><br>
 
 2. Copie o código abaixo:
 ```javascript
@@ -49,6 +49,7 @@ function myRemove(arr, item) {
  - Verifique se a chamada `myRemove([1, 2, 3, 4], 3)` **não** retorna o _array_ `[1, 2, 3, 4]`;
  - Verifique se o _array_ passado por parâmetro não sofreu alterações;
  - Verifique se a chamada `myRemove([1, 2, 3, 4], 5)` retorna o _array_ esperado.
+<br><br>
 
 3. Copie o código abaixo:
 ```javascript
@@ -74,6 +75,7 @@ function myRemoveWithoutCopy(arr, item) {
  - Verifique se a chamada `myRemoveWithoutCopy([1, 2, 3, 4], 3)` **não** retorna o _array_ `[1, 2, 3, 4]`;
  - Faça uma chamada para a função `myRemoveWithoutCopy` e verifique se o _array_ passado por parâmetro sofreu alterações;
  - Verifique se a chamada `myRemoveWithoutCopy([1, 2, 3, 4], 5)` retorna o _array_ esperado.
+<br><br>
 
 4. Copie o código abaixo:
 ```javascript
@@ -96,6 +98,7 @@ function myFizzBuzz(num) {
  - Faça uma chamada com um número divisível por `5` e verifique se o retorno é o esperado;
  - Faça uma chamada com um número que não é divisível por `3` ou `5` e verifique se o retorno é o esperado;
  - Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado;
+<br><br>
 
 5. Copie o código abaixo:
 ```javascript
@@ -119,7 +122,7 @@ const obj3 = {
 // implemente seus testes aqui
 ```
  - Compare dois objetos (JSON) para verificar se são idênticos ou não
-
+<br><br>
 
 _**Exercício 7.3 - Parte II - Praticando TDD - Escrevendo código para testes**_
 
@@ -144,6 +147,7 @@ assert.deepStrictEqual(myArray, unchanged);
 ```
 
  - Escreva a função `addOne` para passar nos testes já implementados.
+<br><br>
 
 2. Copie o código abaixo:
 ```javascript
@@ -159,6 +163,7 @@ assert.deepStrictEqual(output, expected);
 ```
 
  - Escreva a função `wordLengths` para passar nos testes já implementados.
+<br><br>
 
 3. Copie o código abaixo:
 ```javascript
@@ -174,6 +179,7 @@ assert.strictEqual(output, expected);
 ```
 
  - Escreva a função `sumAllNumbers` para passar nos testes já implementados.
+<br><br>
 
 4. Copie o código abaixo:
 ```javascript
@@ -197,7 +203,7 @@ assert.strictEqual(output, expected);
 ```
 
  - Escreva a função `findTheNeedle` para passar nos testes já implementados.
-
+<br><br>
 
 _**Exercício 7.3 - Parte II - Praticando TDD - Reescrevendo funções utilizando TDD**_
 
@@ -220,6 +226,7 @@ const result = ['Hello Irina', 'Hello Ashleigh', 'Hello Elsa'];
 ```
 
  - Use a variável `parameter` como parâmetro da função abaixo, escreva testes para verificar se a mesma está retornando como se vê na variável `result` e, caso não esteja, altere o código para que ele passe nos testes.
+<br><br>
 
 2. Copie o código abaixo:
 ```javascript
@@ -250,6 +257,7 @@ const result = 'D1y2n3';
 ```
 
  - Use a variável `parameter` como parâmetro da função abaixo, escreva testes para verificar se a mesma está retornando como se vê na variável `result` e, caso não esteja, altere o código para que ele passe nos testes.
+<br><br>
 
 3. Copie o código abaixo:
 ```javascript
@@ -268,6 +276,7 @@ const result = [32, 21];
 ```
 
  - Use a variável `parameter` como parâmetro da função abaixo, escreva testes para verificar se a mesma está retornando como se vê na variável `result` e, caso não esteja, altere o código para que ele passe nos testes.
+<br><br>
 
 4. Copie o código abaixo:
 ```javascript
