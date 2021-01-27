@@ -49,18 +49,18 @@ Here you will see all of my development during the course, with exercises and pr
 | 6.3          | Introduction - CSS Flexbox <br> [CSS Flexbox - Part 1][6.3]                                                              |:heavy_check_mark:|
 | 6.4          | [CSS Flexbox - Part 2][6.4]                                                                                              |:heavy_check_mark:|
 | 6.5          | [Responsive CSS - Mobile First][6.5]                                                                                     |:heavy_check_mark:|
-| 6.6          | :notebook: **PROJECT** - _Facebook Homepage_                                                                             |:white_check_mark:|
+| 6.6          | [:notebook: **PROJECT** - _Facebook Homepage_][6.6]                                                                      |:white_check_mark:|
 | **Block 07** | **Introduction to JavaScript ES6 and Unit Tests**                                                                        | **Completed**    |
 | 7.1          | [JavaScript ES6 - let, const, arrow functions and template literals][7.1]                                                |:heavy_check_mark:|
 | 7.2          | [JavaScript ES6 - Objects][7.2]                                                                                          |:heavy_check_mark:|
 | 7.3          | [JavaScript unit tests][7.3]                                                                                             |:heavy_check_mark:|
-| 7.4          | :notebook: **PROJECT** - _JavaScript Unit Tests_                                                                         |:white_check_mark:|
+| 7.4          | [:notebook: **PROJECT** - _JavaScript Unit Tests_][7.4]                                                                  |:white_check_mark:|
 | **Block 08** | **Higher Order Functions of JavaScript ES6**                                                                             | **Completed**    |
 | 8.1          | JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort                                               |:o:               |
 | 8.2          | JavaScript ES6 - Higher Order Functions - map e filter                                                                   |:o:               |
 | 8.3          | JavaScript ES6 - Higher Order Functions - reduce                                                                         |:o:               |
 | 8.4          | JavaScript ES6 - spread operator, rest parameter, destructuring and more                                                 |:o:               |
-| 8.5          | :notebook: **PROJECT** - _Zoo functions_                                                                                 |:white_check_mark:|
+| 8.5          | [:notebook: **PROJECT** - _Zoo functions_][8.5]                                                                          |:white_check_mark:|
 | **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
 | 9.1          | Asynchronous JavaScript and Callbacks                                                                                    |:o:               |
 | 9.2          | JavaScript Promises                                                                                                      |                  |
@@ -101,6 +101,9 @@ Here you will see all of my development during the course, with exercises and pr
 [6.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_3
 [6.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_4
 [6.5]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_5
+[6.6]: https://github.com/tryber/sd-09-project-facebook-signup/pull/18
 [7.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_1
 [7.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_2
 [7.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_3
+[7.4]: https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
+[8.5]: https://github.com/tryber/sd-09-project-zoo-functions/pull/79
