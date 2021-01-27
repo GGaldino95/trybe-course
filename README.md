@@ -62,8 +62,8 @@ Here you will see all of my development during the course, with exercises and pr
 | 8.4          | JavaScript ES6 - spread operator, rest parameter, destructuring and more                                                 |:o:               |
 | 8.5          | [:notebook: **PROJECT** - _Zoo functions_][8.5]                                                                          |:white_check_mark:|
 | **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
-| 9.1          | Asynchronous JavaScript and Callbacks                                                                                    |:o:               |
-| 9.2          | JavaScript Promises                                                                                                      |                  |
+| 9.1          | [Asynchronous JavaScript and Callbacks][9.1]                                                                             |:heavy_check_mark:|
+| 9.2          | JavaScript Promises                                                                                                      |:o:               |
 | 9.3          | :notebook: **PROJECT** - _Shopping Cart_                                                                                 |                  |
 
 
@@ -107,3 +107,4 @@ Here you will see all of my development during the course, with exercises and pr
 [7.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_3
 [7.4]: https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
 [8.5]: https://github.com/tryber/sd-09-project-zoo-functions/pull/79
+[9.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_1
