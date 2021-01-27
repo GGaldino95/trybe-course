@@ -59,8 +59,13 @@ Here you will see all of my development during the course, with exercises and pr
 | 8.1          | JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort                                               |:o:               |
 | 8.2          | JavaScript ES6 - Higher Order Functions - map e filter                                                                   |:o:               |
 | 8.3          | JavaScript ES6 - Higher Order Functions - reduce                                                                         |:o:               |
-| 8.4          | JavaScript ES6 - spread operator, rest parameter, destructuring and more                                                 |                  |
-| 8.5          | :notebook: **PROJECT** - _Zoo functions_                                                                                 |                  |
+| 8.4          | JavaScript ES6 - spread operator, rest parameter, destructuring and more                                                 |:o:               |
+| 8.5          | :notebook: **PROJECT** - _Zoo functions_                                                                                 |:white_check_mark:|
+| **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
+| 9.1          | Asynchronous JavaScript and Callbacks                                                                                    |:o:               |
+| 9.2          | JavaScript Promises                                                                                                      |                  |
+| 9.3          | :notebook: **PROJECT** - _Shopping Cart_                                                                                 |                  |
+
 
 </center>
 
