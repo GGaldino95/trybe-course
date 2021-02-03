@@ -37,7 +37,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 5.1          | [JavaScript - DOM and Selectors][5.1]                                                                                    |:heavy_check_mark:|
 | 5.2          | [JavaScript - Working with Elements][5.2]                                                                                |:heavy_check_mark:|
 | 5.3          | [JavaScript - Events][5.3]                                                                                               |:white_check_mark:|
-| 5.4          | JavaScript - Web Storage                                                                                                 |:o:               |
+| 5.4          | JavaScript - Web Storage                                                                                                 |:heavy_check_mark:|
 | 5.5          | Fundamentals - JavaScript - Projects <br> [:notebook: **PROJECT** - _Art with Pixels_][5.5]                              |:heavy_check_mark:|
 | 5.6          | [:notebook: **PROJECT** - _Task List_][5.6]                                                                              |:heavy_check_mark:|
 | 5.7          | [:notebook: **BONUS PROJECT** - _Meme Generator_][5.7]                                                                   |:heavy_check_mark:|
@@ -63,8 +63,13 @@ Here you will see all of my development during the course, with exercises and pr
 | 8.5          | [:notebook: **PROJECT** - _Zoo functions_][8.5]                                                                          |:white_check_mark:|
 | **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
 | 9.1          | [Asynchronous JavaScript and Callbacks][9.1]                                                                             |:heavy_check_mark:|
-| 9.2          | JavaScript Promises                                                                                                      |:o:               |
-| 9.3          | :notebook: **PROJECT** - _Shopping Cart_                                                                                 |                  |
+| 9.2          | [JavaScript Promises][9.2]                                                                                               |:heavy_check_mark:|
+| 9.3          | [:notebook: **PROJECT** - _Shopping Cart_][9.3]                                                                          |:o:|
+| **Block 10** | **Automated testing with Jest**                                                                                          | **Completed**    |
+| 10.1         | First steps at Jest                                                                                                      |:o:               |
+| 10.2         | Jest - Asynchronous Tests                                                                                                |                  |
+| 10.3         | Jest - Simulating behaviors                                                                                              |                  |
+| 10.4         | :notebook: **PROJECT** - _Asynchronous Jest and Mocking_                                                                 |                  |
 
 
 </center>
@@ -108,3 +113,5 @@ Here you will see all of my development during the course, with exercises and pr
 [7.4]: https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
 [8.5]: https://github.com/tryber/sd-09-project-zoo-functions/pull/79
 [9.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_1
+[9.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_2
+[9.3]: https://github.com/tryber/sd-09-project-shopping-cart/pull/81
