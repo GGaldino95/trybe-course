@@ -1,4 +1,4 @@
 # Other files
 trybelogo.png
 /projects
-/*/node_modules
+**/node_modules
