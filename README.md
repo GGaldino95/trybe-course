@@ -66,9 +66,9 @@ Here you will see all of my development during the course, with exercises and pr
 | 9.2          | [JavaScript Promises][9.2]                                                                                               |:heavy_check_mark:|
 | 9.3          | [:notebook: **PROJECT** - _Shopping Cart_][9.3]                                                                          |:o:|
 | **Block 10** | **Automated testing with Jest**                                                                                          | **Completed**    |
-| 10.1         | First steps at Jest                                                                                                      |:o:               |
-| 10.2         | Jest - Asynchronous Tests                                                                                                |                  |
-| 10.3         | Jest - Simulating behaviors                                                                                              |                  |
+| 10.1         | [First steps at Jest][10.1]                                                                                              |:white_check_mark:|
+| 10.2         | Jest - Asynchronous Tests                                                                                                |:o:               |
+| 10.3         | Jest - Simulating behaviors                                                                                              |:o:               |
 | 10.4         | :notebook: **PROJECT** - _Asynchronous Jest and Mocking_                                                                 |                  |
 
 
@@ -85,33 +85,34 @@ Here you will see all of my development during the course, with exercises and pr
 
 
 [trybe]: https://www.betrybe.com/
-[3.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_1
-[3.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_2
-[3.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_3
-[3.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_4
-[3.5]: https://ggaldino95.github.io/projects/lessons-learned/
-[4.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_1
-[4.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_2
-[4.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
-[4.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_4
-[4.5]: https://github.com/tryber/sd-09-project-playground-functions/pull/74
-[5.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_1
-[5.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
-[5.3]: https://github.com/GGaldino95/trybe-course/pull/14
-[5.5]: https://ggaldino95.github.io/projects/pixels-art/
-[5.6]: https://ggaldino95.github.io/projects/todo-list/
-[5.7]: https://ggaldino95.github.io/projects/meme-generator/
-[6.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_1
-[6.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_2
-[6.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_3
-[6.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_4
-[6.5]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_5
-[6.6]: https://github.com/tryber/sd-09-project-facebook-signup/pull/18
-[7.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_1
-[7.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_2
-[7.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_3
-[7.4]: https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
-[8.5]: https://github.com/tryber/sd-09-project-zoo-functions/pull/79
-[9.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_1
-[9.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_2
-[9.3]: https://github.com/tryber/sd-09-project-shopping-cart/pull/81
+[3.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_1
+[3.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_2
+[3.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_3
+[3.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_4
+[3.5]:  https://ggaldino95.github.io/projects/lessons-learned/
+[4.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_1
+[4.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_2
+[4.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
+[4.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_4
+[4.5]:  https://github.com/tryber/sd-09-project-playground-functions/pull/74
+[5.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_1
+[5.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
+[5.3]:  https://github.com/GGaldino95/trybe-course/pull/14
+[5.5]:  https://ggaldino95.github.io/projects/pixels-art/
+[5.6]:  https://ggaldino95.github.io/projects/todo-list/
+[5.7]:  https://ggaldino95.github.io/projects/meme-generator/
+[6.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_1
+[6.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_2
+[6.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_3
+[6.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_4
+[6.5]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_5
+[6.6]:  https://github.com/tryber/sd-09-project-facebook-signup/pull/18
+[7.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_1
+[7.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_2
+[7.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_3
+[7.4]:  https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
+[8.5]:  https://github.com/tryber/sd-09-project-zoo-functions/pull/79
+[9.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_1
+[9.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_2
+[9.3]:  https://github.com/tryber/sd-09-project-shopping-cart/pull/81
+[10.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_1
