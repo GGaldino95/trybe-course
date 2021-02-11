@@ -8,7 +8,8 @@ Here you will see all of my development during the course, with exercises and pr
 <br> 
 
 ### This is my progress so far:
-<center>
+
+## Module 1 - Fundamentals of Web Development
 
 | Block 01     | Unix, Bash & Shell Script                                                                                                | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
@@ -71,14 +72,20 @@ Here you will see all of my development during the course, with exercises and pr
 | 10.3         | Jest - Simulating behaviors                                                                                              |:o:               |
 | 10.4         | [:notebook: **PROJECT** - _Asynchronous Jest and Mocking_][10.4]                                                         |:o:               |
 
+## Module 2 - Front-end development
 
-</center>
+| Block 11     | Introduction to React                                                                                                    | Completed        |
+|:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| 11.1         | Introduction - Front-end <br> Introduction - React <br> 'Hello, world!' in React!                                        |:o:               |
+| 11.2         | React Components                                                                                                         |                  |
+| 11.3         | [:notebook: **PROJECT** - _Movie Cards Library _]                                                                        |                  |
+
 
 **... and more to come!**
 <br><br>
 :o: : Currently active Lesson or Project. <br>
 :heavy_check_mark: : 100% Completed Lesson/Project. <br>
-:white_check_mark: : 90%-or-so completed Lesson/Project. <br>
+:white_check_mark: : Completed Lesson/Project without bonus tasks. <br>
 <br><br>
 :thought_balloon: Questions or suggestions? _Send me a message!_
 
