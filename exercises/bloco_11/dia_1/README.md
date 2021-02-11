@@ -1,7 +1,5 @@
 ### Bloco 11, Dia 1 -> 'Hello, world!' no React!
 
-Vamos usar a função `fetch`, que vimos na aula ao vivo, para criar um site simples com um gerador de _piadas ruins_!. Como? Vamos fazer juntos!
-
 _**Exercício 11.1 - Parte I**_
 
  - Crie um novo projeto utilizando `npx create-react-app nome-app` e acesse a pasta `nome-app`;
