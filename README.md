@@ -9,6 +9,7 @@ Here you will see all of my development during the course, with exercises and pr
 
 ### This is my progress so far:
 
+
 ## Module 1 - Fundamentals of Web Development
 
 | Block 01     | Unix, Bash & Shell Script                                                                                                | Completed        |
@@ -76,9 +77,9 @@ Here you will see all of my development during the course, with exercises and pr
 
 | Block 11     | Introduction to React                                                                                                    | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| 11.1         | Introduction - Front-end <br> Introduction - React <br> 'Hello, world!' in React!                                        |:o:               |
-| 11.2         | React Components                                                                                                         |                  |
-| 11.3         | [:notebook: **PROJECT** - _Movie Cards Library _]                                                                        |                  |
+| 11.1         | Introduction - Front-end <br> Introduction - React <br> ['Hello, world!' in React!][11.1]                                |:heavy_check_mark:|
+| 11.2         | React Components                                                                                                         |:o:               |
+| 11.3         | :notebook: **PROJECT** - _Movie Cards Library _                                                                          |                  |
 
 
 **... and more to come!**
@@ -125,3 +126,4 @@ Here you will see all of my development during the course, with exercises and pr
 [10.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_1
 [10.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_2
 [10.4]: https://github.com/tryber/sd-09-project-jest/pull/60
+[11.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_11/dia_1
