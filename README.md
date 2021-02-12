@@ -79,7 +79,7 @@ Here you will see all of my development during the course, with exercises and pr
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
 | 11.1         | Introduction - Front-end <br> Introduction - React <br> ['Hello, world!' in React!][11.1]                                |:heavy_check_mark:|
 | 11.2         | [React Components][11.2]                                                                                                 |:heavy_check_mark:|
-| 11.3         | :notebook: **PROJECT** - _Movie Cards Library_                                                                           |:o:               |
+| 11.3         | [:notebook: **PROJECT** - _Movie Cards Library_][11.3]                                                                   |:heavy_check_mark:|
 
 
 **... and more to come!**
@@ -128,3 +128,4 @@ Here you will see all of my development during the course, with exercises and pr
 [10.4]: https://github.com/tryber/sd-09-project-jest/pull/60
 [11.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_11/dia_1
 [11.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_11/dia_2
+[11.3]: https://github.com/tryber/sd-09-project-movie-cards-library/pull/41
