@@ -71,7 +71,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 10.1         | [First steps at Jest][10.1]                                                                                              |:white_check_mark:|
 | 10.2         | [Jest - Asynchronous Tests][10.2]                                                                                        |:heavy_check_mark:|
 | 10.3         | Jest - Simulating behaviors                                                                                              |:o:               |
-| 10.4         | [:notebook: **PROJECT** - _Asynchronous Jest and Mocking_][10.4]                                                         |:o:               |
+| 10.4         | [:notebook: **PROJECT** - _Asynchronous Jest and Mocking_][10.4]                                                         |:heavy_check_mark:|
 
 ## Module 2 - Front-end development
 
