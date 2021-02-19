@@ -8,7 +8,9 @@ Here you will see all of my development during the course, with exercises and pr
 <br> 
 
 ### This is my progress so far:
-<center>
+
+
+## Module 1 - Fundamentals of Web Development
 
 | Block 01     | Unix, Bash & Shell Script                                                                                                | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
@@ -37,7 +39,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 5.1          | [JavaScript - DOM and Selectors][5.1]                                                                                    |:heavy_check_mark:|
 | 5.2          | [JavaScript - Working with Elements][5.2]                                                                                |:heavy_check_mark:|
 | 5.3          | [JavaScript - Events][5.3]                                                                                               |:white_check_mark:|
-| 5.4          | JavaScript - Web Storage                                                                                                 |:o:               |
+| 5.4          | JavaScript - Web Storage                                                                                                 |:heavy_check_mark:|
 | 5.5          | Fundamentals - JavaScript - Projects <br> [:notebook: **PROJECT** - _Art with Pixels_][5.5]                              |:heavy_check_mark:|
 | 5.6          | [:notebook: **PROJECT** - _Task List_][5.6]                                                                              |:heavy_check_mark:|
 | 5.7          | [:notebook: **BONUS PROJECT** - _Meme Generator_][5.7]                                                                   |:heavy_check_mark:|
@@ -49,53 +51,81 @@ Here you will see all of my development during the course, with exercises and pr
 | 6.3          | Introduction - CSS Flexbox <br> [CSS Flexbox - Part 1][6.3]                                                              |:heavy_check_mark:|
 | 6.4          | [CSS Flexbox - Part 2][6.4]                                                                                              |:heavy_check_mark:|
 | 6.5          | [Responsive CSS - Mobile First][6.5]                                                                                     |:heavy_check_mark:|
-| 6.6          | :notebook: **PROJECT** - _Facebook Homepage_                                                                             |:white_check_mark:|
+| 6.6          | [:notebook: **PROJECT** - _Facebook Homepage_][6.6]                                                                      |:white_check_mark:|
 | **Block 07** | **Introduction to JavaScript ES6 and Unit Tests**                                                                        | **Completed**    |
 | 7.1          | [JavaScript ES6 - let, const, arrow functions and template literals][7.1]                                                |:heavy_check_mark:|
 | 7.2          | [JavaScript ES6 - Objects][7.2]                                                                                          |:heavy_check_mark:|
 | 7.3          | [JavaScript unit tests][7.3]                                                                                             |:heavy_check_mark:|
-| 7.4          | :notebook: **PROJECT** - _JavaScript Unit Tests_                                                                         |:white_check_mark:|
+| 7.4          | [:notebook: **PROJECT** - _JavaScript Unit Tests_][7.4]                                                                  |:white_check_mark:|
 | **Block 08** | **Higher Order Functions of JavaScript ES6**                                                                             | **Completed**    |
 | 8.1          | JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort                                               |:o:               |
 | 8.2          | JavaScript ES6 - Higher Order Functions - map e filter                                                                   |:o:               |
 | 8.3          | JavaScript ES6 - Higher Order Functions - reduce                                                                         |:o:               |
-| 8.4          | JavaScript ES6 - spread operator, rest parameter, destructuring and more                                                 |                  |
-| 8.5          | :notebook: **PROJECT** - _Zoo functions_                                                                                 |                  |
+| 8.4          | JavaScript ES6 - spread operator, rest parameter, destructuring and more                                                 |:o:               |
+| 8.5          | [:notebook: **PROJECT** - _Zoo functions_][8.5]                                                                          |:white_check_mark:|
+| **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
+| 9.1          | [Asynchronous JavaScript and Callbacks][9.1]                                                                             |:heavy_check_mark:|
+| 9.2          | [JavaScript Promises][9.2]                                                                                               |:heavy_check_mark:|
+| 9.3          | [:notebook: **PROJECT** - _Shopping Cart_][9.3]                                                                          |:heavy_check_mark:|
+| **Block 10** | **Automated testing with Jest**                                                                                          | **Completed**    |
+| 10.1         | [First steps at Jest][10.1]                                                                                              |:white_check_mark:|
+| 10.2         | [Jest - Asynchronous Tests][10.2]                                                                                        |:heavy_check_mark:|
+| 10.3         | Jest - Simulating behaviors                                                                                              |:o:               |
+| 10.4         | [:notebook: **PROJECT** - _Asynchronous Jest and Mocking_][10.4]                                                         |:heavy_check_mark:|
 
-</center>
+## Module 2 - Front-end development
+
+| Block 11     | Introduction to React                                                                                                    | Completed        |
+|:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| 11.1         | Introduction - Front-end <br> Introduction - React <br> ['Hello, world!' in React!][11.1]                                |:heavy_check_mark:|
+| 11.2         | [React Components][11.2]                                                                                                 |:heavy_check_mark:|
+| 11.3         | [:notebook: **PROJECT** - _Movie Cards Library_][11.3]                                                                   |:heavy_check_mark:|
+
 
 **... and more to come!**
 <br><br>
 :o: : Currently active Lesson or Project. <br>
 :heavy_check_mark: : 100% Completed Lesson/Project. <br>
-:white_check_mark: : 90%-or-so completed Lesson/Project. <br>
+:white_check_mark: : Completed Lesson/Project without bonus tasks. <br>
 <br><br>
 :thought_balloon: Questions or suggestions? _Send me a message!_
 
 
 
 [trybe]: https://www.betrybe.com/
-[3.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_1
-[3.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_2
-[3.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_3
-[3.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_4
-[3.5]: https://ggaldino95.github.io/projects/lessons-learned/
-[4.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_1
-[4.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_2
-[4.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
-[4.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_4
-[4.5]: https://github.com/tryber/sd-09-project-playground-functions/pull/74
-[5.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_1
-[5.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
-[5.3]: https://github.com/GGaldino95/trybe-course/pull/14
-[5.5]: https://ggaldino95.github.io/projects/pixels-art/
-[5.6]: https://ggaldino95.github.io/projects/todo-list/
-[5.7]: https://ggaldino95.github.io/projects/meme-generator/
-[6.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_1
-[6.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_2
-[6.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_3
-[6.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_4
-[6.5]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_5
-[7.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_1
-[7.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_2
-[7.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_3
+[3.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_1
+[3.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_2
+[3.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_3
+[3.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_4
+[3.5]:  https://ggaldino95.github.io/projects/lessons-learned/
+[4.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_1
+[4.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_2
+[4.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
+[4.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_4
+[4.5]:  https://github.com/tryber/sd-09-project-playground-functions/pull/74
+[5.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_1
+[5.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
+[5.3]:  https://github.com/GGaldino95/trybe-course/pull/14
+[5.5]:  https://ggaldino95.github.io/projects/pixels-art/
+[5.6]:  https://ggaldino95.github.io/projects/todo-list/
+[5.7]:  https://ggaldino95.github.io/projects/meme-generator/
+[6.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_1
+[6.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_2
+[6.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_3
+[6.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_4
+[6.5]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_5
+[6.6]:  https://github.com/tryber/sd-09-project-facebook-signup/pull/18
+[7.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_1
+[7.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_2
+[7.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_3
+[7.4]:  https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
+[8.5]:  https://github.com/tryber/sd-09-project-zoo-functions/pull/79
+[9.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_1
+[9.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_2
+[9.3]:  https://github.com/tryber/sd-09-project-shopping-cart/pull/81
+[10.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_1
+[10.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_2
+[10.4]: https://github.com/tryber/sd-09-project-jest/pull/60
+[11.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_11/dia_1
+[11.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_11/dia_2
+[11.3]: https://github.com/tryber/sd-09-project-movie-cards-library/pull/41
