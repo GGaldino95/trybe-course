@@ -90,22 +90,47 @@ describe('Functions toUpper, firstLetter and concatenate - Task 5', () => {
 describe("Function fetchDog - Task 6", () => {
     service.fetchDog = jest.fn();
     afterEach(service.fetchDog.mockReset);
-  
+
     test("If Promise resolves", async () => {
-      service.fetchDog.mockResolvedValue("request sucess");
-  
-      service.fetchDog();
-      expect(service.fetchDog).toHaveBeenCalled();
-      expect(service.fetchDog).toHaveBeenCalledTimes(1);
-      expect(service.fetchDog()).resolves.toBe("request sucess");
-      expect(service.fetchDog).toHaveBeenCalledTimes(2);
+        service.fetchDog.mockResolvedValue("request sucess");
+
+        service.fetchDog();
+        expect(service.fetchDog).toHaveBeenCalled();
+        expect(service.fetchDog).toHaveBeenCalledTimes(1);
+        expect(service.fetchDog()).resolves.toBe("request sucess");
+        expect(service.fetchDog).toHaveBeenCalledTimes(2);
     });
-  
+
     test("If Promise rejects", async () => {
-      service.fetchDog.mockRejectedValue("request failed");
-  
-      expect(service.fetchDog).toHaveBeenCalledTimes(0);
-      expect(service.fetchDog()).rejects.toMatch("request failed");
-      expect(service.fetchDog).toHaveBeenCalledTimes(1);
+        service.fetchDog.mockRejectedValue("request failed");
+
+        expect(service.fetchDog).toHaveBeenCalledTimes(0);
+        expect(service.fetchDog()).rejects.toMatch("request failed");
+        expect(service.fetchDog).toHaveBeenCalledTimes(1);
     });
-  });
+});
+
+describe("Function fetchJoke - Task BONUS", () => {
+    const fetchJoke = () => {
+        const API_URL = 'https://icanhazdadjoke.com/';
+    
+        return fetch(API_URL, { headers: { Accept: "application/json" } })
+            .then(response => response.json())
+            .then(data => data.joke);
+    };
+
+    const fetch = jest.fn(() => Promise.resolve(
+        {
+            json: () => Promise.resolve(
+                {
+                    id: "7h3oGtrOfxc",
+                    joke: "Whiteboards ... are remarkable.",
+                    status: 200
+                })
+        })
+    );
+
+    test("If Promise resolves", () => {
+        expect(fetchJoke()).resolves.toBe('Whiteboards ... are remarkable.');
+    });
+});
