@@ -63,11 +63,26 @@ describe('Functions toUpper, firstLetter and concatenate - Task 4', () => {
     });
 
     test("Mocking concatenate to return a string from three parameters", () => {
-        service.concatenate.mockImplementation((string1, string2, string3) =>  `${string1} ${string2} ${string3}`);
+        service.concatenate.mockImplementation((string1, string2, string3) => `${string1} ${string2} ${string3}`);
 
         expect(service.concatenate('Hello', 'Beautiful', 'World')).toMatch('Hello Beautiful World');
         expect(service.concatenate).toHaveBeenCalled();
         expect(service.concatenate).toHaveBeenCalledTimes(1);
         expect(service.concatenate).toHaveBeenCalledWith('Hello', 'Beautiful', 'World');
+    });
+});
+
+describe('Functions toUpper, firstLetter and concatenate - Task 5', () => {
+    test('Mocking toUpper with spyOn', () => {
+        const mockToUpper = jest.spyOn(service, 'upperCase');
+        mockToUpper.mockImplementation(a => a.toLowerCase());
+
+        expect(mockToUpper('Hello World! HI')).toBe('hello world! hi');
+        expect(mockToUpper).toHaveBeenCalled();
+        expect(mockToUpper).toHaveBeenCalledTimes(2);
+        expect(mockToUpper).toHaveBeenCalledWith('Hello World! HI');
+
+        service.upperCase.mockRestore();
+        //expect(service.upperCase('as')).toBe('AS');
     });
 });
