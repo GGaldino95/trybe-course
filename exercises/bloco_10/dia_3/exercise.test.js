@@ -86,3 +86,26 @@ describe('Functions toUpper, firstLetter and concatenate - Task 5', () => {
         //expect(service.upperCase('as')).toBe('AS');
     });
 });
+
+describe("Function fetchDog - Task 6", () => {
+    service.fetchDog = jest.fn();
+    afterEach(service.fetchDog.mockReset);
+  
+    test("If Promise resolves", async () => {
+      service.fetchDog.mockResolvedValue("request sucess");
+  
+      service.fetchDog();
+      expect(service.fetchDog).toHaveBeenCalled();
+      expect(service.fetchDog).toHaveBeenCalledTimes(1);
+      expect(service.fetchDog()).resolves.toBe("request sucess");
+      expect(service.fetchDog).toHaveBeenCalledTimes(2);
+    });
+  
+    test("If Promise rejects", async () => {
+      service.fetchDog.mockRejectedValue("request failed");
+  
+      expect(service.fetchDog).toHaveBeenCalledTimes(0);
+      expect(service.fetchDog()).rejects.toMatch("request failed");
+      expect(service.fetchDog).toHaveBeenCalledTimes(1);
+    });
+  });

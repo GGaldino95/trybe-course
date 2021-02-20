@@ -6,4 +6,11 @@ const firstLetter = string => string[0];
 
 const concatenate = (string1, string2) => `${string1} ${string2}`;
 
-module.exports = { randomNumber, upperCase, firstLetter, concatenate };
+function fetchDog() {
+    return fetch("https://dog.ceo/api/breeds/image/random")
+        .then(response => response.json()
+            .then(json => response.ok ? Promise.resolve(json) : Promise.reject(json))
+        );
+}
+
+module.exports = { randomNumber, upperCase, firstLetter, concatenate, fetchDog };
