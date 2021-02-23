@@ -23,9 +23,9 @@ Agora que você pegou todos os pokémons, consegue pegar todos os bônus?! Não 
      - _Dica: pesquise sobre o `this.props.children` do React!_
 
  - Faça os botões de filtragem serem **dinâmicos**: sua pokedex deve gerar um botão de filtragem para cada tipo de pokémon disponível nos dados, independente de quais ou quantos sejam, sem repetição de tipos. Ou seja, se sua pokedex possui pokémons do tipo `Fire`, `Psychic`, `Electric` e `Normal`, deve aparecer como opção de filtro um botão para cada um desses tipos. Além disso, ela deve manter o botão _All_;
- 
+
  - Faça o botão de Próximo pokémon ser desabilitado se a lista filtrada de pokémons tiver um só pokémon.
 
 Abaixo, um exemplo com todos os bônus feitos:
 
-![Pokedex finalizada](images/pokedex.gif)
+![Pokedex finalizada](./pokedex.gif)
