@@ -3,17 +3,16 @@ import PropTypes from 'prop-types';
 
 class Pokemon extends Component {
     render() {
-        const { pokemon } = this.props;
-        const averageWeight = pokemon.averageWeight;
+        const { name, type, image, averageWeight } = this.props.pokemon;
 
         return (
             <section className="pokemon-card">
                 <div className="pokemon-info">
-                    <p>{pokemon.name}</p>
-                    <p>{pokemon.type}</p>
+                    <p>{name}</p>
+                    <p>{type}</p>
                     <p>Average weight: {averageWeight.value} {averageWeight.measurementUnit}</p>
                 </div>
-                <img src={pokemon.image} alt={pokemon.name}></img>
+                <img src={image} alt={name}></img>
             </section>
         );
     }
@@ -31,26 +30,3 @@ Pokemon.propTypes = {
 };
 
 export default Pokemon;
-
-/*
-import React from 'react';
-
-class Pokemon extends React.Component {
-    render() {
-        const { name, type, averageWeight, image } = this.props.pokemon;
-
-        return (
-            <div className="pokemon">
-                <div>
-                    <p> {name} </p>
-                    <p> {type} </p>
-                    <p> {`Average weight: ${averageWeight.value} ${averageWeight.measurementUnit}`}</p>
-                </div>
-                <img src={image} alt={`${name} sprite`} />
-            </div>
-        );
-    }
-}
-
-export default Pokemon;
-*/

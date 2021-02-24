@@ -3,16 +3,33 @@ import PropTypes from 'prop-types';
 import Pokemon from './Pokemon.js';
 
 class Pokedex extends Component {
+    constructor() {
+        super();
+        this.handleButton = this.handleButton.bind(this);
+
+        this.state = {
+            pkmnIndex: 0
+        }
+    };
+
+    handleButton() {
+        this.setState((previousState, props) =>
+            previousState.pkmnIndex !== props.pokemonData.length - 1 ? { pkmnIndex: previousState.pkmnIndex += 1 } : { pkmnIndex: 0 }
+        );
+    };
+
     render() {
+        const { pokemonData } = this.props;
         return (
             <main className="pokedex">
                 <h1>Pokedex</h1>
                 <section className="pokedex-container">
-                    {this.props.pokemonData.map(currentPokemon => <Pokemon key={currentPokemon.id} pokemon={currentPokemon} />)}
+                    <Pokemon key={pokemonData.id} pokemon={pokemonData[this.state.pkmnIndex]} />
                 </section>
+                <button className="pokemon-button next-pokemon" onClick={this.handleButton}>Next Pokemon</button>
             </main>
         );
-    }
+    };
 }
 
 Pokedex.propTypes = {
@@ -20,20 +37,3 @@ Pokedex.propTypes = {
 };
 
 export default Pokedex;
-
-/* 
-import React from 'react';
-import Pokemon from './Pokemon';
-
-class Pokedex extends React.Component {
-    render() {
-        return (
-            <div className="pokedex">
-                {this.props.pokemons.map(pokemon => <Pokemon key={pokemon.id} pokemon={pokemon} />)}
-            </div>
-        );
-    }
-}
-
-export default Pokedex;
-*/
