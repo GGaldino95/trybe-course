@@ -24,15 +24,15 @@ class Pokedex extends Component {
         return pokemonData.filter(currentPokemon => filteredType.pkmnType === 'all' ? true : currentPokemon.type === filteredType.pkmnType);
     }
 
-    previousPokemon() {
-        this.setState((previousState, props) =>
-            previousState.pkmnIndex !== 0 ? { pkmnIndex: previousState.pkmnIndex -= 1 } : { pkmnIndex: props.pokemonData.length - 1 }
+    previousPokemon(filteredPokemons) {
+        this.setState(({ pkmnIndex }) =>
+            pkmnIndex === 0 ? { pkmnIndex: filteredPokemons.length - 1 } : { pkmnIndex: pkmnIndex - 1 }
         );
     }
 
-    nextPokemon() {
-        this.setState((previousState, props) =>
-            previousState.pkmnIndex !== props.pokemonData.length - 1 ? { pkmnIndex: previousState.pkmnIndex += 1 } : { pkmnIndex: 0 }
+    nextPokemon(filteredPokemons) {
+        this.setState(({ pkmnIndex }) =>
+            pkmnIndex !== filteredPokemons.length - 1 ? { pkmnIndex: pkmnIndex + 1 } : { pkmnIndex: 0 }
         );
     };
 
@@ -46,15 +46,14 @@ class Pokedex extends Component {
     render() {
         const filteredPokemons = this.fetchFilteredPokemons();
         const pokemonData = filteredPokemons[this.state.pkmnIndex];
-        console.log(filteredPokemons)
 
         return (
             <main className="pokedex">
                 <h1>Pokedex</h1>
                 <section className="pokedex-container">
-                    <button className="pokemon-button change-pokemon" onClick={this.previousPokemon}> {'<'} </button>
+                    <button className="pokemon-button change-pokemon" onClick={() => this.previousPokemon(filteredPokemons)}> {'<'} </button>
                     <Pokemon key={pokemonData.id} pokemon={pokemonData} />
-                    <button className="pokemon-button change-pokemon" onClick={this.nextPokemon}> {'>'} </button>
+                    <button className="pokemon-button change-pokemon" onClick={() => this.nextPokemon(filteredPokemons)}> {'>'} </button>
                 </section>
                 <button className="pokemon-button pokemon-type fire" onClick={() => this.filterPokemon('Fire')}> {'Fire'} </button>
                 <button className="pokemon-button pokemon-type psychic" onClick={() => this.filterPokemon('Psychic')}> {'Psychic'} </button>
