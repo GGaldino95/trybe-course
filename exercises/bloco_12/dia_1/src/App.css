@@ -14,7 +14,7 @@ h1 {
   background-color: rgb(200, 200, 200);
   border: 2px solid black;
   margin: 50px auto;
-  width: 50%;
+  width: fit-content;
 }
 
 .pokedex-container {
@@ -23,6 +23,19 @@ h1 {
   justify-content: center;
   margin: 0 auto;
   padding: 10px;
+}
+
+.pokemon-button {
+  border-radius: 15px;
+  height: max-content;
+  outline-style: none;
+}
+
+.change-pokemon {
+  align-self: center;
+  border: 2px solid black;
+  font-size: 35px;
+  width: 85px;
 }
 
 .pokemon-card {
@@ -34,6 +47,7 @@ h1 {
   justify-content: space-evenly;
   margin: 5px;
   min-width: 45%;
+  padding: 0 15px;
 }
 
 .pokemon-info {
