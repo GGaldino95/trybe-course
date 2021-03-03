@@ -11,7 +11,7 @@ class Cpf extends React.Component {
           type="text"
           id="cpf-input"
           name="cpf"
-          onChange={onChange}
+          onChange={ onChange }
           maxLength="11"
           required
         />

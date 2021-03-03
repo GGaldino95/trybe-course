@@ -11,8 +11,8 @@ class Email extends React.Component {
           type="text"
           id="email-input"
           name="email"
-          value={value}
-          onChange={onChange}
+          value={ value }
+          onChange={ onChange }
           maxLength="50"
           required
         />

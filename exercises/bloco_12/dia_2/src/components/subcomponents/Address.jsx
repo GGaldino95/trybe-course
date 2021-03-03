@@ -11,8 +11,8 @@ class Address extends React.Component {
           type="text"
           id="address-input"
           name="address"
-          value={value} // It will remove any special character inside the field, checked by onChange().
-          onChange={onChange}
+          value={ value } // It will remove any special character inside the field, checked by onChange().
+          onChange={ onChange }
           maxLength="200"
           required
         />

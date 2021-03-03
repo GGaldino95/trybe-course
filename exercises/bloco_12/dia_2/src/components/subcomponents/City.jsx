@@ -11,9 +11,9 @@ class City extends React.Component {
           type="text"
           id="city-input"
           name="city"
-          value={value} // It will empty the field if it starts with a number, checked by onBlur().
-          onChange={onChange}
-          onBlur={onBlur}
+          value={ value } // It will empty the field if it starts with a number, checked by onBlur().
+          onChange={ onChange }
+          onBlur={ onBlur }
           maxLength="28"
           required
         />

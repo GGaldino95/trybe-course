@@ -11,7 +11,7 @@ class Name extends React.Component {
           type="text"
           id="name-input"
           name="name"
-          onChange={onChange}
+          onChange={ onChange }
           maxLength="40"
           required
         />
