@@ -87,10 +87,10 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 13** | **Component Life Cycle and React Router**                                                                                | **Completed**    |
 | 13.1         | Component life cycles                                                                                                    |:o:               |
 | 13.2         | React Router                                                                                                             |:o:               |
-| 13.3         | [:notebook: **PROJECT** - _Movie Cards Library - CRUD_][13.3]                                                            |:o:               |
+| 13.3         | [:notebook: **PROJECT** - _Movie Cards Library - CRUD_][13.3]                                                            |:heavy_check_mark:|
 | **Block 14** | **Agile Methodologies**                                                                                                  | **Completed**    |
-| 14.1         | Agile Methodologies                                                                                                      |                  |
-| 14.2         | :notebook: **PROJECT** - _Frontend Online Store_                                                                         |                  |
+| 14.1         | Agile Methodologies                                                                                                      |:o:               |
+| 14.2         | :notebook: **PROJECT** - _Frontend Online Store_                                                                         |:o:               |
 
 
 
