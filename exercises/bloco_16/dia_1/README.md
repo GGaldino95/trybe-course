@@ -1,6 +1,6 @@
 ### Bloco 16, Dia 1 -> Introdução ao Redux - O estado global da aplicação
 
-Você irá fazer 14 exercícios propostos pelo site _freecodecamp_, com objetivo de consolidar seus conhecimentos acerca dos conceitos presentes no _**Redux**_.
+Você irá fazer 14 exercícios propostos pelo site _[freecodecamp][freecodecamp]_, com objetivo de consolidar seus conhecimentos acerca dos conceitos presentes no _**Redux**_.
 
 _**Exercício 16.1 - Parte I - Definindo um action creator**_
 
@@ -452,7 +452,7 @@ const store = Redux.createStore(immutableReducer);
 
 _**Exercício 16.1 - Parte BÔNUS**_
 
-Agora você irá incrementar o código que foi feito durante a aula ao vivo.
+Agora você irá incrementar o código que foi feito durante a [aula ao vivo][aula16.1].
 
  - Faça um campo que recebe um valor e esse será o valor aplicado ao botão incremento;
 
@@ -461,3 +461,6 @@ Agora você irá incrementar o código que foi feito durante a aula ao vivo.
  - Armazene um outro valor no state , chamado clickCount . Este campo vai contar o número de vezes que qualquer botão na tela foi clicado;
 
  - Armazene um array no state que guarda o valor individual que foi adicionado a cada click em qualquer um dos três botões.
+
+[freecodecamp]: https://www.freecodecamp.org/learn/front-end-libraries/#redux
+[aula16.1]: https://github.com/tryber/sd-09-live-lectures/pull/40
