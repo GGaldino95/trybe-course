@@ -90,7 +90,19 @@ Here you will see all of my development during the course, with exercises and pr
 | 13.3         | [:notebook: **PROJECT** - _Movie Cards Library - CRUD_][13.3]                                                            |:heavy_check_mark:|
 | **Block 14** | **Agile Methodologies**                                                                                                  | **Completed**    |
 | 14.1         | Agile Methodologies                                                                                                      |:o:               |
-| 14.2         | :notebook: **PROJECT** - _Frontend Online Store_                                                                         |:o:               |
+| 14.2         | [:notebook: **PROJECT** - _Frontend Online Store_][14.2]                                                                 |:white_check_mark:|
+| **Block 15** | **Automated testing with React Testing Library**                                                                         | **Completed**    |
+| 15.1         | [RTL - Getting Started][15.1]                                                                                            |:heavy_check_mark:|
+| 15.2         | RTL - Mocks and Inputs                                                                                                   |:o:               |
+| 15.3         | RTL - Testing React Router                                                                                               |:o:               |
+| 15.4         | [:notebook: **PROJECT** - _Tests in React_][15.4]                                                                        |:o:               |
+| **Block 16** | **State management with Redux**                                                                                          | **Completed**    |
+| 16.1         | [Introduction to Redux - The global state of the application][16.1]                                                      |:heavy_check_mark:|
+| 16.2         | Using Redux in React                                                                                                     |                  |
+| 16.3         | Using Redux in React - Practice                                                                                          |                  |
+| 16.4         | Using Redux in React - Asynchronous Actions                                                                              |                  |
+| 16.5         | Tests in React-Redux                                                                                                     |                  |
+| 16.6         | :notebook: **PROJECT** - _Trybe Wallet_                                                                                  |                  |
 
 
 
@@ -150,3 +162,7 @@ Here you will see all of my development during the course, with exercises and pr
 [12.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_12/dia_2
 [12.3]: https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/67
 [13.3]: https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/33
+[14.2]: https://github.com/tryber/sd-09-project-frontend-online-store/pull/533
+[15.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_1/exercise-todo-list
+[15.4]: https://github.com/tryber/sd-09-project-react-testing-library/pull/24
+[16.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_1
