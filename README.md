@@ -95,7 +95,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 15.1         | [RTL - Getting Started][15.1]                                                                                            |:heavy_check_mark:|
 | 15.2         | RTL - Mocks and Inputs                                                                                                   |:o:               |
 | 15.3         | RTL - Testing React Router                                                                                               |:o:               |
-| 15.4         | [:notebook: **PROJECT** - _Tests in React_][15.4]                                                                        |:o:               |
+| 15.4         | [:notebook: **PROJECT** - _Tests in React_][15.4]                                                                        |:heavy_check_mark:|
 | **Block 16** | **State management with Redux**                                                                                          | **Completed**    |
 | 16.1         | [Introduction to Redux - The global state of the application][16.1]                                                      |:heavy_check_mark:|
 | 16.2         | Using Redux in React                                                                                                     |                  |
