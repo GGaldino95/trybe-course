@@ -102,7 +102,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 16.3         | Using Redux in React - Practice                                                                                          |                  |
 | 16.4         | Using Redux in React - Asynchronous Actions                                                                              |                  |
 | 16.5         | Tests in React-Redux                                                                                                     |                  |
-| 16.6         | :notebook: **PROJECT** - _Trybe Wallet_                                                                                  |                  |
+| 16.6         | [:notebook: **PROJECT** - _Trybe Wallet_][16.6]                                                                          |:white_check_mark:|
 
 
 
@@ -166,3 +166,4 @@ Here you will see all of my development during the course, with exercises and pr
 [15.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_1/exercise-todo-list
 [15.4]: https://github.com/tryber/sd-09-project-react-testing-library/pull/24
 [16.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_1
+[16.6]: https://github.com/tryber/sd-09-project-trybewallet/pull/52
