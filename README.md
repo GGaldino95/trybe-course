@@ -85,11 +85,11 @@ Here you will see all of my development during the course, with exercises and pr
 | 12.2         | [Forms in React][12.2]                                                                                                   |:heavy_check_mark:|
 | 12.3         | [:notebook: **PROJECT** - _Movie Cards Library - Stateful_][12.3]                                                        |:heavy_check_mark:|
 | **Block 13** | **Component Life Cycle and React Router**                                                                                | **Completed**    |
-| 13.1         | Component life cycles                                                                                                    |:o:               |
-| 13.2         | React Router                                                                                                             |:o:               |
+| 13.1         | [Component life cycles][13.1]                                                                                            |:heavy_check_mark:|
+| 13.2         | [React Router][13.2]                                                                                                     |:heavy_check_mark:|
 | 13.3         | [:notebook: **PROJECT** - _Movie Cards Library - CRUD_][13.3]                                                            |:heavy_check_mark:|
 | **Block 14** | **Agile Methodologies**                                                                                                  | **Completed**    |
-| 14.1         | Agile Methodologies                                                                                                      |:o:               |
+| 14.1         | Agile Methodologies                                                                                                      |:heavy_check_mark:|
 | 14.2         | [:notebook: **PROJECT** - _Frontend Online Store_][14.2]                                                                 |:white_check_mark:|
 | **Block 15** | **Automated testing with React Testing Library**                                                                         | **Completed**    |
 | 15.1         | [RTL - Getting Started][15.1]                                                                                            |:heavy_check_mark:|
@@ -98,11 +98,31 @@ Here you will see all of my development during the course, with exercises and pr
 | 15.4         | [:notebook: **PROJECT** - _Tests in React_][15.4]                                                                        |:heavy_check_mark:|
 | **Block 16** | **State management with Redux**                                                                                          | **Completed**    |
 | 16.1         | [Introduction to Redux - The global state of the application][16.1]                                                      |:heavy_check_mark:|
-| 16.2         | Using Redux in React                                                                                                     |                  |
-| 16.3         | Using Redux in React - Practice                                                                                          |                  |
-| 16.4         | Using Redux in React - Asynchronous Actions                                                                              |                  |
-| 16.5         | Tests in React-Redux                                                                                                     |                  |
+| 16.2         | Using Redux in React                                                                                                     |:o:               |
+| 16.3         | Using Redux in React - Practice                                                                                          |:o:               |
+| 16.4         | Using Redux in React - Asynchronous Actions                                                                              |:o:               |
+| 16.5         | Tests in React-Redux                                                                                                     |:o:               |
 | 16.6         | [:notebook: **PROJECT** - _Trybe Wallet_][16.6]                                                                          |:white_check_mark:|
+| **Block 17** | **Trivia Game Project**                                                                                                  | **Completed**    |
+| 17.1         | [:notebook: **PROJECT** - _Trivia Game_][17.1]                                                                           |:white_check_mark:|
+| **Block 18** | **Context API and React Hooks**                                                                                          | **Completed**    |
+| 18.1         | React Context API                                                                                                        |:o:               |
+| 18.2         | React Hooks - useState and useContext                                                                                    |:o:               |
+| 18.3         | React Hooks - useEffect and custom Hooks                                                                                 |:o:               |
+| 18.4         | Using Redux in React - Asynchronous Actions                                                                              |:o:               |
+| 18.5         | [:notebook: **PROJECT** - _Datatable StarWars with Context API and Hooks_][18.5]                                         |:white_check_mark:|
+| **Block 19** | **Recipe App Project**                                                                                                   | **Completed**    |
+| 19.1         | [:notebook: **PROJECT** - _Recipe App_][19.1]                                                                            |:white_check_mark:|
+
+## Module 3 - Back-end development
+
+| Block 20     | Introduction to SQL                                                                                                      | Completed        |
+|:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| 20.1         | Introduction - Back-end <br> Introduction - Relational Databases <br> SQL database                                       |:heavy_check_mark:|
+| 20.2         | Finding data in a database                                                                                               |:o:               |
+| 20.3         | Filtering data specifically                                                                                              |                  |
+| 20.4         | Manipulating tables                                                                                                      |                  |
+| 20.5         | :notebook: **PROJECT** - _All for One_                                                                                   |                  |
 
 
 
@@ -161,9 +181,14 @@ Here you will see all of my development during the course, with exercises and pr
 [12.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_12/dia_1
 [12.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_12/dia_2
 [12.3]: https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/67
+[13.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_13/dia_1
+[13.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_13/dia_2
 [13.3]: https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/33
 [14.2]: https://github.com/tryber/sd-09-project-frontend-online-store/pull/533
 [15.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_1/exercise-todo-list
 [15.4]: https://github.com/tryber/sd-09-project-react-testing-library/pull/24
 [16.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_1
 [16.6]: https://github.com/tryber/sd-09-project-trybewallet/pull/52
+[17.1]: https://github.com/tryber/sd-09-project-trivia-react-redux/pull/44
+[18.5]: https://github.com/tryber/sd-09-project-starwars-planets-search/pull/30
+[19.1]: https://github.com/tryber/sd-09-project-recipes-app/pull/111
