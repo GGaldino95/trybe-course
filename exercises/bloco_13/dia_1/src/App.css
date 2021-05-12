@@ -1,0 +1,41 @@
+body {
+  background-color: darkslategrey;
+  color: ghostwhite;
+  text-align: center;
+  text-shadow: 1px 2px 3px black;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  max-width: 490px;
+}
+
+button {
+  border: 1px solid gray;
+  background-color: steelblue;
+  border-radius: 5px;
+  color: ghostwhite;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.container {
+  align-items: center;
+  background-color: deepskyblue;
+  border: 3px solid ghostwhite;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px black;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 100px auto;
+  padding: 15px;
+  width: 500px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+}
