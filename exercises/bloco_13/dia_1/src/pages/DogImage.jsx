@@ -6,10 +6,13 @@ class DogImage extends React.Component {
     super();
 
     this.fetchDogImages = this.fetchDogImages.bind(this);
+    this.saveDogData = this.saveDogData.bind(this);
 
     this.state = {
       hasFetched: false,
       dogImage: '',
+      dogName: '',
+      dogsArray: [],
     };
   }
 
@@ -17,20 +20,20 @@ class DogImage extends React.Component {
     this.fetchDogImages();
   }
 
-  shouldComponentUpdate(nextState) {
+  shouldComponentUpdate(nextProps, nextState) {
     if (nextState.dogImage.includes('terrier')) {
       return false;
     }
     return true;
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(previousProps, previousState) {
     const { dogImage } = this.state;
 
-    localStorage.setItem('dogImage', dogImage);
-    const dogBreed = dogImage.split('/')[4];
-
-    return alert(dogBreed);
+    if (previousState.dogImage !== dogImage) {
+      const dogBreed = dogImage.split('/')[4];
+      alert(dogBreed);
+    }
   }
 
   async fetchDogImages() {
@@ -53,14 +56,33 @@ class DogImage extends React.Component {
     }
   }
 
+  saveDogData() {
+    const { dogImage, dogName, dogsArray } = this.state;
+
+    const dogData = { dogImage, dogName };
+    const newArray = [...dogsArray, dogData];
+    this.setState({ dogsArray: newArray });
+    this.setState({ dogName: '' });
+    localStorage.setItem('namedDogURL', JSON.stringify(newArray));
+  }
+
   render() {
-    const { hasFetched, dogImage } = this.state;
+    const { hasFetched, dogImage, dogName } = this.state;
 
     return (
       <section className="content">
         { hasFetched
           ? <img src={ dogImage } alt="Dog" />
           : <h2>Loading...</h2>}
+        <input
+          type="text"
+          value={ dogName }
+          onChange={ (event) => this.setState({ dogName: event.target.value }) }
+          placeholder="Type dog name"
+        />
+        <button type="button" onClick={ this.saveDogData }>
+          Save Dog
+        </button>
         <button type="button" onClick={ this.fetchDogImages }>
           New Dog
         </button>
