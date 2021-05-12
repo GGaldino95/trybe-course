@@ -38,6 +38,7 @@ class DogImage extends React.Component {
       ...previousState,
       hasFetched: false,
     }));
+
     const ENDPOINT = 'https://dog.ceo/api/breeds/image/random';
 
     try {
