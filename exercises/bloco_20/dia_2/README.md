@@ -76,7 +76,7 @@ INSERT INTO Scientists(SSN,Name)
 Esse banco de dados é de uso livre, sendo licenciado de acordo com os termos [deste link](https://creativecommons.org/licenses/by-sa/3.0/) .
 
 
-_**Exercício 20.1 - Parte I**_
+_**Exercício 20.2 - Parte I**_
 
  - Escreva uma _query_ para exibir a _string_ `"This is SQL Exercise, Practice and Solution"`;
  - Escreva uma _query_ para exibir três números em três colunas;
@@ -95,7 +95,7 @@ _**Exercício 20.1 - Parte I**_
  - Escreva uma _query_ que exiba a _string_ `"Existem NUMBER cientistas na tabela Scientists."`, em que `NUMBER` se refira a quantidade de cientistas.
 
 
-_**Exercício 20.1 - Parte BONUS**_
+_**Exercício 20.2 - Parte BONUS**_
 
 Para realizar as tarefas do 1 ao 4, restaure o seguinte banco de dados:
 
