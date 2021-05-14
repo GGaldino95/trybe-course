@@ -119,8 +119,8 @@ Here you will see all of my development during the course, with exercises and pr
 | Block 20     | Introduction to SQL                                                                                                      | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
 | 20.1         | Introduction - Back-end <br> Introduction - Relational Databases <br> SQL database                                       |:heavy_check_mark:|
-| 20.2         | Finding data in a database                                                                                               |:o:               |
-| 20.3         | Filtering data specifically                                                                                              |                  |
+| 20.2         | [Finding data in a database][20.2]                                                                                       |:heavy_check_mark:|
+| 20.3         | Filtering data specifically                                                                                              |:o:               |
 | 20.4         | Manipulating tables                                                                                                      |                  |
 | 20.5         | :notebook: **PROJECT** - _All for One_                                                                                   |                  |
 
@@ -192,3 +192,4 @@ Here you will see all of my development during the course, with exercises and pr
 [17.1]: https://github.com/tryber/sd-09-project-trivia-react-redux/pull/44
 [18.5]: https://github.com/tryber/sd-09-project-starwars-planets-search/pull/30
 [19.1]: https://github.com/tryber/sd-09-project-recipes-app/pull/111
+[20.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_2
