@@ -124,8 +124,8 @@ Here you will see all of my development during the course, with exercises and pr
 | 20.4         | [Manipulating tables][20.4]                                                                                              |:heavy_check_mark:|
 | 20.5         | [:notebook: **PROJECT** - _All for One_][20.5]                                                                           |:heavy_check_mark:|
 | **Block 21** | **SQL functions, Joins and Subqueries**                                                                                  | **Completed**    |
-| 21.1         | Most used functions in SQL                                                                                               |:o:               |
-| 21.2         | Uncomplicating JOINs, UNIONs and Subqueries                                                                              |                  |
+| 21.1         | [Most used functions in SQL][21.1]                                                                                       |:heavy_check_mark:|
+| 21.2         | Uncomplicating JOINs, UNIONs and Subqueries                                                                              |:o:               |
 | 21.3         | Stored Routines & Stored Functions                                                                                       |                  |
 | 21.4         | :notebook: **PROJECT** - _Vocabulary Booster_                                                                            |                  |
 
@@ -201,3 +201,4 @@ Here you will see all of my development during the course, with exercises and pr
 [20.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_3
 [20.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_4
 [20.5]: https://github.com/tryber/sd-09-mysql-all-for-one/pull/9
+[21.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_21/dia_1
