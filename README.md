@@ -5,12 +5,17 @@ Here you will see all of my development during the course, with exercises and pr
 <br>
 
 > _[Trybe][trybe] is a school for people who want to build a successful career in the technology area. The program has more than 1.500 hours of in-person and online classes and deals with software development introduction, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills._
-<br> 
+
+#### Summary
+ - [Module 1 - Fundamentals of Web Development](#module1)
+ - [Module 2 - Front-end Web Development](#module2)
+ - [Module 3 - Back-end Web Development](#module3)
+<br>
 
 ### This is my progress so far:
 
 
-## Module 1 - Fundamentals of Web Development
+## Module 1 - Fundamentals of Web Development <a id="module1"></a>
 
 | Block 01     | Unix, Bash & Shell Script                                                                                                | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
@@ -73,7 +78,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 10.3         | [Jest - Simulating behaviors][10.3]                                                                                      |:heavy_check_mark:|
 | 10.4         | [:notebook: **PROJECT** - _Asynchronous Jest and Mocking_][10.4]                                                         |:heavy_check_mark:|
 
-## Module 2 - Front-end development
+## Module 2 - Front-end development <a id="module2"></a>
 
 | Block 11     | Introduction to React                                                                                                    | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
@@ -114,7 +119,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 19** | **Recipe App Project**                                                                                                   | **Completed**    |
 | 19.1         | [:notebook: **PROJECT** - _Recipe App_][19.1]                                                                            |:white_check_mark:|
 
-## Module 3 - Back-end development
+## Module 3 - Back-end development <a id="module3"></a>
 
 | Block 20     | Introduction to SQL                                                                                                      | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
