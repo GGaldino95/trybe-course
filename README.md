@@ -135,8 +135,8 @@ Here you will see all of my development during the course, with exercises and pr
 | 21.4         | [:notebook: **PROJECT** - _Vocabulary Booster_][21.4]                                                                    |:white_check_mark:|
 | **Block 22** | **Database Modeling and Standardization**                                                                                | **Completed**    |
 | 22.1         | [Transforming ideas into a database model - Part 1][22.1]                                                                |:heavy_check_mark:|
-| 22.2         | Normalization, Normal Forms and Dumps                                                                                    |:o:               |
-| 22.3         | Transforming ideas into a database model - Part 2                                                                        |                  |
+| 22.2         | [Normalization, Normal Forms and Dumps][22.2]                                                                            |:heavy_check_mark:|
+| 22.3         | Transforming ideas into a database model - Part 2                                                                        |:o:               |
 | 22.4         | :notebook: **PROJECT** - _One for All_                                                                                   |                  |
 
 
@@ -216,3 +216,4 @@ Here you will see all of my development during the course, with exercises and pr
 [21.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_21/dia_3
 [21.4]: https://github.com/tryber/sd-09-mysql-vocabulary-booster/pull/67
 [22.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_22/dia_1
+[22.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_22/dia_2
