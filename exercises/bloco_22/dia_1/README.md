@@ -1,4 +1,4 @@
-### Bloco 22, Dia 1 -> Normalização e Modelagem de Banco de Dados
+### Bloco 22, Dia 1 -> Transformando ideias em um modelo de banco de dados - Parte I
 
 Faça os exercícios 1 a 3 a seguir:
 
