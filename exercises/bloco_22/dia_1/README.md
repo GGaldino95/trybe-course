@@ -3,7 +3,7 @@
 Faça os exercícios 1 a 3 a seguir:
 
 
-_**Exercícios 21.2**_
+_**Exercícios 22.1**_
 
  - Caso não tenha feito ainda, refaça o banco de dados `albuns` por conta própria, como está descrito na seção `"Hora de mexer os dedos"` do **Course**;
  - Faça [este quiz](https://forms.gle/wjjZRjo27JXrPL7f6) sobre tipos de dados no **MySQL**;
