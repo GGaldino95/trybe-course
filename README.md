@@ -132,12 +132,16 @@ Here you will see all of my development during the course, with exercises and pr
 | 21.1         | [Most used functions in SQL][21.1]                                                                                       |:heavy_check_mark:|
 | 21.2         | [Uncomplicating JOINs, UNIONs and Subqueries][21.2]                                                                      |:heavy_check_mark:|
 | 21.3         | [Stored Routines & Stored Functions][21.3]                                                                               |:heavy_check_mark:|
-| 21.4         | [:notebook: **PROJECT** - _Vocabulary Booster_][21.4]                                                                    |:white_check_mark:|
+| 21.4         | [:notebook: **PROJECT** - _Vocabulary Booster_][21.4]                                                                    |:heavy_check_mark:|
 | **Block 22** | **Database Modeling and Standardization**                                                                                | **Completed**    |
 | 22.1         | [Transforming ideas into a database model - Part 1][22.1]                                                                |:heavy_check_mark:|
 | 22.2         | [Normalization, Normal Forms and Dumps][22.2]                                                                            |:heavy_check_mark:|
 | 22.3         | Transforming ideas into a database model - Part 2                                                                        |:o:               |
-| 22.4         | :notebook: **PROJECT** - _One for All_                                                                                   |                  |
+| 22.4         | [:notebook: **PROJECT** - _One for All_][22.4]                                                                           |:heavy_check_mark:|
+| **Block 23** | **Introduction to MongoDB**                                                                                              | **Completed**    |
+| 23.1         | Introduction - NoSQL <br> Introduction - MongoDB                                                                         |:o:               |
+| 23.2         | Filter Operators                                                                                                         |                  |
+| 23.3         | :notebook: **PROJECT** - _Data Flights_                                                                                  |                  |
 
 
 
@@ -217,3 +221,4 @@ Here you will see all of my development during the course, with exercises and pr
 [21.4]: https://github.com/tryber/sd-09-mysql-vocabulary-booster/pull/67
 [22.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_22/dia_1
 [22.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_22/dia_2
+[22.4]: https://github.com/tryber/sd-09-mysql-one-for-all/pull/4
