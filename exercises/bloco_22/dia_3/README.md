@@ -1,8 +1,5 @@
 ### Bloco 22, Dia 3 -> Transformando ideias em um modelo de banco de dados - Parte II
 
-Os exercícios abaixo estão disponibilizados em arquivos no formato `Excel` (_.xlsx_). Eles podem ser abertos em softwares livres como **Google Sheets**, **Open Office** e **Libre Office**. Não é necessário montar _queries_ para resolver os exercícios. Crie novas planilhas com suas respostas.
-
-
 _**Exercícios 22.3 - Parte I - Desafios sobre VIEW**_
 
  - Crie uma `view` chamada `film_with_categories` utilizando as tabelas `category`, `film_category` e `film` do banco de dados `sakila`. Essa `view` deve exibir o `título` do filme, o `id` da categoria e o `nome` da categoria, conforme a imagem abaixo. Os resultados devem ser ordenados pelo `título` do filme. <br><br>
