@@ -139,7 +139,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 22.3         | Transforming ideas into a database model - Part 2                                                                        |:o:               |
 | 22.4         | [:notebook: **PROJECT** - _One for All_][22.4]                                                                           |:heavy_check_mark:|
 | **Block 23** | **Introduction to MongoDB**                                                                                              | **Completed**    |
-| 23.1         | Introduction - NoSQL <br> Introduction - MongoDB                                                                         |:o:               |
+| 23.1         | Introduction - NoSQL <br> [Introduction - MongoDB][23.1]                                                                 |:heavy_check_mark:|
 | 23.2         | Filter Operators                                                                                                         |:o:               |
 | 23.3         | [:notebook: **PROJECT** - _Data Flights_][23.3]                                                                          |:heavy_check_mark:|
 | **Block 24** | **MongoDB: Simple and Complex Updates**                                                                                  | **Completed**    |
@@ -227,5 +227,6 @@ Here you will see all of my development during the course, with exercises and pr
 [22.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_22/dia_1
 [22.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_22/dia_2
 [22.4]: https://github.com/tryber/sd-09-mysql-one-for-all/pull/4
+[23.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_23/dia_1
 [23.3]: https://github.com/tryber/sd-09-mongodb-dataflights/pull/5
 [24.4]: https://github.com/tryber/sd-09-mongodb-commerce/pull/18
