@@ -147,6 +147,10 @@ Here you will see all of my development during the course, with exercises and pr
 | 24.2         | Complex Updates - Arrays - Part 1                                                                                        |:o:               |
 | 24.3         | Complex Updates - Arrays - Part 2                                                                                        |:o:               |
 | 24.4         | [:notebook: **PROJECT** - _Commerce_][24.4]                                                                              |:heavy_check_mark:|
+| **Block 25** | **MongoDB: Aggregation Framework**                                                                                       | **Completed**    |
+| 25.1         | Aggregation Framework - Part 1                                                                                           |                  |
+| 25.2         | Aggregation Framework - Part 2                                                                                           |                  |
+| 25.3         | [:notebook: **PROJECT** - _Aggregations_][25.3]                                                                          |:heavy_check_mark:|
 
 
 
@@ -232,3 +236,4 @@ Here you will see all of my development during the course, with exercises and pr
 [23.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_23/dia_2
 [23.3]: https://github.com/tryber/sd-09-mongodb-dataflights/pull/5
 [24.4]: https://github.com/tryber/sd-09-mongodb-commerce/pull/18
+[25.3]: https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
