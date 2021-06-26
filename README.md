@@ -148,9 +148,16 @@ Here you will see all of my development during the course, with exercises and pr
 | 24.3         | Complex Updates - Arrays - Part 2                                                                                        |:o:               |
 | 24.4         | [:notebook: **PROJECT** - _Commerce_][24.4]                                                                              |:heavy_check_mark:|
 | **Block 25** | **MongoDB: Aggregation Framework**                                                                                       | **Completed**    |
-| 25.1         | Aggregation Framework - Part 1                                                                                           |                  |
-| 25.2         | Aggregation Framework - Part 2                                                                                           |                  |
+| 25.1         | Aggregation Framework - Part 1                                                                                           |:o:               |
+| 25.2         | Aggregation Framework - Part 2                                                                                           |:o:               |
 | 25.3         | [:notebook: **PROJECT** - _Aggregations_][25.3]                                                                          |:heavy_check_mark:|
+| **Block 26** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
+| 26.1         | Node.js - Introduction                                                                                                   |:o:               |
+| 26.2         | Node.js - Asynchronous Stream                                                                                            |:o:               |
+| 26.3         | Tests with NodeJS                                                                                                        |:o:               |
+| 26.4         | Express: HTTP with Node.js                                                                                               |:o:               |
+| 26.5         | Practicing Express                                                                                                       |:o:               |
+| 26.6         | [:notebook: **PROJECT** - _Talker Manager_][26.6]                                                                        |:heavy_check_mark:|
 
 
 
@@ -237,3 +244,4 @@ Here you will see all of my development during the course, with exercises and pr
 [23.3]: https://github.com/tryber/sd-09-mongodb-dataflights/pull/5
 [24.4]: https://github.com/tryber/sd-09-mongodb-commerce/pull/18
 [25.3]: https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
+[26.6]: https://github.com/tryber/sd-09-project-talker-manager/pull/5
