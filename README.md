@@ -98,7 +98,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 14.2         | [:notebook: **PROJECT** - _Frontend Online Store_][14.2]                                                                 |:white_check_mark:|
 | **Block 15** | **Automated testing with React Testing Library**                                                                         | **Completed**    |
 | 15.1         | [RTL - Getting Started][15.1]                                                                                            |:heavy_check_mark:|
-| 15.2         | RTL - Mocks and Inputs                                                                                                   |:o:               |
+| 15.2         | [RTL - Mocks and Inputs][15.2]                                                                                           |:heavy_check_mark:|
 | 15.3         | RTL - Testing React Router                                                                                               |:o:               |
 | 15.4         | [:notebook: **PROJECT** - _Tests in React_][15.4]                                                                        |:heavy_check_mark:|
 | **Block 16** | **State management with Redux**                                                                                          | **Completed**    |
@@ -221,6 +221,7 @@ Here you will see all of my development during the course, with exercises and pr
 [13.3]: https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/33
 [14.2]: https://github.com/tryber/sd-09-project-frontend-online-store/pull/533
 [15.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_1/exercise-todo-list
+[15.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_2
 [15.4]: https://github.com/tryber/sd-09-project-react-testing-library/pull/24
 [16.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_1
 [16.6]: https://github.com/tryber/sd-09-project-trybewallet/pull/52
