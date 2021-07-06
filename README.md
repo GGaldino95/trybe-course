@@ -158,6 +158,12 @@ Here you will see all of my development during the course, with exercises and pr
 | 26.4         | Express: HTTP with Node.js                                                                                               |:o:               |
 | 26.5         | Practicing Express                                                                                                       |:o:               |
 | 26.6         | [:notebook: **PROJECT** - _Talker Manager_][26.6]                                                                        |:heavy_check_mark:|
+| **Block 27** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
+| 27.1         | Introduction - Software Architecture <br> Software Architecture - Model Layer                                            |:o:               |
+| 27.2         | Software Architecture - Controller and Service Layer                                                                     |:o:               |
+| 27.3         | [Web Architecture - Rest and Restful][27.3]                                                                              |:heavy_check_mark:|
+| 27.4         | Software Architecture - Testing the Layers                                                                               |:o:               |
+| 27.5         | :notebook: **PROJECT** - _Store Manager_                                                                                 |                  |
 
 
 
@@ -250,3 +256,4 @@ Here you will see all of my development during the course, with exercises and pr
 [24.4]: https://github.com/tryber/sd-09-mongodb-commerce/pull/18
 [25.3]: https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
 [26.6]: https://github.com/tryber/sd-09-project-talker-manager/pull/5
+[27.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_3
