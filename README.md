@@ -163,7 +163,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 27.2         | Software Architecture - Controller and Service Layer                                                                     |:o:               |
 | 27.3         | [Web Architecture - Rest and Restful][27.3]                                                                              |:heavy_check_mark:|
 | 27.4         | Software Architecture - Testing the Layers                                                                               |:o:               |
-| 27.5         | :notebook: **PROJECT** - _Store Manager_                                                                                 |                  |
+| 27.5         | [:notebook: **PROJECT** - _Store Manager_][27.5]                                                                         |:white_check_mark:|
 
 
 
@@ -258,3 +258,4 @@ Here you will see all of my development during the course, with exercises and pr
 [25.3]: https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
 [26.6]: https://github.com/tryber/sd-09-project-talker-manager/pull/5
 [27.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_3
+[27.5]: https://github.com/tryber/sd-09-store-manager/pull/4
