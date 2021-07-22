@@ -158,12 +158,21 @@ Here you will see all of my development during the course, with exercises and pr
 | 26.4         | Express: HTTP with Node.js                                                                                               |:o:               |
 | 26.5         | Practicing Express                                                                                                       |:o:               |
 | 26.6         | [:notebook: **PROJECT** - _Talker Manager_][26.6]                                                                        |:heavy_check_mark:|
-| **Block 27** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
+| **Block 27** | **NodeJS: Rest and Restful Architecture and Service Layer**                                                              | **Completed**    |
 | 27.1         | Introduction - Software Architecture <br> Software Architecture - Model Layer                                            |:o:               |
 | 27.2         | Software Architecture - Controller and Service Layer                                                                     |:o:               |
 | 27.3         | [Web Architecture - Rest and Restful][27.3]                                                                              |:heavy_check_mark:|
 | 27.4         | Software Architecture - Testing the Layers                                                                               |:o:               |
 | 27.5         | [:notebook: **PROJECT** - _Store Manager_][27.5]                                                                         |:white_check_mark:|
+| **Block 28** | **Authentication and File Upload**                                                                                       | **Completed**    |
+| 28.1         | NodeJS - JWT - (JSON Web Token)                                                                                          |:o:               |
+| 28.2         | NodeJS - Uploading files with `multer`                                                                                   |:o:               |
+| 28.3         | NodeJS - Testing APIs with Integration Tests                                                                             |:o:               |
+| 28.4         | [:notebook: **PROJECT** - _Cookmaster_][28.4]                                                                            |:white_check_mark:|
+| **Block 29** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
+| 29.1         | Introduction - Deploy <br> Infrastructure - Deploy with Heroku                                                           |:o:               |
+| 29.2         | Deploy - Process Managers                                                                                                |:o:               |
+| 29.3         | :notebook: **PROJECT** - _Stranger Things_ ([Back-end][29.3.1] / [Front-end][29.3.2])                                    |:heavy_check_mark:|
 
 
 
@@ -259,3 +268,6 @@ Here you will see all of my development during the course, with exercises and pr
 [26.6]: https://github.com/tryber/sd-09-project-talker-manager/pull/5
 [27.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_3
 [27.5]: https://github.com/tryber/sd-09-store-manager/pull/4
+[28.4]: https://github.com/tryber/sd-09-cookmaster-v2/pull/4
+[29.3.1]: https://github.com/tryber/sd-09-stranger-things-backend/pull/15
+[29.3.2]: https://github.com/tryber/sd-09-stranger-things-frontend/pull/7
