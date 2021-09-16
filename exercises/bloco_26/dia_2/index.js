@@ -130,3 +130,71 @@ const arrayToFile = () => {
 
   await fs.writeFile('./fileAll.txt', newFileContent);
 };
+
+// Exercicios BONUS 01
+const readline = require('readline');
+
+const question = (message) => {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  return new Promise((resolve) => {
+    rl.question(message, (answer) => {
+      rl.close();
+      resolve(answer);
+    });
+  });
+};
+
+const start = async () => {
+  const fileName = await question('Digite o caminho do arquivo que deseja ler: ');
+
+  try {
+    const fileContent = await readFile(fileName, 'utf-8');
+    console.log(fileContent);
+  } catch (err) {
+    console.log('Arquivo inexistente');
+  }
+};
+start();
+
+// Exercicios BONUS 02
+const question = (message) => {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  return new Promise((resolve) => {
+    rl.question(message, (answer) => {
+      rl.close();
+      resolve(answer);
+    });
+  });
+};
+
+const start = async () => {
+  const fileName = await question('Arquivo a ser lido: ');
+
+  const originalContent = await fs.readFile(fileName, 'utf-8')
+    .catch(err => {
+      console.error(`Erro ao ler o arquivo: ${err}`);
+      return false;
+    });
+
+  if (!originalContent) return;
+
+  const oldWord = await question('Qual palavra deseja substituir? ');
+  const newWord = await question('E qual palavra deve ficar em seu lugar? ');
+
+  const newContent = originalContent.replace(new RegExp(oldWord, 'g'), newWord);
+
+  console.log('Resultado da substituição: ');
+  console.log(newContent);
+
+  const destinationPath = await question('Onde deseja salvar o resultado? ');
+  await fs.writeFile(destinationPath, newContent);
+};
+start();
