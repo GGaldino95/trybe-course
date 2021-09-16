@@ -10,6 +10,7 @@ Here you will see all of my development during the course, with exercises and pr
  - [Module 1 - Fundamentals of Web Development](#module1)
  - [Module 2 - Front-end Web Development](#module2)
  - [Module 3 - Back-end Web Development](#module3)
+ - [Module 4 - Computer Science](#module4)
 <br>
 
 ### This is my progress so far:
@@ -144,16 +145,16 @@ Here you will see all of my development during the course, with exercises and pr
 | 23.3         | [:notebook: **PROJECT** - _Data Flights_][23.3]                                                                          |:heavy_check_mark:|
 | **Block 24** | **MongoDB: Simple and Complex Updates**                                                                                  | **Completed**    |
 | 24.1         | [Simple Updates][24.1]                                                                                                   |:heavy_check_mark:|
-| 24.2         | Complex Updates - Arrays - Part 1                                                                                        |:o:               |
-| 24.3         | Complex Updates - Arrays - Part 2                                                                                        |:o:               |
+| 24.2         | [Complex Updates - Arrays - Part 1][24.2]                                                                                |:heavy_check_mark:|
+| 24.3         | [Complex Updates - Arrays - Part 2][24.3]                                                                                |:heavy_check_mark:|
 | 24.4         | [:notebook: **PROJECT** - _Commerce_][24.4]                                                                              |:heavy_check_mark:|
 | **Block 25** | **MongoDB: Aggregation Framework**                                                                                       | **Completed**    |
-| 25.1         | Aggregation Framework - Part 1                                                                                           |:o:               |
-| 25.2         | Aggregation Framework - Part 2                                                                                           |:o:               |
+| 25.1         | [Aggregation Framework - Part 1][25.1]                                                                                   |:heavy_check_mark:|
+| 25.2         | [Aggregation Framework - Part 2][25.2]                                                                                   |:heavy_check_mark:|
 | 25.3         | [:notebook: **PROJECT** - _Aggregations_][25.3]                                                                          |:heavy_check_mark:|
 | **Block 26** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
-| 26.1         | Node.js - Introduction                                                                                                   |:o:               |
-| 26.2         | Node.js - Asynchronous Stream                                                                                            |:o:               |
+| 26.1         | [Node.js - Introduction][26.1]                                                                                           |:heavy_check_mark:|
+| 26.2         | [Node.js - Asynchronous Stream][26.2]                                                                                    |:heavy_check_mark:|
 | 26.3         | Tests with NodeJS                                                                                                        |:o:               |
 | 26.4         | Express: HTTP with Node.js                                                                                               |:o:               |
 | 26.5         | Practicing Express                                                                                                       |:o:               |
@@ -185,6 +186,14 @@ Here you will see all of my development during the course, with exercises and pr
 | 31.4         | Sockets - Practicing Socket.io                                                                                           |:o:               |
 | 31.5         | [:notebook: **PROJECT** - _Webchat_][31.5]                                                                               |:heavy_check_mark:|
 
+## Module 4 - Computer Science <a id="module4"></a>
+
+| Block 33     | Introduction to Python                                                                                                   | Completed        |
+|:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| 33.1         | Introduction - Computer Science <br> Learning Python                                                                     |:o:               |
+| 33.2         | Data Input and Output                                                                                                    |:o:               |
+| 33.3         | Tests                                                                                                                    |:o:               |
+| 33.4         | :notebook: **PROJECT** - _Job Insights_                                                                                  |:o:               |
 
 
 **... and more to come!**
@@ -274,8 +283,14 @@ Here you will see all of my development during the course, with exercises and pr
 [23.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_23/dia_2
 [23.3]: https://github.com/tryber/sd-09-mongodb-dataflights/pull/5
 [24.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_1
+[24.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_2
+[24.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_3
 [24.4]: https://github.com/tryber/sd-09-mongodb-commerce/pull/18
+[25.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_25/dia_1
+[25.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_25/dia_2
 [25.3]: https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
+[26.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_1
+[26.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_2
 [26.6]: https://github.com/tryber/sd-09-project-talker-manager/pull/5
 [27.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_3
 [27.5]: https://github.com/tryber/sd-09-store-manager/pull/4
