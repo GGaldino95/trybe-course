@@ -113,7 +113,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 17.1         | [:notebook: **PROJECT** - _Trivia Game_][17.1]                                                                           |:white_check_mark:|
 | **Block 18** | **Context API and React Hooks**                                                                                          | **Completed**    |
 | 18.1         | [React Context API][18.1]                                                                                                |:heavy_check_mark:|
-| 18.2         | React Hooks - useState and useContext                                                                                    |:o:               |
+| 18.2         | [React Hooks - useState and useContext][18.2]                                                                            |:heavy_check_mark:|
 | 18.3         | React Hooks - useEffect and custom Hooks                                                                                 |:o:               |
 | 18.4         | Using Redux in React - Asynchronous Actions                                                                              |:o:               |
 | 18.5         | [:notebook: **PROJECT** - _Datatable StarWars with Context API and Hooks_][18.5]                                         |:white_check_mark:|
@@ -276,6 +276,7 @@ Here you will see all of my development during the course, with exercises and pr
 [16.6]: https://github.com/tryber/sd-09-project-trybewallet/pull/52
 [17.1]: https://github.com/tryber/sd-09-project-trivia-react-redux/pull/44
 [18.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_1
+[18.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_2
 [18.5]: https://github.com/tryber/sd-09-project-starwars-planets-search/pull/30
 [19.1]: https://github.com/tryber/sd-09-project-recipes-app/pull/111
 [20.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_2
