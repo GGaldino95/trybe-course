@@ -115,7 +115,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 18.1         | [React Context API][18.1]                                                                                                |:heavy_check_mark:|
 | 18.2         | [React Hooks - useState and useContext][18.2]                                                                            |:heavy_check_mark:|
 | 18.3         | [React Hooks - useEffect and custom Hooks][18.3]                                                                         |:heavy_check_mark:|
-| 18.4         | [:notebook: **PROJECT** - _Datatable StarWars with Context API and Hooks_][18.5]                                         |:white_check_mark:|
+| 18.4         | [:notebook: **PROJECT** - _Datatable StarWars with Context API and Hooks_][18.4]                                         |:white_check_mark:|
 | **Block 19** | **Recipe App Project**                                                                                                   | **Completed**    |
 | 19.1         | [:notebook: **PROJECT** - _Recipe App_][19.1]                                                                            |:white_check_mark:|
 
