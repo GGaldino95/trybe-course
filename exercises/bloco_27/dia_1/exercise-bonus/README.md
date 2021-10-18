@@ -1,4 +1,4 @@
-### Bloco 27, Dia 1 -> Testes com Node.js
+### Bloco 27, Dia 1 -> Arquitetura de Software - Camada de Model
 
 _**Exercícios 27.1 - Parte BONUS**_
 
