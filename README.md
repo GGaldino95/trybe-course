@@ -193,7 +193,17 @@ Here you will see all of my development during the course, with exercises and pr
 | 33.1         | Introduction - Computer Science <br> Learning Python                                                                     |:o:               |
 | 33.2         | Data Input and Output                                                                                                    |:o:               |
 | 33.3         | Tests                                                                                                                    |:o:               |
-| 33.4         | :notebook: **PROJECT** - _Job Insights_                                                                                  |:o:               |
+| 33.4         | [:notebook: **PROJECT** - _Job Insights_][33.4]                                                                          |:white_check_mark:|
+| **Block 34** | **Object-Oriented Programming and Design Patterns**                                                                      | **Completed**    |
+| 34.1         | Introduction to Object-Oriented Programming (OOP)                                                                        |:o:               |
+| 34.2         | Inheritance, Composition and Interfaces                                                                                  |:o:               |
+| 34.3         | Design Patterns                                                                                                          |:o:               |
+| 31.5         | [:notebook: **PROJECT** - _Inventory Reports_][34.4]                                                                     |:white_check_mark:|
+| **Block 35** | **Networks and Data Scraping**                                                                                           | **Completed**    |
+| 35.1         | Network Architecture                                                                                                     |:o:               |
+| 35.2         | Computer Networks, Tools and Security                                                                                    |:o:               |
+| 35.3         | Data Scraping                                                                                                            |:o:               |
+| 35.5         | [:notebook: **PROJECT** - _Tech News_][35.4]                                                                             |:white_check_mark:|
 
 
 **... and more to come!**
@@ -302,3 +312,6 @@ Here you will see all of my development during the course, with exercises and pr
 [29.3.2]: https://github.com/tryber/sd-09-stranger-things-frontend/pull/7
 [30.4]: https://github.com/tryber/sd-09-project-blogs-api/pull/3
 [31.5]: https://github.com/tryber/sd-09-project-webchat/pull/7
+[33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
+[34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
+[35.4]: https://github.com/tryber/sd-09-tech-news/pull/20
