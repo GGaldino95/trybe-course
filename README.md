@@ -107,7 +107,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 16.2         | [Using Redux in React][16.2]                                                                                             |:heavy_check_mark:|
 | 16.3         | [Using Redux in React - Practice][16.3]                                                                                  |:heavy_check_mark:|
 | 16.4         | [Using Redux in React - Asynchronous Actions][16.4]                                                                      |:heavy_check_mark:|
-| 16.5         | Tests in React-Redux                                                                                                     |:o:               |
+| 16.5         | <s>Tests in React-Redux</s>                                                                                              |:x:               |
 | 16.6         | [:notebook: **PROJECT** - _Trybe Wallet_][16.6]                                                                          |:white_check_mark:|
 | **Block 17** | **Trivia Game Project**                                                                                                  | **Completed**    |
 | 17.1         | [:notebook: **PROJECT** - _Trivia Game_][17.1]                                                                           |:white_check_mark:|
