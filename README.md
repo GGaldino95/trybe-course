@@ -184,6 +184,8 @@ Here you will see all of my development during the course, with exercises and pr
 | 31.3         | Sockets - Socket.io                                                                                                      |:o:               |
 | 31.4         | Sockets - Practicing Socket.io                                                                                           |:o:               |
 | 31.5         | [:notebook: **PROJECT** - _Webchat_][31.5]                                                                               |:heavy_check_mark:|
+| **Block 32** | **Project - Delivery App**                                                                                               | **Completed**    |
+| <s>32.1</s>  | <s>:notebook: **PROJECT** - _Delivery App_</s>                                                                           |                  |
 
 ## Module 4 - Computer Science <a id="module4"></a>
 
@@ -197,12 +199,28 @@ Here you will see all of my development during the course, with exercises and pr
 | 34.1         | Introduction to Object-Oriented Programming (OOP)                                                                        |:o:               |
 | 34.2         | Inheritance, Composition and Interfaces                                                                                  |:o:               |
 | 34.3         | Design Patterns                                                                                                          |:o:               |
-| 31.5         | [:notebook: **PROJECT** - _Inventory Reports_][34.4]                                                                     |:white_check_mark:|
+| 34.4         | [:notebook: **PROJECT** - _Inventory Reports_][34.4]                                                                     |:white_check_mark:|
 | **Block 35** | **Networks and Data Scraping**                                                                                           | **Completed**    |
 | 35.1         | Network Architecture                                                                                                     |:o:               |
 | 35.2         | Computer Networks, Tools and Security                                                                                    |:o:               |
 | 35.3         | Data Scraping                                                                                                            |:o:               |
-| 35.5         | [:notebook: **PROJECT** - _Tech News_][35.4]                                                                             |:white_check_mark:|
+| 35.4         | [:notebook: **PROJECT** - _Tech News_][35.4]                                                                             |:white_check_mark:|
+| **Block 36** | **Algorithms**                                                                                                           | **Completed**    |
+| 36.1         | Algorithm Complexity                                                                                                     |:o:               |
+| 36.2         | Recursiveness and Problem Solving Strategies                                                                             |:o:               |
+| 36.3         | Sorting and Search Algorithms                                                                                            |:o:               |
+| 36.4         | [:notebook: **PROJECT** - _Algorithms_][36.4]                                                                            |:heavy_check_mark:|
+| **Block 37** | **Data Structure I: Arrays, Hashmaps and Sets**                                                                          | **Completed**    |
+| 37.1         | Computer Architecture                                                                                                    |:o:               |
+| 37.2         | Arrays                                                                                                                   |:o:               |
+| 37.3         | Hashmap and Dict                                                                                                         |:o:               |
+| 37.4         | Set                                                                                                                      |:o:               |
+| 37.5         | [:notebook: **PROJECT** - _Restaurant Orders_][37.5]                                                                     |:white_check_mark:|
+| **Block 38** | **Data Structure II: Lists, Queues and Stacks**                                                                          | **Completed**    |
+| 39.1         | Node and Linked Lists                                                                                                    |:o:               |
+| 39.2         | Deck                                                                                                                     |:o:               |
+| 38.3         | Stacks                                                                                                                   |:o:               |
+| 38.4         | [:notebook: **PROJECT** - _Trybe Is Not Google (TING)_][38.4]                                                            |:heavy_check_mark:|
 
 
 **... and more to come!**
@@ -318,3 +336,6 @@ Here you will see all of my development during the course, with exercises and pr
 [33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
 [34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
 [35.4]: https://github.com/tryber/sd-09-tech-news/pull/20
+[36.4]: https://github.com/tryber/sd-09-project-algorithms/pull/23
+[37.5]: https://github.com/tryber/sd-09-restaurant-orders/pull/13
+[38.4]: https://github.com/tryber/sd-09-project-ting/pull/4
