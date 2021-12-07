@@ -3,31 +3,29 @@ const Cep = require('../models/Cep');
 const CEP_REGEX = /\d{5}-?\d{3}/;
 
 const findAddressByCep = async (searchedCep) => {
-  // Valida o CEP e em caso dele ser falso, retorna uma erro
-  if (!CEP_REGEX.test(cep)) {
-    return {
-      error: {
-        code: 'invalidData',
-        message: 'CEP inválido',
-      }
-    }
-  }
-
-  // Buscamos o CEP através do Model
+  // Começamos buscando o CEP no banco de dados
   const cep = await Cep.findAddressByCep(searchedCep);
 
-  // Caso não econtre nenhum CEP, o service retorna um objeto de erro.
-  if (!cep) {
+  // Caso encontremos, retornamos sem consultar a API
+  if (cep) {
+    return cep;
+  }
+
+  // Caso o CEP não exista no banco de dados, buscamos na API
+  const cepFromApi = await ViaCep.lookupCep(searchedCep);
+
+  // Caso o CEP não exista na API, retornamos um erro dizendo que o CEP não foi encontrado
+  if (!cepFromApi) {
     return {
       error: {
         code: 'notFound',
-        message: 'CEP não encontrado'
+        message: 'CEP não encontrado',
       },
     };
   }
 
-  // Por fim, retornamos o CEP correto
-  return cep;
+  // Caso o CEP exista na API, pedimos ao model que armazene-o no banco e retornamos o resultado
+  return Cep.create(cepFromApi);
 };
 
 const create = async ({ cep, logradouro, bairro, localidade, uf }) => {
