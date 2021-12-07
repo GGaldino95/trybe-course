@@ -167,7 +167,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 28** | **Authentication and File Upload**                                                                                       | **Completed**    |
 | 28.1         | [NodeJS - JWT - (JSON Web Token)][28.1]                                                                                  |:heavy_check_mark:|
 | 28.2         | [NodeJS - Uploading files with `multer`][28.2]                                                                           |:heavy_check_mark:|
-| 28.3         | NodeJS - Testing APIs with Integration Tests                                                                             |:o:               |
+| 28.3         | [NodeJS - Testing APIs with Integration Tests][28.3]                                                                     |:heavy_check_mark:|
 | 28.4         | [:notebook: **PROJECT** - _Cookmaster_][28.4]                                                                            |:white_check_mark:|
 | **Block 29** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
 | 29.1         | Introduction - Deploy <br> Infrastructure - Deploy with Heroku                                                           |:o:               |
@@ -332,6 +332,7 @@ Here you will see all of my development during the course, with exercises and pr
 [27.5]: https://github.com/tryber/sd-09-store-manager/pull/4
 [28.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_28/dia_1
 [28.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_28/dia_2
+[28.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_28/dia_3
 [28.4]: https://github.com/tryber/sd-09-cookmaster-v2/pull/4
 [29.3.1]: https://github.com/tryber/sd-09-stranger-things-backend/pull/15
 [29.3.2]: https://github.com/tryber/sd-09-stranger-things-frontend/pull/7
