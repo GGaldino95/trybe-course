@@ -25,6 +25,12 @@ app.post('/login', controllers.login);
 
 app.get('/users/me', middlewares.auth, controllers.me);
 
+app.get('/top-secret',
+  middlewares.auth, // Middleware que valida o JWT e cria `req.user`
+  middlewares.admin, // Middleware que verifica se a pessoa autenticada é admin
+  controllers.topSecret // Controller do endpoint
+);
+
 // app.use(middlewares.error);
 
 app.listen(PORT, () => {
