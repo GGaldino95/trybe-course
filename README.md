@@ -170,7 +170,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 28.3         | [NodeJS - Testing APIs with Integration Tests][28.3]                                                                     |:heavy_check_mark:|
 | 28.4         | [:notebook: **PROJECT** - _Cookmaster_][28.4]                                                                            |:white_check_mark:|
 | **Block 29** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
-| 29.1         | Introduction - Deploy <br> Infrastructure - Deploy with Heroku                                                           |:o:               |
+| 29.1         | Introduction - Deploy <br> [Infrastructure - Deploy with Heroku][29.1]                                                   |:heavy_check_mark:|
 | 29.2         | Deploy - Process Managers                                                                                                |:o:               |
 | 29.3         | :notebook: **PROJECT** - _Stranger Things_ ([Back-end][29.3.1] / [Front-end][29.3.2])                                    |:heavy_check_mark:|
 | **Block 30** | **Architecture: SOLID and ORM**                                                                                          | **Completed**    |
