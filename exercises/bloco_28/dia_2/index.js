@@ -33,6 +33,8 @@ app.get('/ping', controllers.ping);
 
 app.post('/upload', upload.single('file'), controllers.upload);
 
+app.use(express.static(`${__dirname}/uploads`));
+
 app.use(middlewares.error);
 
 app.listen(PORT, () => {
