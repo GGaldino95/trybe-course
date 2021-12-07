@@ -160,7 +160,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 26.6         | [:notebook: **PROJECT** - _Talker Manager_][26.6]                                                                        |:heavy_check_mark:|
 | **Block 27** | **NodeJS: Rest and Restful Architecture and Service Layer**                                                              | **Completed**    |
 | 27.1         | Introduction - Software Architecture <br> [Software Architecture - Model Layer][27.1]                                    |:heavy_check_mark:|
-| 27.2         | Software Architecture - Controller and Service Layer                                                                     |:o:               |
+| 27.2         | [Software Architecture - Controller and Service Layer][27.2]                                                             |:heavy_check_mark:|
 | 27.3         | [Web Architecture - Rest and Restful][27.3]                                                                              |:heavy_check_mark:|
 | 27.4         | Software Architecture - Testing the Layers                                                                               |:o:               |
 | 27.5         | [:notebook: **PROJECT** - _Store Manager_][27.5]                                                                         |:white_check_mark:|
@@ -326,6 +326,7 @@ Here you will see all of my development during the course, with exercises and pr
 [26.5]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_5
 [26.6]: https://github.com/tryber/sd-09-project-talker-manager/pull/5
 [27.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_1
+[27.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_2
 [27.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_3
 [27.5]: https://github.com/tryber/sd-09-store-manager/pull/4
 [28.4]: https://github.com/tryber/sd-09-cookmaster-v2/pull/4
