@@ -31,6 +31,8 @@ app.get('/top-secret',
   controllers.topSecret // Controller do endpoint
 );
 
+app.post('/signup', controllers.signup);
+
 // app.use(middlewares.error);
 
 app.listen(PORT, () => {
