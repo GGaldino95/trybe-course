@@ -7,6 +7,21 @@ const getAll = async (_req, res) => {
   res.status(200).json(movies);
 };
 
+const findById = async (req, res) => {
+  const { id } = req.params;
+
+  const movie = await MovieService
+    .findById(id);
+
+  if (!movie) {
+    return res.status(404)
+      .send('Filme não encontrado.');
+  }
+
+  res.status(200)
+    .json(movie);
+};
+
 const create = async (req, res) => {
   const { title, directedBy, releaseYear } = req.body;
 
@@ -24,5 +39,6 @@ const create = async (req, res) => {
 
 module.exports = {
   getAll,
+  findById,
   create,
 };
