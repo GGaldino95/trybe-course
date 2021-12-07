@@ -1,4 +1,5 @@
 const chai = require('chai');
+const sinon = require('sinon');
 
 const chaiHttp = require('chai-http');
 chai.use(chaiHttp);
@@ -6,6 +7,9 @@ chai.use(chaiHttp);
 const { expect } = chai;
 
 const server = require('../api/server');
+
+const { MongoClient } = require('mongodb');
+const { MongoMemoryServer } = require('mongodb-memory-server');
 
 const EXAMPLE_ID = '605de6ded1ff223100cd6aa1'
 
@@ -37,7 +41,6 @@ describe('GET /api/users/:userId', () => {
       expect(response.body.error).to.be.equal('Token não encontrado ou informado');
     });
   });
-
 
   describe('Quando o usuário solicita informações de outro usuário', () => {
     let response;
@@ -98,6 +101,55 @@ describe('GET /api/users/:userId', () => {
 
     it('a propriedade "error" possui a mensagem "Acesso negado"', () => {
       expect(response.body.error).to.be.equal('Acesso negado');
+    });
+  });
+
+  describe('Quando a pessoa usuária é encontrada com sucesso', () => {
+    let response;
+    const DBServer = new MongoMemoryServer();
+
+    before(async () => {
+      const connectionMock = await DBServer.getUri()
+        .then(URLMock => MongoClient.connect(
+          URLMock,
+          { useNewUrlParser: true, useUnifiedTopology: true }
+        ));
+
+      sinon.stub(MongoClient, 'connect')
+        .resolves(connectionMock);
+
+      connectionMock.db('jwt_exercise')
+        .collection('users')
+        .insertOne({
+          _id: EXAMPLE_ID,
+          username: 'fake-user',
+          password: 'fake-password'
+        })
+
+      const token = await chai.request(server)
+        .post('/api/login')
+        .send({
+          username: 'fake-user',
+          password: 'fake-password'
+        })
+        .then((res) => res.body.token);
+
+      response = await chai.request(server)
+        .get(`/api/users/${EXAMPLE_ID}`)
+        .set('authorization', token);
+    });
+
+    after(async () => {
+      MongoClient.connect.restore();
+      await DBServer.stop();
+    });
+
+    it('retorna código de status "200"', () => {
+      expect(response).to.have.status(200);
+    });
+
+    it('retorna um objeto no body', () => {
+      expect(response.body).to.be.an('object');
     });
   });
 });
