@@ -15,6 +15,9 @@ app.get('/ping', (req, res) => {
 // Registramos o endpoint `GET /cep/:cep`
 app.get('/cep/:cep', Cep.findAddressByCep);
 
+// Registramos o endpoint `POST /cep`
+app.post('/cep', Cep.create);
+
 // Registramos o middleware de erro
 app.use(errorMiddleware);
 
