@@ -334,6 +334,7 @@ Here you will see all of my development during the course, with exercises and pr
 [28.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_28/dia_2
 [28.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_28/dia_3
 [28.4]: https://github.com/tryber/sd-09-cookmaster-v2/pull/4
+[29.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_29/dia_1
 [29.3.1]: https://github.com/tryber/sd-09-stranger-things-backend/pull/15
 [29.3.2]: https://github.com/tryber/sd-09-stranger-things-frontend/pull/7
 [30.4]: https://github.com/tryber/sd-09-project-blogs-api/pull/3
