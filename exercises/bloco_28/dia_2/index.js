@@ -22,16 +22,28 @@ app.use(
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// multer
 const storage = multer.diskStorage({
   destination: (req, file, callback) => { callback(null, 'uploads'); },
   filename: (req, file, callback) => { callback(null, `${Date.now()}-${file.originalname}`); },
 });
-
 const upload = multer({ storage });
 
+const defaultStorage = multer.diskStorage({
+  destination: (req, file, callback) => { callback(null, 'uploads'); },
+});
+const multiUpload = multer({ storage: defaultStorage });
+
+// endpoints
 app.get('/ping', controllers.ping);
 
 app.post('/upload', upload.single('file'), controllers.upload);
+
+app.post('/multiple', multiUpload.array('files'), controllers.multiple);
+
+app.post('/profile', multer({ dest: 'profilePics' }).single('profilePic'), controllers.profile);
+
+app.get('/profiles/:id', controllers.getProfile);
 
 app.use(express.static(`${__dirname}/uploads`));
 
