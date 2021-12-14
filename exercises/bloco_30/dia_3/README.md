@@ -1,5 +1,7 @@
 ### Bloco 30, Dia 3 -> ORM - Associations
 
+Repositorio base: https://github.com/tryber/exercise-sequelize-associations
+
 Nesse exercício vamos criar uma _API_ que será responsável pela gestão de um sistema de saúde. Nesse sistema terão pacientes, cada um com seu plano. Cada paciente pode ter realizado várias cirurgias, que por sua vez, devem ser listadas e categorizadas. O diagrama abaixo demonstra como o banco de dados se comportará:
 
 ![Diagrama](images/diagrama.png)
