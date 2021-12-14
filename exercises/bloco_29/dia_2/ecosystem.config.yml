@@ -5,3 +5,7 @@ apps:
     instances: max
     watch: true
     max_memory_restart: 100M
+    env_prod:
+      ENVIRONMENT: PRODUCTION
+    env_homolog:
+      ENVIRONMENT: HOMOLOG
