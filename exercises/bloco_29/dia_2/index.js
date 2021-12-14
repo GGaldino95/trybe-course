@@ -23,6 +23,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/ping', controllers.ping);
 
+// Bonus: Exercise 05
+app.get('/break', (req, res) => {
+  res.send('Quebrando...');
+
+  process.exit(1);
+});
+
 app.use(middlewares.error);
 
 app.listen(PORT, () => {
