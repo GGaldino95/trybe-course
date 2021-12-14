@@ -1,0 +1,16 @@
+{
+  "name": "dia_1",
+  "version": "1.0.0",
+  "description": "Vamos seguir a linha de refatoração neste exercício também! O exercício será em dupla. Junte-se com a sua e mande ver! Vamos começar criando uma aplicação pequena e aplicando os princípios de **_SOLID_** nela para que possamos transformar esse módulo em uma _API_;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1"
+  }
+}
