@@ -176,7 +176,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 30** | **Architecture: SOLID and ORM**                                                                                          | **Completed**    |
 | 30.1         | [Architecture - SOLID Principles][30.1]                                                                                  |:white_check_mark:|
 | 30.2         | [ORM - Application interface with the database][30.2]                                                                    |:white_check_mark:|
-| 30.3         | ORM - Associations                                                                                                       |:o:               |
+| 30.3         | [ORM - Associations][30.3]                                                                                               |:white_check_mark:|
 | 30.4         | [:notebook: **PROJECT** - _Blogs API_][30.4]                                                                             |:white_check_mark:|
 | **Block 31** | **Sockets**                                                                                                              | **Completed**    |
 | 31.1         | Software Architecture - View Layer                                                                                       |:o:               |
@@ -340,6 +340,7 @@ Here you will see all of my development during the course, with exercises and pr
 [29.3.2]: https://github.com/tryber/sd-09-stranger-things-frontend/pull/7
 [30.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_1
 [30.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_2
+[30.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_3
 [30.4]: https://github.com/tryber/sd-09-project-blogs-api/pull/3
 [31.5]: https://github.com/tryber/sd-09-project-webchat/pull/7
 [33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
