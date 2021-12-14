@@ -1,0 +1,29 @@
+Crie UM processo no PM2 utilizando o CLI:
+
+ pm2 start index.js --name <NOME_DO_PROCESSO>
+
+
+Restart e recarregue o processo utilizando o CLI do PM2 (lembre-se que há comandos distintos para cada um):
+
+ pm2 restart <NOME_DO_PROCESSO>
+ pm2 reload <NOME_DO_PROCESSO>
+
+
+Pare o processo:
+
+ pm2 stop <NOME_DO_PROCESSO>
+
+
+(Bônus) - Escalone para mais 5 processos:
+
+ pm2 scale <NOME_DO_PROCESSO> +5
+
+
+(Bônus) - Defina para 3 a quantidade de processos:
+
+ pm2 scale <NOME_DO_PROCESSO> 3
+
+
+Remova o processo da listagem do PM2:
+
+ pm2 delete <NOME_DO_PROCESSO>
