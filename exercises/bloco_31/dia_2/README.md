@@ -67,7 +67,7 @@ Dito isso, vamos agora a um outro terminal executar o cliente, e então veremos 
 
 <br>
 
-_**Exercícios 31.1 - Parte I**_
+_**Exercícios 31.2 - Parte I**_
 
 Utilize o pacote `NET` para ver, na prática, como é trafegar dados via _sockets_ pelo **_Node.js_**!
 Como vocês viram nos exemplos do course, a conexão nunca fica ligada por muito tempo, pois assim que recebemos e respondemos, a conexão é desligada. Por esse motivo, experimentem remover a resposta do servidor e veja quanto tempo a conexão fica ligada!
