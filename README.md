@@ -181,7 +181,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 31** | **Sockets**                                                                                                              | **Completed**    |
 | 31.1         | [Software Architecture - View Layer][31.1]                                                                               |:heavy_check_mark:|
 | 31.2         | [Sockets - TCP/UDP & NET][31.2]                                                                                          |:heavy_check_mark:|
-| 31.3         | Sockets - Socket.io                                                                                                      |:o:               |
+| 31.3         | [Sockets - Socket.io][31.3]                                                                                              |:heavy_check_mark:|
 | 31.4         | Sockets - Practicing Socket.io                                                                                           |:o:               |
 | 31.5         | [:notebook: **PROJECT** - _Webchat_][31.5]                                                                               |:heavy_check_mark:|
 | **Block 32** | **Project - Delivery App**                                                                                               | **Completed**    |
@@ -344,6 +344,7 @@ Here you will see all of my development during the course, with exercises and pr
 [30.4]: https://github.com/tryber/sd-09-project-blogs-api/pull/3
 [31.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_1
 [31.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_2
+[31.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_3
 [31.5]: https://github.com/tryber/sd-09-project-webchat/pull/7
 [33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
 [34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
