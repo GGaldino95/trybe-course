@@ -179,7 +179,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 30.3         | [ORM - Associations][30.3]                                                                                               |:white_check_mark:|
 | 30.4         | [:notebook: **PROJECT** - _Blogs API_][30.4]                                                                             |:white_check_mark:|
 | **Block 31** | **Sockets**                                                                                                              | **Completed**    |
-| 31.1         | Software Architecture - View Layer                                                                                       |:o:               |
+| 31.1         | [Software Architecture - View Layer][31.1]                                                                               |:heavy_check_mark:|
 | 31.2         | Sockets - TCP/UDP & NET                                                                                                  |:o:               |
 | 31.3         | Sockets - Socket.io                                                                                                      |:o:               |
 | 31.4         | Sockets - Practicing Socket.io                                                                                           |:o:               |
@@ -342,6 +342,7 @@ Here you will see all of my development during the course, with exercises and pr
 [30.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_2
 [30.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_3
 [30.4]: https://github.com/tryber/sd-09-project-blogs-api/pull/3
+[31.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_1
 [31.5]: https://github.com/tryber/sd-09-project-webchat/pull/7
 [33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
 [34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
