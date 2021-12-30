@@ -1,4 +1,4 @@
-### Bloco 31, Dia 1 -> Software Architecture - View Layer
+### Bloco 31, Dia 2 -> 	Sockets - TCP/UDP & NET
 
 Para iniciarmos, vamos criar um projeto **_Node_** em qualquer pasta com o seguinte comando:
 ```bash
