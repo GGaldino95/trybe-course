@@ -182,7 +182,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 31.1         | [Software Architecture - View Layer][31.1]                                                                               |:heavy_check_mark:|
 | 31.2         | [Sockets - TCP/UDP & NET][31.2]                                                                                          |:heavy_check_mark:|
 | 31.3         | [Sockets - Socket.io][31.3]                                                                                              |:white_check_mark:|
-| 31.4         | [Sockets - Practicing Socket.io][31.4]                                                                                   |:white_Check_mark:|
+| 31.4         | [Sockets - Practicing Socket.io][31.4]                                                                                   |:white_check_mark:|
 | 31.5         | [:notebook: **PROJECT** - _Webchat_][31.5]                                                                               |:heavy_check_mark:|
 | **Block 32** | **Project - Delivery App**                                                                                               | **Completed**    |
 | <s>32.1</s>  | <s>:notebook: **PROJECT** - _Delivery App_</s>                                                                           |                  |
