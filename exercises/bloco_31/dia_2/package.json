@@ -1,0 +1,12 @@
+{
+  "name": "dia_2",
+  "version": "1.0.0",
+  "description": "Para iniciarmos, vamos criar um projeto **_Node_** em qualquer pasta com o seguinte comando: ```bash   npm init -y ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
