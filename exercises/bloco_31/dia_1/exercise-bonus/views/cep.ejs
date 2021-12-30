@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CEP Lookup</title>
+  </head>
+
+  <body>
+    <form action="/" method="GET">
+      <label for="cep">CEP:</label>
+      <input id="cep" name="cep" type="text" />
+      <button type="submit">Consultar CEP</button>
+    </form>
+  </body>
+  <% if (cep) { %>
+    <div>
+      <p>UF: <%= cep.uf %>
+      </p>
+      <p>Cidade: <%= cep.cidade %>
+      </p>
+      <p>Bairro: <%= cep.bairro %>
+      </p>
+      <p>Logradouro: <%= cep.logradouro %>
+      </p>
+    </div>
+  <% } %>
+  <% if (message) { %>
+    <h1>
+      <%= message %>
+    </h1>
+  <% } %>
+</html>
