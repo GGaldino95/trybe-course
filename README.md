@@ -191,7 +191,7 @@ Here you will see all of my development during the course, with exercises and pr
 
 | Block 33     | Introduction to Python                                                                                                   | Completed        |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| 33.1         | Introduction - Computer Science <br> Learning Python                                                                     |:o:               |
+| 33.1         | Introduction - Computer Science <br> [Learning Python][33.1]                                                             |:heavy_check_mark:|
 | 33.2         | Data Input and Output                                                                                                    |:o:               |
 | 33.3         | Tests                                                                                                                    |:o:               |
 | 33.4         | [:notebook: **PROJECT** - _Job Insights_][33.4]                                                                          |:white_check_mark:|
@@ -347,6 +347,7 @@ Here you will see all of my development during the course, with exercises and pr
 [31.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_3
 [31.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_4
 [31.5]: https://github.com/tryber/sd-09-project-webchat/pull/7
+[33.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_1
 [33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
 [34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
 [35.4]: https://github.com/tryber/sd-09-tech-news/pull/20
