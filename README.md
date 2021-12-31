@@ -197,7 +197,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 33.4         | [:notebook: **PROJECT** - _Job Insights_][33.4]                                                                          |:white_check_mark:|
 | **Block 34** | **Object-Oriented Programming and Design Patterns**                                                                      | **Completed**    |
 | 34.1         | [Introduction to Object-Oriented Programming (OOP)][34.1]                                                                |:heavy_check_mark:|
-| 34.2         | Inheritance, Composition and Interfaces                                                                                  |:o:               |
+| 34.2         | [Inheritance, Composition and Interfaces][34.2]                                                                          |:heavy_check_mark:|
 | 34.3         | Design Patterns                                                                                                          |:o:               |
 | 34.4         | [:notebook: **PROJECT** - _Inventory Reports_][34.4]                                                                     |:white_check_mark:|
 | **Block 35** | **Networks and Data Scraping**                                                                                           | **Completed**    |
@@ -352,6 +352,7 @@ Here you will see all of my development during the course, with exercises and pr
 [33.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_3
 [33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
 [34.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_1
+[34.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_2
 [34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
 [35.4]: https://github.com/tryber/sd-09-tech-news/pull/20
 [36.4]: https://github.com/tryber/sd-09-project-algorithms/pull/23
