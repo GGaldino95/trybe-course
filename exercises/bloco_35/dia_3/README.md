@@ -14,6 +14,13 @@ Para realizar a extração de dados de um conteúdo web vamos utilizar uma bibli
 python3 -m pip install parsel
 ```
 
+Precisaremos de uma biblioteca para nos comunicarmos com o sistema de gerenciamento do banco de dados, e a mais popular e robusta é a `pymongo`. Podemos instalá-la com o comando:
+> Lembre-se que para testar o código abaixo você deve criar um ambiente virtual e instalar o pymongo com:
+```
+python3 -m venv .venv && source .venv/bin/activate
+python3 -m pip install pymongo
+```
+
 _**Exercícios 34.3 - Parte I**_
 
  - Faça uma requisição ao site https://httpbin.org/encoding/utf8 e exiba seu conteúdo de forma legível;
