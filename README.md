@@ -13,7 +13,7 @@ Here you will see all of my development during the course, with exercises and pr
  - [Module 4 - Computer Science](#module4)
 <br>
 
-### This is my progress so far:
+### This is my progress so far:https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_3
 
 
 ## Module 1 - Fundamentals of Web Development <a id="module1"></a>
@@ -198,7 +198,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 34** | **Object-Oriented Programming and Design Patterns**                                                                      | **Completed**    |
 | 34.1         | [Introduction to Object-Oriented Programming (OOP)][34.1]                                                                |:heavy_check_mark:|
 | 34.2         | [Inheritance, Composition and Interfaces][34.2]                                                                          |:heavy_check_mark:|
-| 34.3         | Design Patterns                                                                                                          |:o:               |
+| 34.3         | [Design Patterns][34.3]                                                                                                  |:heavy_check_mark:|
 | 34.4         | [:notebook: **PROJECT** - _Inventory Reports_][34.4]                                                                     |:white_check_mark:|
 | **Block 35** | **Networks and Data Scraping**                                                                                           | **Completed**    |
 | 35.1         | Network Architecture                                                                                                     |:o:               |
@@ -353,6 +353,7 @@ Here you will see all of my development during the course, with exercises and pr
 [33.4]: https://github.com/tryber/sd-09-project-job-insights/pull/28
 [34.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_1
 [34.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_2
+[34.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_3
 [34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
 [35.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_3
 [35.4]: https://github.com/tryber/sd-09-tech-news/pull/20
