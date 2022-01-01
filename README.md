@@ -13,7 +13,7 @@ Here you will see all of my development during the course, with exercises and pr
  - [Module 4 - Computer Science](#module4)
 <br>
 
-### This is my progress so far:https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_3
+### This is my progress so far:
 
 
 ## Module 1 - Fundamentals of Web Development <a id="module1"></a>
