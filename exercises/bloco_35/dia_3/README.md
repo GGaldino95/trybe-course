@@ -1,4 +1,4 @@
-### Bloco 34, Dia 3 -> Raspagem de Dados
+### Bloco 35, Dia 3 -> Raspagem de Dados
 
 **Raspagem de dados** é uma técnica computacional para extrair dados provenientes de um serviço ou aplicação, estruturando-os em banco de dados, planilhas, ou outros formatos. Consiste em extrair dados de sites e transportá-los para um formato mais simples e maleável para que possam ser analisados e cruzados com mais facilidade.
 
@@ -21,7 +21,7 @@ python3 -m venv .venv && source .venv/bin/activate
 python3 -m pip install pymongo
 ```
 
-_**Exercícios 34.3 - Parte I**_
+_**Exercícios 35.3 - Parte I**_
 
  - Faça uma requisição ao site https://httpbin.org/encoding/utf8 e exiba seu conteúdo de forma legível;
 
@@ -82,7 +82,7 @@ _**Exercícios 34.3 - Parte I**_
 
 <br>
 
-**Exercícios 34.3 - Parte BONUS**_
+**Exercícios 35.3 - Parte BONUS**_
 
  - Agora um desafio, vá ao site https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags e recupere as imagens de todas as bandeiras;
     >  _Faça requisições para as `URLs` das imagens e escreva seus conteúdos em arquivos binários. São `206` ao total._
