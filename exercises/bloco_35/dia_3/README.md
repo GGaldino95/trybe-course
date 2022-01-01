@@ -9,7 +9,7 @@ O **Python** possui um pacote para lidar com o protocolo `HTTP`, porém este nã
 python3 -m pip install requests
 ```
 
-Para realizar a extração de dados de um conteúdo web vamos utilizar uma biblioteca chamada parsel . Ela pode ser instalada com o comando o comando abaixo:
+Para realizar a extração de dados de um conteúdo web vamos utilizar uma biblioteca chamada `parsel`. Ela pode ser instalada com o comando o comando abaixo:
 ```bash
 python3 -m pip install parsel
 ```
