@@ -201,7 +201,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 34.3         | [Design Patterns][34.3]                                                                                                  |:heavy_check_mark:|
 | 34.4         | [:notebook: **PROJECT** - _Inventory Reports_][34.4]                                                                     |:white_check_mark:|
 | **Block 35** | **Networks and Data Scraping**                                                                                           | **Completed**    |
-| 35.1         | Network Architecture                                                                                                     |:o:               |
+| 35.1         | [Network Architecture][35.1]                                                                                             |:heavy_check_mark:|
 | 35.2         | Computer Networks, Tools and Security                                                                                    |:o:               |
 | 35.3         | [Data Scraping][35.3]                                                                                                    |:heavy_check_mark:|
 | 35.4         | [:notebook: **PROJECT** - _Tech News_][35.4]                                                                             |:white_check_mark:|
@@ -355,6 +355,7 @@ Here you will see all of my development during the course, with exercises and pr
 [34.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_2
 [34.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_3
 [34.4]: https://github.com/tryber/sd-09-inventory-report/pull/33
+[35.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_1
 [35.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_3
 [35.4]: https://github.com/tryber/sd-09-tech-news/pull/20
 [36.4]: https://github.com/tryber/sd-09-project-algorithms/pull/23
