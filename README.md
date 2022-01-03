@@ -208,7 +208,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 36** | **Algorithms**                                                                                                           | **Completed**    |
 | 36.1         | [Algorithm Complexity][36.1]                                                                                             |:heavy_check_mark:|
 | 36.2         | [Recursiveness and Problem Solving Strategies][36.2]                                                                     |:heavy_check_mark:|
-| 36.3         | Sorting and Search Algorithms                                                                                            |:o:               |
+| 36.3         | [Sorting and Search Algorithms][36.3]                                                                                    |:heavy_check_mark:|
 | 36.4         | [:notebook: **PROJECT** - _Algorithms_][36.4]                                                                            |:heavy_check_mark:|
 | **Block 37** | **Data Structure I: Arrays, Hashmaps and Sets**                                                                          | **Completed**    |
 | 37.1         | Computer Architecture                                                                                                    |:o:               |
@@ -361,6 +361,7 @@ Here you will see all of my development during the course, with exercises and pr
 [35.4]: https://github.com/tryber/sd-09-tech-news/pull/20
 [36.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_1
 [36.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_2
+[36.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_3
 [36.4]: https://github.com/tryber/sd-09-project-algorithms/pull/23
 [37.5]: https://github.com/tryber/sd-09-restaurant-orders/pull/13
 [38.4]: https://github.com/tryber/sd-09-project-ting/pull/4
