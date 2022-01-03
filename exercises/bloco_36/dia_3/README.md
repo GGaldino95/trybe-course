@@ -1,4 +1,4 @@
-### Bloco 36, Dia 3 -> Recursividade e Estratégias para solução de problemas
+### Bloco 36, Dia 3 -> Algoritmos de ordenação e busca
 
 Para medir o tempo de execução de um algoritmo (em segundos) implemente a seguinte `classe`:
 
