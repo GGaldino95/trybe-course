@@ -212,7 +212,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 36.4         | [:notebook: **PROJECT** - _Algorithms_][36.4]                                                                            |:heavy_check_mark:|
 | **Block 37** | **Data Structure I: Arrays, Hashmaps and Sets**                                                                          | **Completed**    |
 | 37.1         | [Computer Architecture][37.1]                                                                                            |:heavy_check_mark:|
-| 37.2         | Arrays                                                                                                                   |:o:               |
+| 37.2         | [Arrays][37.2]                                                                                                           |:heavy_check_mark:|
 | 37.3         | Hashmap and Dict                                                                                                         |:o:               |
 | 37.4         | Set                                                                                                                      |:o:               |
 | 37.5         | [:notebook: **PROJECT** - _Restaurant Orders_][37.5]                                                                     |:white_check_mark:|
@@ -364,5 +364,6 @@ Here you will see all of my development during the course, with exercises and pr
 [36.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_3
 [36.4]: https://github.com/tryber/sd-09-project-algorithms/pull/23
 [37.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_1
+[37.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_2
 [37.5]: https://github.com/tryber/sd-09-restaurant-orders/pull/13
 [38.4]: https://github.com/tryber/sd-09-project-ting/pull/4
