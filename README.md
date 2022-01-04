@@ -214,7 +214,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 37.1         | [Computer Architecture][37.1]                                                                                            |:heavy_check_mark:|
 | 37.2         | [Arrays][37.2]                                                                                                           |:heavy_check_mark:|
 | 37.3         | [Hashmap and Dict][37.3]                                                                                                 |:heavy_check_mark:|
-| 37.4         | Set                                                                                                                      |:o:               |
+| 37.4         | [Set][37.4]                                                                                                              |:heavy_check_mark:|
 | 37.5         | [:notebook: **PROJECT** - _Restaurant Orders_][37.5]                                                                     |:white_check_mark:|
 | **Block 38** | **Data Structure II: Lists, Queues and Stacks**                                                                          | **Completed**    |
 | 39.1         | Node and Linked Lists                                                                                                    |:o:               |
@@ -366,5 +366,6 @@ Here you will see all of my development during the course, with exercises and pr
 [37.1]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_1
 [37.2]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_2
 [37.3]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_3
+[37.4]: https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_4
 [37.5]: https://github.com/tryber/sd-09-restaurant-orders/pull/13
 [38.4]: https://github.com/tryber/sd-09-project-ting/pull/4
