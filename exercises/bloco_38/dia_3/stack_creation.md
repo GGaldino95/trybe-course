@@ -72,7 +72,7 @@ No final dessas implementações teremos a declaração da classe `Stack` com to
 
 <br>
 
-## **Implementação final da classe `Deque`:** <a id="final-deque"></a>
+## **Implementação final da classe `Stack`:**
 
 ```python
 class Stack():
