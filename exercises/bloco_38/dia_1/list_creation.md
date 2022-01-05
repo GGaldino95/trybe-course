@@ -286,6 +286,8 @@ Um ponto de atenção para as verificações constantes presentes no código, el
 
 Por fim, retornamos um novo `Node` com o mesmo valor do existente em nossa estrutura. Isto é necessário para que retornemos apenas o valor, e não a referência aos demais elementos.
 
+<br>
+
 ## **Lista está vazia:** <a id="is-empty"></a>
 
 Devemos informar se a estrutura está vazia, como possuímos um campo `length` podemos utilizá-lo como ponto a ser analisado, afinal se o mesmo for `0` nossa estrutura não possui elementos.
