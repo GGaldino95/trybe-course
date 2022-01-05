@@ -13,7 +13,8 @@ _**Exercícios 38.2 - Parte I**_
  - `exists(self, value)`: Este método deve ser usado para **indicar** se o valor do argumento **existe** em nossa estrutura. Retorne `True` se existir e `False` caso contrário;
     > _Nota: Fique a vontade para escolher por qual extremidade será iniciada a consulta._
 
- - `peek(self, position, order)`: Este método deve ser usado para retornar o valor do conteúdo da posição indicada. A peculiaridade desse método é a ordem que essa consulta deve ser feita. Caso o campo `order` não seja informado, a consulta deve ser realizada através da **extremidade da esquerda** `front`, no entanto, caso o campo possua o valor `desc`, a consulta deve ser através da **extremidade da direita** `back`;
+ - `peek(self, position, order)`: Este método deve ser usado para retornar o valor do conteúdo da posição indicada. A peculiaridade desse método é a ordem que essa consulta deve ser feita. Caso o campo `order` não seja informado, a consulta deve ser realizada através da **extremidade da esquerda** `front`, no entanto, caso o campo possua o valor `desc`, a consulta deve ser através da **extremidade da direita** `back`; <br>
+Como exemplo, assuma uma **deque** composto com os seguintes elementos:
 
 ```python
 [22, 2, 77, 6, 43, 76, 89, 90]
