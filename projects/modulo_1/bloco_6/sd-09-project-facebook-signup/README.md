@@ -1,3 +1,5 @@
+# Bloco 6, Dia 6 -> PROJETO - Facebook Homepage
+
 ## Requisitos do projeto
 
 Caso você faça o download de bibliotecas externas, utilize o diretório libs (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.
