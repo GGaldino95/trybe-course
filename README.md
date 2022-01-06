@@ -40,7 +40,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 4.2          | [JavaScript - _Array_ and _loop For_][4.2]                                                                               |:heavy_check_mark:|
 | 4.3          | [JavaScript - Programming Logic and Algorithms][4.3]                                                                     |:heavy_check_mark:|
 | 4.4          | [JavaScript - Objects and Functions][4.4]                                                                                |:heavy_check_mark:|
-| 4.5          | [:notebook: **PROJECT** - _Playground Functions_][4.5]                                                                   |:white_check_mark:|
+| 4.5          | [:notebook: **PROJECT** - _Playground Functions_][4.5] — [[PR][4.5-pr]]                                                  |:white_check_mark:|
 | **Block 05** | **JavaScript: DOM, Events and Web Storage**                                                                              | **Completed**    |
 | 5.1          | [JavaScript - DOM and Selectors][5.1]                                                                                    |:heavy_check_mark:|
 | 5.2          | [JavaScript - Working with Elements][5.2]                                                                                |:heavy_check_mark:|
@@ -245,7 +245,8 @@ Here you will see all of my development during the course, with exercises and pr
 [4.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_2
 [4.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
 [4.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_4
-[4.5]:  https://github.com/tryber/sd-09-project-playground-functions/pull/74
+[4.5]:  https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_4/sd-09-project-playground-functions
+[4.5-pr]:  https://github.com/tryber/sd-09-project-playground-functions/pull/74
 [5.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_1
 [5.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
 [5.3]:  https://github.com/GGaldino95/trybe-course/pull/14
