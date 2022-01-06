@@ -4,6 +4,8 @@ Você vai desenvolver funções seguindo os requisitos especificados para o corr
 
 ## Requisitos do projeto
 
+Todas as funções já estão declaradas no arquivo `challenges.js`.
+
 **1 - Usando o operador &&**
 -
 JavaScript possui um operador lógico `&&`, o qual recebe dois valores e retorna `true` se ambos os valores são verdadeiros, e retorna `false` se algum dos valores não o for.
