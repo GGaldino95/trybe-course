@@ -1,9 +1,10 @@
 # Other files
 trybelogo.png
+/projects
 **/node_modules
 **package-lock.json
-**/exercises/**/package.json
-**/exercises/**/.gitignore
+**package.json
+**.gitignore
 
 # dependencies
 **/.pnp
