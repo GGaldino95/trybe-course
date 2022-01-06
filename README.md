@@ -34,7 +34,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 3.2          | [HTML & CSS - Getting Started with CSS][3.2]                                                                             |:heavy_check_mark:|
 | 3.3          | [HTML & CSS - Selectors and positioning][3.3]                                                                            |:heavy_check_mark:|
 | 3.4          | [Semantic HTML][3.4]                                                                                                     |:heavy_check_mark:|
-| 3.5          | [:notebook: **PROJECT** - _Lessons Learned_][3.5]                                                                        |:heavy_check_mark:|
+| 3.5          | [:notebook: **PROJECT** - _Lessons Learned_][3.5] — [[PR][3.5-pr]]  — [[GitHub pages][3.5-gp]]                           |:heavy_check_mark:|
 | **Block 04** | **Introduction to JavaScript and Programming Logic**                                                                     | **Completed**    |
 | 4.1          | [JavaScript - Introduction & First Steps][4.1]                                                                           |:heavy_check_mark:|
 | 4.2          | [JavaScript - _Array_ and _loop For_][4.2]                                                                               |:heavy_check_mark:|
@@ -57,7 +57,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 6.3          | Introduction - CSS Flexbox <br> [CSS Flexbox - Part 1][6.3]                                                              |:heavy_check_mark:|
 | 6.4          | [CSS Flexbox - Part 2][6.4]                                                                                              |:heavy_check_mark:|
 | 6.5          | [Responsive CSS - Mobile First][6.5]                                                                                     |:heavy_check_mark:|
-| 6.6          | [:notebook: **PROJECT** - _Facebook Homepage_][6.6] — **[[PR][6.6-pr]]**                                                 |:white_check_mark:|
+| 6.6          | [:notebook: **PROJECT** - _Facebook Homepage_][6.6] — [[PR][6.6-pr]]                                                     |:white_check_mark:|
 | **Block 07** | **Introduction to JavaScript ES6 and Unit Tests**                                                                        | **Completed**    |
 | 7.1          | [JavaScript ES6 - let, const, arrow functions and template literals][7.1]                                                |:heavy_check_mark:|
 | 7.2          | [JavaScript ES6 - Objects][7.2]                                                                                          |:heavy_check_mark:|
@@ -238,7 +238,9 @@ Here you will see all of my development during the course, with exercises and pr
 [3.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_2
 [3.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_3
 [3.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_4
-[3.5]:  https://ggaldino95.github.io/projects/lessons-learned/
+[3.5]:  https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_3/sd-09-project-lessons-learned
+[3.5-pr]: https://github.com/tryber/sd-09-project-lessons-learned/pull/65
+[3.5-gp]: https://ggaldino95.github.io/projects/lessons-learned/
 [4.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_1
 [4.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_2
 [4.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
