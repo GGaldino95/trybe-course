@@ -34,7 +34,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 3.2          | [HTML & CSS - Getting Started with CSS][3.2]                                                                             |:heavy_check_mark:|
 | 3.3          | [HTML & CSS - Selectors and positioning][3.3]                                                                            |:heavy_check_mark:|
 | 3.4          | [Semantic HTML][3.4]                                                                                                     |:heavy_check_mark:|
-| 3.5          | [:notebook: **PROJECT** - _Lessons Learned_][3.5] — [[PR][3.5-pr]]  — [[GitHub pages][3.5-gp]]                           |:heavy_check_mark:|
+| 3.5          | [:notebook: **PROJECT** - _Lessons Learned_][3.5] — [[PR][3.5-pr]]  — [[GitHub Pages][3.5-gp]]                           |:heavy_check_mark:|
 | **Block 04** | **Introduction to JavaScript and Programming Logic**                                                                     | **Completed**    |
 | 4.1          | [JavaScript - Introduction & First Steps][4.1]                                                                           |:heavy_check_mark:|
 | 4.2          | [JavaScript - _Array_ and _loop For_][4.2]                                                                               |:heavy_check_mark:|
@@ -46,7 +46,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 5.2          | [JavaScript - Working with Elements][5.2]                                                                                |:heavy_check_mark:|
 | 5.3          | [JavaScript - Events][5.3]                                                                                               |:white_check_mark:|
 | 5.4          | JavaScript - Web Storage                                                                                                 |:heavy_check_mark:|
-| 5.5          | Fundamentals - JavaScript - Projects <br> [:notebook: **PROJECT** - _Art with Pixels_][5.5]                              |:heavy_check_mark:|
+| 5.5          | Fundamentals - JavaScript - Projects <br> [:notebook: **PROJECT** - _Art with Pixels_][5.5] — [[PR][5.5-pr]] — [[GitHub Pages][5.5-gp]]|:heavy_check_mark:|
 | 5.6          | [:notebook: **PROJECT** - _Task List_][5.6]                                                                              |:heavy_check_mark:|
 | 5.7          | [:notebook: **BONUS PROJECT** - _Meme Generator_][5.7]                                                                   |:heavy_check_mark:|
 | 5.8          | :notebook: **BONUS PROJECT** - _Guess the Color_                                                                         |:o:               |
@@ -246,11 +246,13 @@ Here you will see all of my development during the course, with exercises and pr
 [4.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_3
 [4.4]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_4/dia_4
 [4.5]:  https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_4/sd-09-project-playground-functions
-[4.5-pr]:  https://github.com/tryber/sd-09-project-playground-functions/pull/74
+[4.5-pr]: https://github.com/tryber/sd-09-project-playground-functions/pull/74
 [5.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_1
 [5.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_2
-[5.3]:  https://github.com/GGaldino95/trybe-course/pull/14
-[5.5]:  https://ggaldino95.github.io/projects/pixels-art/
+[5.3]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_5/dia_3
+[5.5]:  https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_5/sd-09-project-pixels-art
+[5.5-pr]: https://github.com/tryber/sd-09-project-pixels-art/pull/62
+[5.5-gp]: https://ggaldino95.github.io/projects/pixels-art/
 [5.6]:  https://ggaldino95.github.io/projects/todo-list/
 [5.7]:  https://ggaldino95.github.io/projects/meme-generator/
 [6.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_1
