@@ -47,7 +47,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 5.3          | [JavaScript - Events][5.3]                                                                                               |:white_check_mark:|
 | 5.4          | JavaScript - Web Storage                                                                                                 |:heavy_check_mark:|
 | 5.5          | Fundamentals - JavaScript - Projects <br> [:notebook: **PROJECT** - _Art with Pixels_][5.5] — [[PR][5.5-pr]] — [[GitHub Pages][5.5-gp]]|:heavy_check_mark:|
-| 5.6          | [:notebook: **PROJECT** - _Task List_][5.6]                                                                              |:heavy_check_mark:|
+| 5.6          | [:notebook: **PROJECT** - _Task List_][5.6] — [[PR][5.6-pr]] — [[GitHub Pages][5.6-gp]]                                  |:heavy_check_mark:|
 | 5.7          | [:notebook: **BONUS PROJECT** - _Meme Generator_][5.7]                                                                   |:heavy_check_mark:|
 | 5.8          | :notebook: **BONUS PROJECT** - _Guess the Color_                                                                         |:o:               |
 | 5.9          | :notebook: **BONUS PROJECT** - _Mysterious Card_                                                                         |:o:               |
@@ -253,7 +253,9 @@ Here you will see all of my development during the course, with exercises and pr
 [5.5]:  https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_5/sd-09-project-pixels-art
 [5.5-pr]: https://github.com/tryber/sd-09-project-pixels-art/pull/62
 [5.5-gp]: https://ggaldino95.github.io/projects/pixels-art/
-[5.6]:  https://ggaldino95.github.io/projects/todo-list/
+[5.6]:  https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_5/sd-09-project-todo-list
+[5.6-pr]: https://github.com/tryber/sd-09-project-todo-list/pull/5
+[5.6-gp]: https://ggaldino95.github.io/projects/todo-list/
 [5.7]:  https://ggaldino95.github.io/projects/meme-generator/
 [6.1]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_1
 [6.2]:  https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_6/dia_2
