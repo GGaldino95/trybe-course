@@ -4,7 +4,7 @@ Você vai desenvolver funções seguindo os requisitos especificados para o corr
 
 ## Requisitos do projeto
 
-Todas as funções já estão declaradas no arquivo `challenges.js`.
+Todas as funções já estão declaradas no arquivo `src/challenges.js`.
 
 **1 - Usando o operador &&**
 -
