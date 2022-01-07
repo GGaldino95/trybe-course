@@ -89,7 +89,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 12** | **Components with State, Events and Forms with React**                                                                   | **Completed**    |
 | 12.1         | [Components with state and events][12.1]                                                                                 |:white_check_mark:|
 | 12.2         | [Forms in React][12.2]                                                                                                   |:heavy_check_mark:|
-| 12.3         | [:notebook: **PROJECT** - _Movie Cards Library - Stateful_][12.3]                                                        |:heavy_check_mark:|
+| 12.3         | [:notebook: **PROJECT** - _Movie Cards Library - Stateful_][12.3] — [[PR][12.3-pr]]                                      |:heavy_check_mark:|
 | **Block 13** | **Component Life Cycle and React Router**                                                                                | **Completed**    |
 | 13.1         | [Component life cycles][13.1]                                                                                            |:heavy_check_mark:|
 | 13.2         | [React Router][13.2]                                                                                                     |:heavy_check_mark:|
@@ -292,7 +292,8 @@ Here you will see all of my development during the course, with exercises and pr
 [11.3-pr]:https://github.com/tryber/sd-09-project-movie-cards-library/pull/41
 [12.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_12/dia_1
 [12.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_12/dia_2
-[12.3]:   https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/67
+[12.3]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_12/sd-09-project-movie-cards-library-stateful
+[12.3-pr]:https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/67
 [13.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_13/dia_1
 [13.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_13/dia_2
 [13.3]:   https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/33
