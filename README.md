@@ -68,7 +68,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 8.2          | [JavaScript ES6 - Higher Order Functions - map e filter][8.2]                                                            |:heavy_check_mark:|
 | 8.3          | [JavaScript ES6 - Higher Order Functions - reduce][8.3]                                                                  |:heavy_check_mark:|
 | 8.4          | [JavaScript ES6 - spread operator, rest parameter, destructuring and more][8.4]                                          |:heavy_check_mark:|
-| 8.5          | [:notebook: **PROJECT** - _Zoo functions_][8.5]                                                                          |:white_check_mark:|
+| 8.5          | [:notebook: **PROJECT** - _Zoo functions_][8.5] — [[PR][8.5-pr]]                                                         |:white_check_mark:|
 | **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
 | 9.1          | [Asynchronous JavaScript and Callbacks][9.1]                                                                             |:heavy_check_mark:|
 | 9.2          | [JavaScript Promises][9.2]                                                                                               |:heavy_check_mark:|
