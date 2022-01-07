@@ -96,7 +96,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 13.3         | [:notebook: **PROJECT** - _Movie Cards Library - CRUD_][13.3] — [[PR][13.3-pr]]                                          |:heavy_check_mark:|
 | **Block 14** | **Agile Methodologies**                                                                                                  | **Completed**    |
 | 14.1         | Agile Methodologies                                                                                                      |:heavy_check_mark:|
-| 14.2         | [:notebook: **PROJECT** - _Frontend Online Store_][14.2]                                                                 |:white_check_mark:|
+| 14.2         | [:notebook: **PROJECT** - _Frontend Online Store_][14.2] — [[PR][14.2-pr]]                                               |:white_check_mark:|
 | **Block 15** | **Automated testing with React Testing Library**                                                                         | **Completed**    |
 | 15.1         | [RTL - Getting Started][15.1]                                                                                            |:heavy_check_mark:|
 | 15.2         | [RTL - Mocks and Inputs][15.2]                                                                                           |:heavy_check_mark:|
@@ -298,7 +298,8 @@ Here you will see all of my development during the course, with exercises and pr
 [13.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_13/dia_2
 [13.3]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_13/sd-09-project-movie-card-library-crud
 [13.3-pr]:https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/33
-[14.2]:   https://github.com/tryber/sd-09-project-frontend-online-store/pull/533
+[14.2]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_14/sd-09-project-frontend-online-store
+[14.2-pr]:https://github.com/tryber/sd-09-project-frontend-online-store/pull/533
 [15.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_1/exercise-todo-list
 [15.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_2
 [15.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_3
