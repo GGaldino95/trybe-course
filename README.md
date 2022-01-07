@@ -72,7 +72,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
 | 9.1          | [Asynchronous JavaScript and Callbacks][9.1]                                                                             |:heavy_check_mark:|
 | 9.2          | [JavaScript Promises][9.2]                                                                                               |:heavy_check_mark:|
-| 9.3          | [:notebook: **PROJECT** - _Shopping Cart_][9.3]                                                                          |:heavy_check_mark:|
+| 9.3          | [:notebook: **PROJECT** - _Shopping Cart_][9.3] — [[PR][9.3-pr]]                                                         |:heavy_check_mark:|
 | **Block 10** | **Automated testing with Jest**                                                                                          | **Completed**    |
 | 10.1         | [First steps at Jest][10.1]                                                                                              |:white_check_mark:|
 | 10.2         | [Jest - Asynchronous Tests][10.2]                                                                                        |:heavy_check_mark:|
