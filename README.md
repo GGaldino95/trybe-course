@@ -62,7 +62,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 7.1          | [JavaScript ES6 - let, const, arrow functions and template literals][7.1]                                                |:heavy_check_mark:|
 | 7.2          | [JavaScript ES6 - Objects][7.2]                                                                                          |:heavy_check_mark:|
 | 7.3          | [JavaScript unit tests][7.3]                                                                                             |:heavy_check_mark:|
-| 7.4          | [:notebook: **PROJECT** - _JavaScript Unit Tests_][7.4]                                                                  |:white_check_mark:|
+| 7.4          | [:notebook: **PROJECT** - _JavaScript Unit Tests_][7.4] — [[PR][7.4-pr]]                                                 |:white_check_mark:|
 | **Block 08** | **Higher Order Functions of JavaScript ES6**                                                                             | **Completed**    |
 | 8.1          | [JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort][8.1]                                        |:heavy_check_mark:|
 | 8.2          | [JavaScript ES6 - Higher Order Functions - map e filter][8.2]                                                            |:heavy_check_mark:|
@@ -269,7 +269,8 @@ Here you will see all of my development during the course, with exercises and pr
 [7.1]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_1
 [7.2]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_2
 [7.3]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_7/dia_3
-[7.4]:    https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
+[7.4]:    https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_7/sd-09-project-js-unit-tests
+[7.4-pr]: https://github.com/tryber/sd-09-project-js-unit-tests/pull/22
 [8.1]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_8/dia_1
 [8.2]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_8/dia_2
 [8.3]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_8/dia_3
