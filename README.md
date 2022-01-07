@@ -101,7 +101,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 15.1         | [RTL - Getting Started][15.1]                                                                                            |:heavy_check_mark:|
 | 15.2         | [RTL - Mocks and Inputs][15.2]                                                                                           |:heavy_check_mark:|
 | 15.3         | [RTL - Testing React Router][15.3]                                                                                       |:heavy_check_mark:|
-| 15.4         | [:notebook: **PROJECT** - _Tests in React_][15.4]                                                                        |:heavy_check_mark:|
+| 15.4         | [:notebook: **PROJECT** - _Tests in React_][15.4] — [[PR][15.4-pr]]                                                      |:heavy_check_mark:|
 | **Block 16** | **State management with Redux**                                                                                          | **Completed**    |
 | 16.1         | [Introduction to Redux - The global state of the application][16.1]                                                      |:heavy_check_mark:|
 | 16.2         | [Using Redux in React][16.2]                                                                                             |:heavy_check_mark:|
@@ -303,7 +303,8 @@ Here you will see all of my development during the course, with exercises and pr
 [15.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_1/exercise-todo-list
 [15.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_2
 [15.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_3
-[15.4]:   https://github.com/tryber/sd-09-project-react-testing-library/pull/24
+[15.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_15/sd-09-project-react-testing-library
+[15.4-pr]:https://github.com/tryber/sd-09-project-react-testing-library/pull/24
 [16.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_1
 [16.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_2
 [16.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_3
