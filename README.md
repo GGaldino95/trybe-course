@@ -93,7 +93,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 13** | **Component Life Cycle and React Router**                                                                                | **Completed**    |
 | 13.1         | [Component life cycles][13.1]                                                                                            |:heavy_check_mark:|
 | 13.2         | [React Router][13.2]                                                                                                     |:heavy_check_mark:|
-| 13.3         | [:notebook: **PROJECT** - _Movie Cards Library - CRUD_][13.3]                                                            |:heavy_check_mark:|
+| 13.3         | [:notebook: **PROJECT** - _Movie Cards Library - CRUD_][13.3] — [[PR][13.3-pr]]                                          |:heavy_check_mark:|
 | **Block 14** | **Agile Methodologies**                                                                                                  | **Completed**    |
 | 14.1         | Agile Methodologies                                                                                                      |:heavy_check_mark:|
 | 14.2         | [:notebook: **PROJECT** - _Frontend Online Store_][14.2]                                                                 |:white_check_mark:|
@@ -296,7 +296,8 @@ Here you will see all of my development during the course, with exercises and pr
 [12.3-pr]:https://github.com/tryber/sd-09-project-movie-cards-library-stateful/pull/67
 [13.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_13/dia_1
 [13.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_13/dia_2
-[13.3]:   https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/33
+[13.3]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_13/sd-09-project-movie-card-library-crud
+[13.3-pr]:https://github.com/tryber/sd-09-project-movie-card-library-crud/pull/33
 [14.2]:   https://github.com/tryber/sd-09-project-frontend-online-store/pull/533
 [15.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_1/exercise-todo-list
 [15.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_15/dia_2
