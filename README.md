@@ -72,7 +72,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 09** | **Asynchronous JavaScript and Promises**                                                                                 | **Completed**    |
 | 9.1          | [Asynchronous JavaScript and Callbacks][9.1]                                                                             |:heavy_check_mark:|
 | 9.2          | [JavaScript Promises][9.2]                                                                                               |:heavy_check_mark:|
-| 9.3          | [:notebook: **PROJECT** - _Shopping Cart_][9.3]                                                                          |:heavy_check_mark:|
+| 9.3          | [:notebook: **PROJECT** - _Shopping Cart_][9.3] — [[PR][9.3-pr]]                                                         |:heavy_check_mark:|
 | **Block 10** | **Automated testing with Jest**                                                                                          | **Completed**    |
 | 10.1         | [First steps at Jest][10.1]                                                                                              |:white_check_mark:|
 | 10.2         | [Jest - Asynchronous Tests][10.2]                                                                                        |:heavy_check_mark:|
@@ -279,7 +279,8 @@ Here you will see all of my development during the course, with exercises and pr
 [8.5-pr]: https://github.com/tryber/sd-09-project-zoo-functions/pull/79
 [9.1]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_1
 [9.2]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_2
-[9.3]:    https://github.com/tryber/sd-09-project-shopping-cart/pull/81
+[9.3]:    https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_9/sd-09-project-shopping-cart
+[9.3-pr]: https://github.com/tryber/sd-09-project-shopping-cart/pull/81
 [10.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_1
 [10.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_2
 [10.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_10/dia_3
