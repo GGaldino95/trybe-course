@@ -275,7 +275,8 @@ Here you will see all of my development during the course, with exercises and pr
 [8.2]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_8/dia_2
 [8.3]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_8/dia_3
 [8.4]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_8/dia_4
-[8.5]:    https://github.com/tryber/sd-09-project-zoo-functions/pull/79
+[8.5]:    https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_1/bloco_8/sd-09-project-zoo-functions
+[8.5-pr]: https://github.com/tryber/sd-09-project-zoo-functions/pull/79
 [9.1]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_1
 [9.2]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_9/dia_2
 [9.3]:    https://github.com/tryber/sd-09-project-shopping-cart/pull/81
