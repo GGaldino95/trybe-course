@@ -127,7 +127,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 20.2         | [Finding data in a database][20.2]                                                                                       |:heavy_check_mark:|
 | 20.3         | [Filtering data specifically][20.3]                                                                                      |:heavy_check_mark:|
 | 20.4         | [Manipulating tables][20.4]                                                                                              |:heavy_check_mark:|
-| 20.5         | [:notebook: **PROJECT** - _All for One_][20.5]                                                                           |:heavy_check_mark:|
+| 20.5         | [:notebook: **PROJECT** - _All for One_][20.5] — [[PR][20.5-pr]]                                                         |:heavy_check_mark:|
 | **Block 21** | **SQL functions, Joins and Subqueries**                                                                                  | **Completed**    |
 | 21.1         | [Most used functions in SQL][21.1]                                                                                       |:heavy_check_mark:|
 | 21.2         | [Uncomplicating JOINs, UNIONs and Subqueries][21.2]                                                                      |:heavy_check_mark:|
@@ -323,7 +323,8 @@ Here you will see all of my development during the course, with exercises and pr
 [20.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_2
 [20.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_3
 [20.4]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_4
-[20.5]:   https://github.com/tryber/sd-09-mysql-all-for-one/pull/9
+[20.5]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_20/sd-09-mysql-all-for-one
+[20.5-pr]:https://github.com/tryber/sd-09-mysql-all-for-one/pull/9
 [21.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_21/dia_1
 [21.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_21/dia_2
 [21.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_21/dia_3
