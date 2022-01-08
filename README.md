@@ -110,7 +110,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 16.5         | <s>Tests in React-Redux</s>                                                                                              |:x:               |
 | 16.6         | [:notebook: **PROJECT** - _Trybe Wallet_][16.6] — [[PR][16.6-pr]]                                                        |:white_check_mark:|
 | **Block 17** | **Trivia Game Project**                                                                                                  | **Completed**    |
-| 17.1         | [:notebook: **PROJECT** - _Trivia Game_][17.1]                                                                           |:white_check_mark:|
+| 17.1         | [:notebook: **PROJECT** - _Trivia Game_][17.1] — [[PR][17.1-pr]]                                                         |:white_check_mark:|
 | **Block 18** | **Context API and React Hooks**                                                                                          | **Completed**    |
 | 18.1         | [React Context API][18.1]                                                                                                |:heavy_check_mark:|
 | 18.2         | [React Hooks - useState and useContext][18.2]                                                                            |:heavy_check_mark:|
@@ -311,7 +311,8 @@ Here you will see all of my development during the course, with exercises and pr
 [16.4]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_16/dia_4
 [16.6]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_16/sd-09-project-trybewallet
 [16.6-pr]:https://github.com/tryber/sd-09-project-trybewallet/pull/52
-[17.1]:   https://github.com/tryber/sd-09-project-trivia-react-redux/pull/44
+[17.1]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_17/sd-09-project-trivia-react-redux
+[17.1-pr]:https://github.com/tryber/sd-09-project-trivia-react-redux/pull/44
 [18.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_1
 [18.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_2
 [18.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_3
