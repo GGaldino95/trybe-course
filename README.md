@@ -115,7 +115,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 18.1         | [React Context API][18.1]                                                                                                |:heavy_check_mark:|
 | 18.2         | [React Hooks - useState and useContext][18.2]                                                                            |:heavy_check_mark:|
 | 18.3         | [React Hooks - useEffect and custom Hooks][18.3]                                                                         |:heavy_check_mark:|
-| 18.4         | [:notebook: **PROJECT** - _Datatable StarWars with Context API and Hooks_][18.4]                                         |:white_check_mark:|
+| 18.4         | [:notebook: **PROJECT** - _Datatable StarWars with Context API and Hooks_][18.4] — [[PR][18.4-pr]]                       |:white_check_mark:|
 | **Block 19** | **Recipe App Project**                                                                                                   | **Completed**    |
 | 19.1         | [:notebook: **PROJECT** - _Recipe App_][19.1]                                                                            |:white_check_mark:|
 
@@ -316,7 +316,8 @@ Here you will see all of my development during the course, with exercises and pr
 [18.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_1
 [18.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_2
 [18.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_18/dia_3
-[18.4]:   https://github.com/tryber/sd-09-project-starwars-planets-search/pull/30
+[18.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_2/bloco_18/sd-09-project-starwars-planets-search
+[18.4-pr]:https://github.com/tryber/sd-09-project-starwars-planets-search/pull/30
 [19.1]:   https://github.com/tryber/sd-09-project-recipes-app/pull/111
 [20.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_2
 [20.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_20/dia_3
