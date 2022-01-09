@@ -194,12 +194,12 @@ Here you will see all of my development during the course, with exercises and pr
 | 33.1         | Introduction - Computer Science <br> [Learning Python][33.1]                                                             |:heavy_check_mark:|
 | 33.2         | [Data Input and Output][33.2]                                                                                            |:heavy_check_mark:|
 | 33.3         | [Tests][33.3]                                                                                                            |:heavy_check_mark:|
-| 33.4         | [:notebook: **PROJECT** - _Job Insights_][33.4]                                                                          |:white_check_mark:|
+| 33.4         | [:notebook: **PROJECT** - _Job Insights_][33.4] — [[PR][33.4-pr]]                                                        |:white_check_mark:|
 | **Block 34** | **Object-Oriented Programming and Design Patterns**                                                                      | **Completed**    |
 | 34.1         | [Introduction to Object-Oriented Programming (OOP)][34.1]                                                                |:heavy_check_mark:|
 | 34.2         | [Inheritance, Composition and Interfaces][34.2]                                                                          |:heavy_check_mark:|
 | 34.3         | [Design Patterns][34.3]                                                                                                  |:heavy_check_mark:|
-| 34.4         | [:notebook: **PROJECT** - _Inventory Reports_][34.4]                                                                     |:white_check_mark:|
+| 34.4         | [:notebook: **PROJECT** - _Inventory Reports_][34.4] — [[PR][34.4-pr]]                                                   |:white_check_mark:|
 | **Block 35** | **Networks and Data Scraping**                                                                                           | **Completed**    |
 | 35.1         | [Network Architecture][35.1]                                                                                             |:heavy_check_mark:|
 | 35.2         | [Computer Networks, Tools and Security][35.2]                                                                            |:heavy_check_mark:|
@@ -390,7 +390,8 @@ Here you will see all of my development during the course, with exercises and pr
 [34.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_1
 [34.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_2
 [34.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_3
-[34.4]:   https://github.com/tryber/sd-09-inventory-report/pull/33
+[34.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_4/bloco_34/sd-09-inventory-report
+[34.4-pr]:https://github.com/tryber/sd-09-inventory-report/pull/33
 [35.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_1
 [35.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_2
 [35.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_3
