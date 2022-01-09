@@ -157,7 +157,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 26.3         | [Tests with Node.js][26.3]                                                                                               |:heavy_check_mark:|
 | 26.4         | [Express: HTTP with Node.js][26.4]                                                                                       |:heavy_check_mark:|
 | 26.5         | [Express: Middlewares][26.5]                                                                                             |:heavy_check_mark:|
-| 26.6         | [:notebook: **PROJECT** - _Talker Manager_][26.6]                                                                        |:heavy_check_mark:|
+| 26.6         | [:notebook: **PROJECT** - _Talker Manager_][26.6] — [[PR][26.6-pr]]                                                      |:heavy_check_mark:|
 | **Block 27** | **NodeJS: Rest and Restful Architecture and Service Layer**                                                              | **Completed**    |
 | 27.1         | Introduction - Software Architecture <br> [Software Architecture - Model Layer][27.1]                                    |:heavy_check_mark:|
 | 27.2         | [Software Architecture - Controller and Service Layer][27.2]                                                             |:heavy_check_mark:|
@@ -353,7 +353,8 @@ Here you will see all of my development during the course, with exercises and pr
 [26.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_3
 [26.4]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_4
 [26.5]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_5
-[26.6]:   https://github.com/tryber/sd-09-project-talker-manager/pull/5
+[26.6]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_26/sd-09-project-talker-manager
+[26.6-pr]:https://github.com/tryber/sd-09-project-talker-manager/pull/5
 [27.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_1
 [27.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_2
 [27.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_27/dia_3
