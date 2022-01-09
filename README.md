@@ -385,7 +385,8 @@ Here you will see all of my development during the course, with exercises and pr
 [33.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_1
 [33.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_2
 [33.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_3
-[33.4]:   https://github.com/tryber/sd-09-project-job-insights/pull/28
+[33.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_4/bloco_33/sd-09-project-job-insights
+[33.4-pr]:https://github.com/tryber/sd-09-project-job-insights/pull/28
 [34.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_1
 [34.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_2
 [34.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_34/dia_3
