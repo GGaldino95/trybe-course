@@ -150,7 +150,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 25** | **MongoDB: Aggregation Framework**                                                                                       | **Completed**    |
 | 25.1         | [Aggregation Framework - Part 1][25.1]                                                                                   |:heavy_check_mark:|
 | 25.2         | [Aggregation Framework - Part 2][25.2]                                                                                   |:heavy_check_mark:|
-| 25.3         | [:notebook: **PROJECT** - _Aggregations_][25.3]                                                                          |:heavy_check_mark:|
+| 25.3         | [:notebook: **PROJECT** - _Aggregations_][25.3] — [[PR][25.3-pr]]                                                        |:heavy_check_mark:|
 | **Block 26** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
 | 26.1         | [Node.js - Introduction][26.1]                                                                                           |:heavy_check_mark:|
 | 26.2         | [Node.js - Asynchronous Stream][26.2]                                                                                    |:heavy_check_mark:|
@@ -346,7 +346,8 @@ Here you will see all of my development during the course, with exercises and pr
 [24.4-pr]:https://github.com/tryber/sd-09-mongodb-commerce/pull/18
 [25.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_25/dia_1
 [25.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_25/dia_2
-[25.3]:   https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
+[25.3]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_25/sd-09-mongodb-aggregations
+[25.3-pr]:https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
 [26.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_1
 [26.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_2
 [26.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_26/dia_3
