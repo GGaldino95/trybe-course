@@ -141,7 +141,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 23** | **Introduction to MongoDB**                                                                                              | **Completed**    |
 | 23.1         | Introduction - NoSQL <br> [Introduction - MongoDB][23.1]                                                                 |:heavy_check_mark:|
 | 23.2         | [Filter Operators][23.2]                                                                                                 |:heavy_check_mark:|
-| 23.3         | [:notebook: **PROJECT** - _Data Flights_][23.3]                                                                          |:heavy_check_mark:|
+| 23.3         | [:notebook: **PROJECT** - _Data Flights_][23.3] — [[PR][23.3-pr]]                                                        |:heavy_check_mark:|
 | **Block 24** | **MongoDB: Simple and Complex Updates**                                                                                  | **Completed**    |
 | 24.1         | [Simple Updates][24.1]                                                                                                   |:heavy_check_mark:|
 | 24.2         | [Complex Updates - Arrays - Part 1][24.2]                                                                                |:heavy_check_mark:|
@@ -337,7 +337,8 @@ Here you will see all of my development during the course, with exercises and pr
 [22.4-pr]:https://github.com/tryber/sd-09-mysql-one-for-all/pull/4
 [23.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_23/dia_1
 [23.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_23/dia_2
-[23.3]:   https://github.com/tryber/sd-09-mongodb-dataflights/pull/5
+[23.3]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_23/sd-09-mongodb-dataflights
+[23.3-pr]:https://github.com/tryber/sd-09-mongodb-dataflights/pull/5
 [24.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_1
 [24.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_2
 [24.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_3
