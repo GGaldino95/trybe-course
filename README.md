@@ -220,10 +220,9 @@ Here you will see all of my development during the course, with exercises and pr
 | 38.1         | [Nodes and Linked Lists][38.1]                                                                                           |:heavy_check_mark:|
 | 38.2         | [Deque][38.2]                                                                                                            |:heavy_check_mark:|
 | 38.3         | [Stacks][38.3]                                                                                                           |:heavy_check_mark:|
-| 38.4         | [:notebook: **PROJECT** - _Trybe Is Not Google (TING)_][38.4]                                                            |:heavy_check_mark:|
+| 38.4         | [:notebook: **PROJECT** - _Trybe Is Not Google (TING)_][38.4] — [[PR][38.4-pr]]                                          |:heavy_check_mark:|
 
 
-**... and more to come!**
 <br><br>
 :o: : Currently active Lesson or Project. <br>
 :heavy_check_mark: : 100% Completed Lesson/Project. <br>
