@@ -146,7 +146,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 24.1         | [Simple Updates][24.1]                                                                                                   |:heavy_check_mark:|
 | 24.2         | [Complex Updates - Arrays - Part 1][24.2]                                                                                |:heavy_check_mark:|
 | 24.3         | [Complex Updates - Arrays - Part 2][24.3]                                                                                |:heavy_check_mark:|
-| 24.4         | [:notebook: **PROJECT** - _Commerce_][24.4]                                                                              |:heavy_check_mark:|
+| 24.4         | [:notebook: **PROJECT** - _Commerce_][24.4] — [[PR][24.4-pr]]                                                            |:heavy_check_mark:|
 | **Block 25** | **MongoDB: Aggregation Framework**                                                                                       | **Completed**    |
 | 25.1         | [Aggregation Framework - Part 1][25.1]                                                                                   |:heavy_check_mark:|
 | 25.2         | [Aggregation Framework - Part 2][25.2]                                                                                   |:heavy_check_mark:|
@@ -342,7 +342,8 @@ Here you will see all of my development during the course, with exercises and pr
 [24.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_1
 [24.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_2
 [24.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_24/dia_3
-[24.4]:   https://github.com/tryber/sd-09-mongodb-commerce/pull/18
+[24.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_24/sd-09-mongodb-commerce
+[24.4-pr]:https://github.com/tryber/sd-09-mongodb-commerce/pull/18
 [25.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_25/dia_1
 [25.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_25/dia_2
 [25.3]:   https://github.com/tryber/sd-09-mongodb-aggregations/pull/3
