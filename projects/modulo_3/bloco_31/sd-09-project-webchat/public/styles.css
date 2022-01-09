@@ -1,0 +1,82 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.users-window {
+  background: darkgrey;
+  border: 3px solid black;
+  margin: 50px;
+  width: 30rem;
+}
+
+.users-window ul {
+  list-style-type: none;
+}
+
+.users-window-header {
+  background-color: white;
+  border-bottom: 3px solid black;
+  padding: 0 15px;
+}
+
+.chat-window {
+  border: 3px solid black;
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: column;
+  margin: 50px;
+}
+
+.send-message-form {
+  background: rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  display: flex;
+  height: 3rem;
+  padding: 0.25rem;
+}
+
+.message-input {
+  border: none;
+  border-radius: 2rem;
+  flex-grow: 1;
+  margin: 0.25rem;
+  padding: 0 1rem;
+}
+
+.message-input:focus {
+  outline: none;
+}
+
+.send-message-form > button {
+  background: #333;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 0.25rem;
+  outline: none;
+  padding: 0 1rem;
+}
+
+.messages-list {
+  background-color: darkgrey;
+  list-style-type: none;
+  margin: 0;
+  min-height: 50vh;
+  padding: 0;
+}
+
+.messages-list > li {
+  background: lightslategray;
+  padding: 0.5rem 1rem;
+}
+
+.messages-list > li:nth-child( odd ) {
+  background: #efefef;
+}
