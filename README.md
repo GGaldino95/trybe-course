@@ -177,7 +177,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 30.1         | [Architecture - SOLID Principles][30.1]                                                                                  |:white_check_mark:|
 | 30.2         | [ORM - Application interface with the database][30.2]                                                                    |:white_check_mark:|
 | 30.3         | [ORM - Associations][30.3]                                                                                               |:white_check_mark:|
-| 30.4         | [:notebook: **PROJECT** - _Blogs API_][30.4]                                                                             |:white_check_mark:|
+| 30.4         | [:notebook: **PROJECT** - _Blogs API_][30.4] — [[PR][30.4-pr]]                                                           |:white_check_mark:|
 | **Block 31** | **Sockets**                                                                                                              | **Completed**    |
 | 31.1         | [Software Architecture - View Layer][31.1]                                                                               |:heavy_check_mark:|
 | 31.2         | [Sockets - TCP/UDP & NET][31.2]                                                                                          |:heavy_check_mark:|
@@ -374,7 +374,8 @@ Here you will see all of my development during the course, with exercises and pr
 [30.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_1
 [30.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_2
 [30.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_3
-[30.4]:   https://github.com/tryber/sd-09-project-blogs-api/pull/3
+[30.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_30/sd-09-project-blogs-api
+[30.4-pr]:https://github.com/tryber/sd-09-project-blogs-api/pull/3
 [31.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_1
 [31.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_2
 [31.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_3
