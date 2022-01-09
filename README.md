@@ -172,7 +172,7 @@ Here you will see all of my development during the course, with exercises and pr
 | **Block 29** | **Introduction to Web Development with NodeJS**                                                                          | **Completed**    |
 | 29.1         | Introduction - Deploy <br> [Infrastructure - Deploy with Heroku][29.1]                                                   |:heavy_check_mark:|
 | 29.2         | [Deploy - Process Managers][29.2]                                                                                        |:heavy_check_mark:|
-| 29.3         | :notebook: **PROJECT** - _Stranger Things_ ([Back-end][29.3.1] / [Front-end][29.3.2])                                    |:heavy_check_mark:|
+| 29.3         | [:notebook: **PROJECT** - _Stranger Things_][29.3] ([Back-end][29.3.1] / [Front-end][29.3.2])                            |:heavy_check_mark:|
 | **Block 30** | **Architecture: SOLID and ORM**                                                                                          | **Completed**    |
 | 30.1         | [Architecture - SOLID Principles][30.1]                                                                                  |:white_check_mark:|
 | 30.2         | [ORM - Application interface with the database][30.2]                                                                    |:white_check_mark:|
@@ -368,6 +368,7 @@ Here you will see all of my development during the course, with exercises and pr
 [28.4-pr]:https://github.com/tryber/sd-09-cookmaster-v2/pull/4
 [29.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_29/dia_1
 [29.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_29/dia_2
+[29.3]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_29
 [29.3.1]: https://github.com/tryber/sd-09-stranger-things-backend/pull/15
 [29.3.2]: https://github.com/tryber/sd-09-stranger-things-frontend/pull/7
 [30.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_30/dia_1
