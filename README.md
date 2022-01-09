@@ -204,7 +204,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 35.1         | [Network Architecture][35.1]                                                                                             |:heavy_check_mark:|
 | 35.2         | [Computer Networks, Tools and Security][35.2]                                                                            |:heavy_check_mark:|
 | 35.3         | [Data Scraping][35.3]                                                                                                    |:heavy_check_mark:|
-| 35.4         | [:notebook: **PROJECT** - _Tech News_][35.4]                                                                             |:white_check_mark:|
+| 35.4         | [:notebook: **PROJECT** - _Tech News_][35.4] — [[PR][35.4-pr]]                                                           |:white_check_mark:|
 | **Block 36** | **Algorithms**                                                                                                           | **Completed**    |
 | 36.1         | [Algorithm Complexity][36.1]                                                                                             |:heavy_check_mark:|
 | 36.2         | [Recursiveness and Problem Solving Strategies][36.2]                                                                     |:heavy_check_mark:|
@@ -395,7 +395,8 @@ Here you will see all of my development during the course, with exercises and pr
 [35.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_1
 [35.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_2
 [35.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_35/dia_3
-[35.4]:   https://github.com/tryber/sd-09-tech-news/pull/20
+[35.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_4/bloco_35/sd-09-tech-news
+[35.4-pr]:https://github.com/tryber/sd-09-tech-news/pull/20
 [36.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_1
 [36.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_2
 [36.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_3
