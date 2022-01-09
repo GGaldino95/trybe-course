@@ -411,4 +411,5 @@ Here you will see all of my development during the course, with exercises and pr
 [38.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_38/dia_1
 [38.2]:   https://github.com/GGaldino95/trybe-course/blob/main/exercises/bloco_38/dia_2
 [38.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_38/dia_3
-[38.4]:   https://github.com/tryber/sd-09-project-ting/pull/4
+[38.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_4/bloco_38/sd-09-project-ting
+[38.4-pr]:https://github.com/tryber/sd-09-project-ting/pull/4
