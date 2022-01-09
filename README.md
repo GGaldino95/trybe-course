@@ -209,7 +209,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 36.1         | [Algorithm Complexity][36.1]                                                                                             |:heavy_check_mark:|
 | 36.2         | [Recursiveness and Problem Solving Strategies][36.2]                                                                     |:heavy_check_mark:|
 | 36.3         | [Sorting and Search Algorithms][36.3]                                                                                    |:heavy_check_mark:|
-| 36.4         | [:notebook: **PROJECT** - _Algorithms_][36.4]                                                                            |:heavy_check_mark:|
+| 36.4         | [:notebook: **PROJECT** - _Algorithms_][36.4] — [[PR][36.4-pr]]                                                          |:heavy_check_mark:|
 | **Block 37** | **Data Structure I: Arrays, Hashmaps and Sets**                                                                          | **Completed**    |
 | 37.1         | [Computer Architecture][37.1]                                                                                            |:heavy_check_mark:|
 | 37.2         | [Arrays][37.2]                                                                                                           |:heavy_check_mark:|
@@ -400,7 +400,8 @@ Here you will see all of my development during the course, with exercises and pr
 [36.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_1
 [36.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_2
 [36.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_36/dia_3
-[36.4]:   https://github.com/tryber/sd-09-project-algorithms/pull/23
+[36.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_4/bloco_36/sd-09-project-algorithms
+[36.4-pr]:https://github.com/tryber/sd-09-project-algorithms/pull/23
 [37.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_1
 [37.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_2
 [37.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_37/dia_3
