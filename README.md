@@ -183,7 +183,7 @@ Here you will see all of my development during the course, with exercises and pr
 | 31.2         | [Sockets - TCP/UDP & NET][31.2]                                                                                          |:heavy_check_mark:|
 | 31.3         | [Sockets - Socket.io][31.3]                                                                                              |:white_check_mark:|
 | 31.4         | [Sockets - Practicing Socket.io][31.4]                                                                                   |:white_check_mark:|
-| 31.5         | [:notebook: **PROJECT** - _Webchat_][31.5]                                                                               |:heavy_check_mark:|
+| 31.5         | [:notebook: **PROJECT** - _Webchat_][31.5] — [[PR][31.5-pr]]                                                             |:heavy_check_mark:|
 | **Block 32** | **Project - Delivery App**                                                                                               | **Completed**    |
 | <s>32.1</s>  | <s>:notebook: **PROJECT** - _Delivery App_</s>                                                                           |                  |
 
@@ -380,7 +380,8 @@ Here you will see all of my development during the course, with exercises and pr
 [31.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_2
 [31.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_3
 [31.4]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_31/dia_4
-[31.5]:   https://github.com/tryber/sd-09-project-webchat/pull/7
+[31.5]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_3/bloco_31/sd-09-project-webchat
+[31.5-pr]:https://github.com/tryber/sd-09-project-webchat/pull/7
 [33.1]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_1
 [33.2]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_2
 [33.3]:   https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_33/dia_3
