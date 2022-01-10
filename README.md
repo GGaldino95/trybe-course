@@ -6,14 +6,18 @@ Here you will see all of my development during the course, with exercises and pr
 
 > _[Trybe][trybe] is a school for people who want to build a successful career in the technology area. The program has more than 1.500 hours of in-person and online classes and deals with software development introduction, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills._
 
+
+
 #### Summary
- - [Module 1 - Fundamentals of Web Development](#module1)
- - [Module 2 - Front-end Web Development](#module2)
- - [Module 3 - Back-end Web Development](#module3)
- - [Module 4 - Computer Science](#module4)
+ - [Module 1 - Fundamentals of Web Development](#module1) - [[Certificate](https://www.credential.net/1673ad1a-1274-410f-8a82-0cee64dd3e86#gs.lxm2vu)]
+ - [Module 2 - Front-end Web Development](#module2) - [[Certificate](https://www.credential.net/2d970d06-bc9b-4c8d-a6d8-e88bc1c8835b)]
+ - [Module 3 - Back-end Web Development](#module3) - [[Certificate](https://www.credential.net/9fc96b20-896f-436c-bf15-fdf70f5c7ca5)]
+ - [Module 4 - Computer Science](#module4) - [[Certificate](https://www.credential.net/4190b018-18f0-4501-930b-1afed4c4ba87)]
+
+[**Certificate of completion (December 2021)**](https://www.credential.net/54a267bc-9483-4715-9e4b-a86d6933f491)
 <br>
 
-### This is my progress so far:
+### This is my progress:
 
 
 ## Module 1 - Fundamentals of Web Development <a id="module1"></a>
