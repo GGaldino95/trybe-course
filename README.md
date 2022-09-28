@@ -1,22 +1,23 @@
-<h1><a href="https://www.betrybe.com/"><img src="https://yt3.ggpht.com/a/AATXAJwv6J1DhKJtvmWwLg4NCBlef2r9VhiYfVwQPvNd=s900-c-k-c0xffffffff-no-rj-mo" width=3%> </a> Trybe's Full-Stack Web Development Course</h3> 
+# [<img src="https://user-images.githubusercontent.com/61147365/192879528-a8b92936-1a8e-4b5c-baeb-b15600a466a6.jpg" width=3%>][trybe] Trybe's Full-Stack Web Development Course (2020)
+  
+### Hello world!
 
-### Welcome!
 Here you will see all of my development during the course, with exercises and projects.
-<br>
 
 > _[Trybe][trybe] is a school for people who want to build a successful career in the technology area. The program has more than 1.500 hours of in-person and online classes and deals with software development introduction, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills._
 
-
-
 #### Summary
- - [Module 1 - Fundamentals of Web Development](#module1) - [[Certificate](https://www.credential.net/1673ad1a-1274-410f-8a82-0cee64dd3e86#gs.lxm2vu)]
- - [Module 2 - Front-end Web Development](#module2) - [[Certificate](https://www.credential.net/2d970d06-bc9b-4c8d-a6d8-e88bc1c8835b)]
- - [Module 3 - Back-end Web Development](#module3) - [[Certificate](https://www.credential.net/9fc96b20-896f-436c-bf15-fdf70f5c7ca5)]
- - [Module 4 - Computer Science](#module4) - [[Certificate](https://www.credential.net/4190b018-18f0-4501-930b-1afed4c4ba87)]
 
-[**Certificate of completion (December 2021)**](https://www.credential.net/54a267bc-9483-4715-9e4b-a86d6933f491)
+- [Module 1 - Fundamentals of Web Development](#module1) - [[Certificate](https://www.credential.net/1673ad1a-1274-410f-8a82-0cee64dd3e86#gs.lxm2vu)]
+- [Module 2 - Front-end Web Development](#module2) - [[Certificate](https://www.credential.net/2d970d06-bc9b-4c8d-a6d8-e88bc1c8835b)]
+- [Module 3 - Back-end Web Development](#module3) - [[Certificate](https://www.credential.net/9fc96b20-896f-436c-bf15-fdf70f5c7ca5)]
+- [Module 4 - Computer Science](#module4) - [[Certificate](https://www.credential.net/4190b018-18f0-4501-930b-1afed4c4ba87)]
+- [_Extra content available after my graduation_](#extra-content)
+
 <br>
 
+[:mortar_board: **Certificate of completion (December 2021)**](https://www.credential.net/54a267bc-9483-4715-9e4b-a86d6933f491)
+  
 ### This is my progress:
 
 
@@ -226,6 +227,14 @@ Here you will see all of my development during the course, with exercises and pr
 | 38.3         | [Stacks][38.3]                                                                                                           |:heavy_check_mark:|
 | 38.4         | [:notebook: **PROJECT** - _Trybe Is Not Google (TING)_][38.4] — [[PR][38.4-pr]]                                          |:heavy_check_mark:|
 
+## Extra - New content available after my graduation <a id="extra-content"></a>
+
+| Module 3 - Block 01 | Docker: Using Containers                                                                                          | Completed        |
+|:-------------------:|:------------------------------------------------------------------------------------------------------------------|:----------------:|
+| 3.01.1              | Using Containers - Docker                                                                                         |:o:               |
+| 3.01.2              | Handling Images in Docker                                                                                         |                  |
+| 3.01.3              | Orchestrating Containers with Docker Compose                                                                      |                  |
+| 3.01.4              | :notebook: **PROJECT** - _Docker Todo-List_                                                                       |                  |
 
 <br><br>
 :o: : Currently active Lesson or Project. <br>
@@ -233,8 +242,6 @@ Here you will see all of my development during the course, with exercises and pr
 :white_check_mark: : Completed Lesson/Project without bonus tasks. <br>
 <br><br>
 :thought_balloon: Questions or suggestions? _Send me a message!_
-
-
 
 [trybe]:  https://www.betrybe.com/
 [3.1]:    https://github.com/GGaldino95/trybe-course/tree/main/exercises/bloco_3/dia_1
