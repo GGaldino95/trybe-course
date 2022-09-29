@@ -232,8 +232,8 @@ Here you will see all of my development during the course, with exercises and pr
 | Module 3 - Block 01 | Docker: Using Containers                                                                                          | Completed        |
 |:-------------------:|:------------------------------------------------------------------------------------------------------------------|:----------------:|
 | 3.01.1              | [Using Containers - Docker][e-3.01.1]                                                                             |:heavy_check_mark:|
-| 3.01.2              | Handling Images in Docker                                                                                         |:o:               |
-| 3.01.3              | Orchestrating Containers with Docker Compose                                                                      |                  |
+| 3.01.2              | [Handling Images in Docker][e-3.01.2]                                                                             |:heavy_check_mark:|
+| 3.01.3              | Orchestrating Containers with Docker Compose                                                                      |:o:               |
 | 3.01.4              | :notebook: **PROJECT** - _Docker Todo-List_                                                                       |                  |
 
 <br><br>
@@ -424,3 +424,4 @@ Here you will see all of my development during the course, with exercises and pr
 [38.4]:   https://github.com/GGaldino95/trybe-course/tree/main/projects/modulo_4/bloco_38/sd-09-project-ting
 [38.4-pr]:https://github.com/tryber/sd-09-project-ting/pull/4
 [e-3.01.1]: https://github.com/GGaldino95/trybe-course/tree/extra/extra/modulo_3/bloco_1/dia_1
+[e-3.01.2]: https://github.com/GGaldino95/trybe-course/tree/extra/extra/modulo_3/bloco_1/dia_2
