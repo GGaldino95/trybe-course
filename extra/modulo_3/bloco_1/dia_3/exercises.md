@@ -582,3 +582,24 @@ services:
   networks:
       my-network:
 ```
+
+<br>
+
+> 3. Suba o ambiente com o novo arquivo usando o `docker-compose` e então acesse-o;
+
+```powershell
+docker compose up -d
+
+# output:
+[+] Running 4/4
+ ⠿ Network dia_3_my-network  Created                                                                                                                                                                                                                                     0.0s
+ ⠿ Volume "dia_3_db-data"    Created                                                                                                                                                                                                                                     0.0s
+ ⠿ Container dia_3-db-1      Started                                                                                                                                                                                                                                     0.6s
+ ⠿ Container dia_3-ghost-1   Started 
+```
+
+```
+http://localhost:2368/
+```
+
+![step-4.3](images/step-4.3.png)
