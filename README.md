@@ -233,8 +233,8 @@ Here you will see all of my development during the course, with exercises and pr
 |:-------------------:|:------------------------------------------------------------------------------------------------------------------|:----------------:|
 | 3.01.1              | [Using Containers - Docker][e-3.01.1]                                                                             |:heavy_check_mark:|
 | 3.01.2              | [Handling Images in Docker][e-3.01.2]                                                                             |:heavy_check_mark:|
-| 3.01.3              | Orchestrating Containers with Docker Compose                                                                      |:o:               |
-| 3.01.4              | :notebook: **PROJECT** - _Docker Todo-List_                                                                       |                  |
+| 3.01.3              | [Orchestrating Containers with Docker Compose][e-3.01.3]                                                          |:white_check_mark:|
+| 3.01.4              | :notebook: **PROJECT** - _Docker Todo-List_                                                                       |:o:               |
 
 <br><br>
 :o: : Currently active Lesson or Project. <br>
@@ -425,3 +425,4 @@ Here you will see all of my development during the course, with exercises and pr
 [38.4-pr]:https://github.com/tryber/sd-09-project-ting/pull/4
 [e-3.01.1]: https://github.com/GGaldino95/trybe-course/tree/extra/extra/modulo_3/bloco_1/dia_1
 [e-3.01.2]: https://github.com/GGaldino95/trybe-course/tree/extra/extra/modulo_3/bloco_1/dia_2
+[e-3.01.3]: https://github.com/GGaldino95/trybe-course/tree/extra/extra/modulo_3/bloco_1/dia_3
