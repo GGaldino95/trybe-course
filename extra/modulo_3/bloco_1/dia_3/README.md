@@ -22,7 +22,7 @@ Vamos aprimorar nossos conhecimentos sobre images e volumes, para isso:
 
  - Crie um container para manter um servidor `httpd:2.4` **Apache** e vincule sua porta interna com a porta `4545` da sua máquina local.
 
- - Após criar o container acesse a página `HTML` que está rodando no servidor em seu browser.
+ - Após criar o container acesse a página `HTML` que está rodando no servidor em seu browser;
 
  - Acesse o arquivo `missao_trybe.html` e acrescente a tag `<p>` com o seguinte texto `“Nosso negócio é GENTE! #VQV”`;
 
@@ -38,7 +38,7 @@ Vamos aprimorar nossos conhecimentos sobre images e volumes, para isso:
 
  - Obtenha o `IMAGE ID` do **servidor**;
 
- - Depois de obter o `IMAGE ID`, **exclua** a `imagem`.
+ - Depois de obter o `IMAGE ID`, **exclua** a `imagem`;
 
 <br>
 
@@ -52,7 +52,7 @@ Crie o arquivo `Compose` para subir um [ghost blog](https://ghost.org/), essa pl
 
  - Publique a porta `2368`, fazendo `bind` também para a `2368`;
 
- - Suba a aplicação utilizando o `docker-compose` e então acesse a porta publicada para validar se deu tudo certo.
+Suba a aplicação utilizando o `docker-compose` e então acesse a porta publicada para validar se deu tudo certo.
 
 <br>
 
@@ -70,7 +70,7 @@ Por padrão o `ghost` utiliza um `sqlite` interno para salvar as informações, 
 
  - E então, indique a conexão para o nosso `MySQL` na _env_ `database__connection__host`;
 
- - Para definir a pessoa usuária (_`root`_) e senha (_a mesma que definimos no nosso `MySQL_`), utilize respectivamente as _envs_ `database__connection__user` e `database__connection__password`;
+ - Para definir a pessoa usuária (_`root`_) e senha (_a mesma que definimos no nosso `MySQL`_), utilize respectivamente as _envs_ `database__connection__user` e `database__connection__password`;
 
  - Utilize a opção `depends_on` para criar **relações de dependências** entre os serviços;
 
