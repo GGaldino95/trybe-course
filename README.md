@@ -229,12 +229,17 @@ Here you will see all of my development during the course, with exercises and pr
 
 ## Extra - New content available after my graduation <a id="extra-content"></a>
 
-| Module 3 - Block 01 | Docker: Using Containers                                                                                          | Completed        |
-|:-------------------:|:------------------------------------------------------------------------------------------------------------------|:----------------:|
-| 3.01.1              | [Using Containers - Docker][e-3.01.1]                                                                             |:heavy_check_mark:|
-| 3.01.2              | [Handling Images in Docker][e-3.01.2]                                                                             |:heavy_check_mark:|
-| 3.01.3              | [Orchestrating Containers with Docker Compose][e-3.01.3]                                                          |:white_check_mark:|
-| 3.01.4              | :notebook: **PROJECT** - _Docker Todo-List_                                                                       |:o:               |
+| Module 3 - Block 01     | Docker: Using Containers                                                                                      | Completed        |
+|:-----------------------:|:--------------------------------------------------------------------------------------------------------------|:----------------:|
+| 3.01.1                  | [Using Containers - Docker][e-3.01.1]                                                                         |:heavy_check_mark:|
+| 3.01.2                  | [Handling Images in Docker][e-3.01.2]                                                                         |:heavy_check_mark:|
+| 3.01.3                  | [Orchestrating Containers with Docker Compose][e-3.01.3]                                                      |:white_check_mark:|
+| <s>3.01.4</s>           | <s>:notebook: **PROJECT** - _Docker Todo-List_</s>                                                            |                  |
+| **Module 3 - Block 08** | **TypeScript**                                                                                                | **Completed**    |
+| 3.08.1                  | Introduction to TypeScript                                                                                    |:o:               |
+| 3.08.2                  | Static Typing and Generics                                                                                    |                  |
+| 3.08.3                  | Express with TypeScript                                                                                       |                  |
+| <s>3.08.4</s>           | <s>:notebook: **PROJECT** - _Trybesmith_</s>                                                                  |                  |
 
 <br><br>
 :o: : Currently active Lesson or Project. <br>
