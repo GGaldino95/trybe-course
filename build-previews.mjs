@@ -7,7 +7,15 @@
  *   vite   - migrated off react-scripts (see the migration commit). npm install + vite build.
  *
  * The portfolio's only coupling to this repo is the resulting URL, stored per project in Sanity
- * as preview.embedUrl. Nothing here imports from the portfolio or vice versa.
+ * as preview.embedUrl - https://trybe-course.vercel.app/<slug>/. Nothing here imports from the
+ * portfolio or vice versa.
+ *
+ * Changing the portfolio's domain? vercel.json's frame-ancestors lists exactly who may iframe
+ * these previews, currently https://gabrielgaldinodev.vercel.app plus localhost:3000. A new domain
+ * has to be added there or every preview goes blank - the browser blocks the frame, and the
+ * portfolio cannot detect it, because a cross-origin iframe reports nothing about why it failed.
+ * Vercel preview deployments of the portfolio get generated hostnames and are NOT covered; add
+ * https://*-<account>.vercel.app if you need previews to work from those too.
  */
 
 import { execFileSync } from 'node:child_process';
