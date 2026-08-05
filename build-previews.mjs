@@ -19,7 +19,7 @@
  */
 
 import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -89,6 +89,55 @@ function buildVite(slug, rel) {
   run('npx', ['vite', 'build', '--outDir', join(OUT, slug), '--emptyOutDir'], src);
 }
 
+// The root of this domain is otherwise a raw Vercel 404. Nothing links here - the portfolio embeds
+// /<slug>/ directly - but it is a public URL, so it should say what it is.
+function writeIndex(built) {
+  const link = (slug) => `<li><a href="/${slug}/">${slug}</a></li>`;
+  writeFileSync(
+    join(OUT, 'index.html'),
+    `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Trybe course — project previews</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; padding:clamp(24px,6vw,72px); background:#0a0b0d; color:#e8eaed;
+         font:16px/1.6 ui-sans-serif,system-ui,sans-serif; }
+  main { max-width:52rem; margin:0 auto; }
+  h1 { font-size:clamp(1.4rem,4vw,2rem); margin:0 0 .5rem; }
+  p { color:#9aa0a6; margin:0 0 2rem; }
+  h2 { font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; color:#5b8def;
+       margin:2rem 0 .75rem; font-family:ui-monospace,monospace; }
+  ul { list-style:none; padding:0; margin:0; display:grid; gap:.25rem;
+       grid-template-columns:repeat(auto-fill,minmax(15rem,1fr)); }
+  a { color:#e8eaed; text-decoration:none; display:block; padding:.6rem .8rem; border-radius:8px;
+      border:1px solid #23262b; font-family:ui-monospace,monospace; font-size:.9rem; }
+  a:hover, a:focus-visible { border-color:#5b8def; background:#13161a; outline:none; }
+  footer { margin-top:3rem; color:#5f6368; font-size:.85rem; }
+  footer a { display:inline; padding:0; border:0; color:#5b8def; text-decoration:underline; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Trybe course — project previews</h1>
+  <p>Static builds of coursework from 2020–21, served so my portfolio can embed them.
+     These are supporting assets, not the portfolio itself.</p>
+  <h2>// no build</h2>
+  <ul>${built.filter((s) => s in STATIC).map(link).join('')}</ul>
+  <h2>// react</h2>
+  <ul>${built.filter((s) => s in VITE).map(link).join('')}</ul>
+  <footer><a href="https://gabrielgaldinodev.vercel.app">← portfolio</a>
+    · <a href="https://github.com/GGaldino95/trybe-course">source</a></footer>
+</main>
+</body>
+</html>
+`,
+  );
+}
+
 const only = process.argv[2]; // optional: build a single slug
 const targets = [
   ...Object.entries(STATIC).map(([slug, rel]) => ({ slug, rel, build: buildStatic })),
@@ -116,6 +165,10 @@ for (const { slug, rel, build } of targets) {
     failed.push([slug, error.message.split('\n')[0]]);
   }
 }
+
+const failedSlugs = new Set(failed.map(([slug]) => slug));
+// Only list what actually built, so a skipped project is not advertised as a dead link.
+if (!only) writeIndex(targets.map((t) => t.slug).filter((s) => !failedSlugs.has(s)));
 
 console.log(`\n${targets.length - failed.length}/${targets.length} built → dist/`);
 if (failed.length) {
