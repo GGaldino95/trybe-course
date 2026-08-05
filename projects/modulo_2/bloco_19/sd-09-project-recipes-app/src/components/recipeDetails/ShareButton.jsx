@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import shareIcon from '../../images/shareIcon.svg';
 
-const copy = require('clipboard-copy');
+import copy from 'clipboard-copy';
 
 function ShareButton({ url }) {
   const [hasCopied, setHasCopied] = useState(false);

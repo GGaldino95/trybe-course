@@ -7,7 +7,7 @@ import shareIcon from '../images/shareIcon.svg';
 import blackHeartIcon from '../images/blackHeartIcon.svg';
 import '../styles/Header.css';
 
-const copy = require('clipboard-copy');
+import copy from 'clipboard-copy';
 
 function ReceitasFavoritas() {
   const { favoriteRecipes, setFavoriteRecipes } = useContext(RecipesContext);
