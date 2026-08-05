@@ -19,7 +19,7 @@
  */
 
 import { execFileSync } from 'node:child_process';
-import { cpSync, mkdirSync, readdirSync, rmSync, existsSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -62,8 +62,20 @@ function buildStatic(slug, rel) {
   const src = join(ROOT, 'projects', rel);
   const dest = join(OUT, slug);
   mkdirSync(dest, { recursive: true });
+
+  // These repos keep their README screenshots at the project root and their real assets in
+  // subfolders, so a root-level image nothing references is documentation - and expensive:
+  // meme-generator.gif alone is 5.8MB. Checked against what the code actually references rather
+  // than a hardcoded list, so an image the app does use at the root still gets copied.
+  const referenced = readdirSync(src)
+    .filter((n) => /\.(html|css|js)$/i.test(n))
+    .map((n) => readFileSync(join(src, n), 'utf8'))
+    .join('\n');
+  const isUnusedRootImage = (entry) =>
+    /\.(gif|png|jpe?g|webp|svg|ico)$/i.test(entry) && !referenced.includes(entry);
+
   for (const entry of readdirSync(src)) {
-    if (SKIP.has(entry)) continue;
+    if (SKIP.has(entry) || isUnusedRootImage(entry)) continue;
     cpSync(join(src, entry), join(dest, entry), { recursive: true });
   }
 }
