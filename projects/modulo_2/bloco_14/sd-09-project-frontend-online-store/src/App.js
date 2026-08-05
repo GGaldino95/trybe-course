@@ -26,7 +26,7 @@ class App extends React.Component {
     const { cartList } = this.state;
 
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Switch>
           <Route
             exact

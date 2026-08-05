@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Switch>
         <Route path="/movies/:id/edit" render={ (props) => <EditMovie { ...props } /> } />
         <Route path="/movies/new" component={ NewMovie } />
