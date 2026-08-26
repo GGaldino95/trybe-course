@@ -1,12 +1,18 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const ProductsController = require('./controllers/ProductsController');
 const SalesController = require('./controllers/SalesController');
 
 const app = express();
-const PORT = 3000;
+// The host assigns the port. The default keeps local runs unchanged.
+const DEFAULT_PORT = 3000;
+const PORT = process.env.PORT || DEFAULT_PORT;
 
 app.use(bodyParser.json());
+// The portfolio calls this sandbox from another origin. Open on purpose: the data is a public
+// demo, there are no cookies and no credentials to protect.
+app.use(cors());
 
 // Requisito 01
 app.post('/products', ProductsController.create);
@@ -39,4 +45,10 @@ app.get('/', (_request, response) => {
   response.send();
 });
 
-app.listen(PORT, () => { console.log(`Ouvindo a porta ${PORT}`); });
+// Only listen when this file is the process entry. On a serverless host the app is imported and
+// invoked per request, and a listening socket there is both unused and a startup error.
+if (require.main === module) {
+  app.listen(PORT, () => { console.log(`Ouvindo a porta ${PORT}`); });
+}
+
+module.exports = app;
