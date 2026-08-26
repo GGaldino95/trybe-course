@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const {
   getAllTalkers,
   getTalkerById,
@@ -22,9 +23,13 @@ const {
 
 const app = express();
 app.use(bodyParser.json());
+// The portfolio calls this sandbox from another origin. Open on purpose: the data is a public
+// demo, there are no cookies and no credentials to protect.
+app.use(cors());
 
 const HTTP_OK_STATUS = 200;
-const PORT = '3000';
+// The host assigns the port; 3000 stays the default so running it locally is unchanged.
+const PORT = process.env.PORT || '3000';
 
 // não remova esse endpoint, e para o avaliador funcionar
 app.get('/', (_request, response) => {
