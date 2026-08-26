@@ -1,6 +1,8 @@
 const { MongoClient } = require('mongodb');
 
-const MONGO_DB_URL = 'mongodb://mongodb:27017/StoreManager';
+// The original value is the docker-compose service name, which only resolves inside that network.
+// Keeping it as the fallback means running this locally with docker is unchanged.
+const MONGO_DB_URL = process.env.DB_URL || 'mongodb://mongodb:27017/StoreManager';
 const DB_NAME = 'StoreManager';
 
 let schema = null;

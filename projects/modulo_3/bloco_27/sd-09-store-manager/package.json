@@ -4,10 +4,11 @@
   "description": "Simple CRUD to sales and products",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand",
-    "test:mocha": "nyc --all --include models --include services --include controllers mocha test/unit/*.js --exit",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx",
+    "seed": "node seed.js",
     "start": "nodemon index.js",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx"
+    "test": "jest --runInBand",
+    "test:mocha": "nyc --all --include models --include services --include controllers mocha test/unit/*.js --exit"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@hapi/boom": "^9.1.0",
     "@hapi/joi": "^17.1.1",
     "body-parser": "^1.19.0",
+    "cors": "2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-rescue": "^1.1.26",
