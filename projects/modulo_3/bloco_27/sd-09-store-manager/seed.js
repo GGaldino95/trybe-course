@@ -5,6 +5,9 @@
 //
 // Products only. Sales are left empty on purpose: creating one through the playground is the
 // interesting thing to watch, because it decrements the stock of the products below.
+//
+// `reseed` is also what POST /reset calls, so the button in the playground and this script put
+// the sandbox back to the same state rather than to two versions of it.
 const { MongoClient } = require('mongodb');
 
 const DB_NAME = 'StoreManager';
@@ -19,6 +22,20 @@ const PRODUCTS = [
   { name: 'Arco do Gavião Arqueiro', quantity: 15 },
 ];
 
+// Rerunnable: the seed is the baseline, so it replaces rather than appends. The products are
+// copied on the way in because insertMany stamps an _id onto whatever objects it is handed, and
+// PRODUCTS is the template every reset reads from.
+async function reseed(db) {
+  await db.collection('products').deleteMany({});
+  await db.collection('sales').deleteMany({});
+
+  const { insertedCount } = await db.collection('products').insertMany(
+    PRODUCTS.map((product) => ({ ...product })),
+  );
+
+  return insertedCount;
+}
+
 async function seed() {
   const url = process.env.DB_URL;
   if (!url) {
@@ -28,18 +45,18 @@ async function seed() {
 
   const options = { useNewUrlParser: true, useUnifiedTopology: true };
   const conn = await MongoClient.connect(url, options);
-  const db = conn.db(DB_NAME);
-
-  // Rerunnable: the seed is the baseline, so it replaces rather than appends.
-  await db.collection('products').deleteMany({});
-  await db.collection('sales').deleteMany({});
-  const { insertedCount } = await db.collection('products').insertMany(PRODUCTS);
+  const insertedCount = await reseed(conn.db(DB_NAME));
 
   console.log(`seeded ${insertedCount} products into ${DB_NAME}, sales left empty`);
   await conn.close();
 }
 
-seed().catch((err) => {
-  console.error(err.message);
-  process.exit(1);
-});
+// Only run when invoked directly. Requiring this file from the app must not wipe the database.
+if (require.main === module) {
+  seed().catch((err) => {
+    console.error(err.message);
+    process.exit(1);
+  });
+}
+
+module.exports = { reseed, PRODUCTS };

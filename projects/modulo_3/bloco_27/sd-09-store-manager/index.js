@@ -3,6 +3,11 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const ProductsController = require('./controllers/ProductsController');
 const SalesController = require('./controllers/SalesController');
+const connection = require('./models/connection');
+const { reseed } = require('./seed');
+const { OK_STATUS } = require('./helpers/httpStatus');
+
+const SERVER_ERROR_STATUS = 500;
 
 const app = express();
 // The host assigns the port. The default keeps local runs unchanged.
@@ -39,6 +44,19 @@ app.put('/sales/:id', SalesController.update);
 
 // Requisito 08
 app.delete('/sales/:id', SalesController.remove);
+
+// Puts the sandbox back to its seeded state. Not part of the 2021 requisitos: the portfolio's
+// playground lets strangers change shared data, so there has to be a way to put it back. It calls
+// the same `reseed` the seed script does, so the button and the script cannot drift apart.
+// Express 4 does not forward a rejected async handler, so this catches its own errors.
+app.post('/reset', async (_request, response) => {
+  try {
+    const products = await reseed(await connection());
+    return response.status(OK_STATUS).json({ reset: true, products });
+  } catch (err) {
+    return response.status(SERVER_ERROR_STATUS).json({ message: err.message });
+  }
+});
 
 // não remova esse endpoint, e para o avaliador funcionar
 app.get('/', (_request, response) => {
