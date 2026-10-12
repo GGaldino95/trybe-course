@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cors": "2.8.5",
     "dotenv": "8.2.0",
     "eslint-config-trybe-backend": "1.0.3",
     "express": "4.17.1",
@@ -32,5 +33,8 @@
     "jest": "26.0.1",
     "sequelize-cli": "6.2.0",
     "supertest": "4.0.2"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }

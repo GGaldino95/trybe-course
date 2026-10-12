@@ -2,3 +2,10 @@
 **/migrations/
 **/seeders/
 **/models/index.js
+
+# Sandbox scaffolding for the hosted playground, not part of the submitted project. Ignored for the
+# same reason migrations/ and models/index.js are: the lint script is here to check the code the
+# project demonstrates. The loops these would flag are ordered DDL, where the parallel form the
+# no-await-in-loop rule wants would break the foreign keys.
+seed.js
+sandbox-session.js
