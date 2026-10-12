@@ -10,20 +10,15 @@
     "dotenv": "8.2.0",
     "eslint-config-trybe-frontend": "1.1.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-scripts": "3.4.1"
+    "react-dom": "16.13.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "cypress:open": "cypress open",
     "cy": "cypress run",
     "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json ."
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -38,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
     "cypress": "^5.1.0",
     "cypress-multi-reporters": "1.2.3",
     "eslint": "6.8.0",
@@ -48,6 +44,7 @@
     "mocha": "7.0.1",
     "mochawesome": "4.1.0",
     "mochawesome-merge": "4.0.0",
-    "mochawesome-report-generator": "4.1.0"
+    "mochawesome-report-generator": "4.1.0",
+    "vite": "5.4.21"
   }
 }

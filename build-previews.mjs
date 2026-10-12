@@ -45,6 +45,7 @@ const VITE = {
   'trivia-react-redux': 'modulo_2/bloco_17/sd-09-project-trivia-react-redux',
   'starwars-planets-search': 'modulo_2/bloco_18/sd-09-project-starwars-planets-search',
   'recipes-app': 'modulo_2/bloco_19/sd-09-project-recipes-app',
+  'stranger-things': 'modulo_3/bloco_29/sd-09-stranger-things-frontend',
 };
 
 // Coursework leftovers that must not be served: config, CI, and the graders' own scripts.
