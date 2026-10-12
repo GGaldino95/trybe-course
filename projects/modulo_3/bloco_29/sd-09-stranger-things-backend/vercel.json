@@ -3,5 +3,6 @@
   "framework": null,
   "installCommand": "npm install",
   "buildCommand": "",
+  "outputDirectory": "public",
   "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
 }
