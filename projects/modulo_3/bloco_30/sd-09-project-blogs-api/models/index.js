@@ -32,6 +32,17 @@ function buildModels(database) {
     if (models[name].associate) models[name].associate(models);
   });
 
+  // ⚠️ The loop above is a dynamic require, which a serverless bundler cannot trace: it decides
+  // what to ship by reading static require calls, sees none for these files, and leaves them out.
+  // vercel.json carries an `includeFiles` for `models/**` to put them back. Without it the scan
+  // finds nothing and the Proxies below are built over `undefined`, which throws somewhere far
+  // from the cause. Fail here instead, where the message points at the real problem.
+  if (!Object.keys(models).length) {
+    throw new Error(
+      `No model files found in ${__dirname}. On a serverless host this means they were not bundled.`,
+    );
+  }
+
   models.sequelize = sequelize;
   models.Sequelize = Sequelize;
 

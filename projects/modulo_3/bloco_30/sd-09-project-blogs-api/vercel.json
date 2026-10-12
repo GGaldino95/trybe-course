@@ -3,5 +3,10 @@
   "framework": null,
   "installCommand": "npm install",
   "buildCommand": "",
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "models/**"
+    }
+  },
   "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
 }
