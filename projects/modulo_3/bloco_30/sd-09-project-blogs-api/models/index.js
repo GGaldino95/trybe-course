@@ -4,6 +4,12 @@ const fs = require('fs');
 const path = require('path');
 const { AsyncLocalStorage } = require('async_hooks');
 const Sequelize = require('sequelize');
+// ⚠️ Sequelize loads its driver with a require built from the dialect name at runtime, which a
+// serverless bundler cannot trace: mysql2 is then left out of the function and Sequelize reports
+// "Please install mysql2 package manually" even though it is a declared dependency. Requiring it
+// here is static, so the bundler follows it and its own dependencies, and handing it over as
+// `dialectModule` means Sequelize uses this copy instead of looking for one.
+const mysql2 = require('mysql2');
 
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
@@ -18,7 +24,11 @@ const sessionStore = new AsyncLocalStorage();
 // a session's models are a separate set, associated among themselves, so an `include` resolves
 // inside that session's database and nowhere else.
 function buildModels(database) {
-  const sequelize = new Sequelize(database, config.username, config.password, { ...config, database });
+  const sequelize = new Sequelize(database, config.username, config.password, {
+    ...config,
+    database,
+    dialectModule: mysql2,
+  });
   const models = {};
 
   fs.readdirSync(__dirname)
