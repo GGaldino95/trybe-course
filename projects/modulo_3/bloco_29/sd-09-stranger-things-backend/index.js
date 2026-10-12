@@ -33,6 +33,12 @@ app.get('/', (req, res) => {
   res.status(200).json(characters);
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log('Escutando na porta 3000');
-});
+// Only listen when this file is the process entry. On a serverless host the app is imported and
+// invoked per request, and a listening socket there is both unused and a startup error.
+if (require.main === module) {
+  app.listen(process.env.PORT || 3000, () => {
+    console.log('Escutando na porta 3000');
+  });
+}
+
+module.exports = app;
