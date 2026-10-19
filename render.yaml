@@ -1,0 +1,22 @@
+# The back-end projects that cannot run serverless. Vercel hosts the rest; these keep state in the
+# process or on disk, which needs one long-running instance. Free plan: the service sleeps after 15
+# minutes without traffic and takes about a minute to wake, and its disk is wiped whenever it does.
+# For a sandbox that is a feature: visitor data is meant to be thrown away.
+#
+# Do not add these to the portfolio's keep-alive cron. The workspace gets 750 free instance hours a
+# month, and two services held awake all month would exhaust them and suspend every free service.
+services:
+  - type: web
+    name: trybe-talker-manager
+    runtime: node
+    plan: free
+    # Beside Vercel's default iad1, where the other sandboxes run, and the closest region to Brazil.
+    region: virginia
+    # Only changes inside this folder trigger a deploy.
+    rootDir: projects/modulo_3/bloco_26/sd-09-project-talker-manager
+    # No lockfile is committed for this project, so `npm ci` has nothing to install from.
+    buildCommand: npm install --omit=dev
+    # `prestart` restores the shared talker.json from the seed before the server starts.
+    startCommand: npm start
+    # The route the 2021 brief says not to remove. It answers without touching the data file.
+    healthCheckPath: /
